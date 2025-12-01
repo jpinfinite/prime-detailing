@@ -1,0 +1,10 @@
+# Cloudflare Pages Configuration for Next.js
+
+name = "detailing-prime"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "18"
