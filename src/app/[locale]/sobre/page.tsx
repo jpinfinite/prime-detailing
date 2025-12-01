@@ -1,5 +1,14 @@
 import Image from "next/image";
 
+// Gera rotas estáticas para todos os locales
+export async function generateStaticParams() {
+  return [
+    { locale: 'pt' },
+    { locale: 'en' },
+    { locale: 'es' },
+  ];
+}
+
 const translations = {
   pt: {
     title: "Sobre o Detailing Prime",

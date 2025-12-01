@@ -1,6 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// Gera rotas estáticas para todos os locales
+export async function generateStaticParams() {
+  return [
+    { locale: 'pt' },
+    { locale: 'en' },
+    { locale: 'es' },
+  ];
+}
+
 const translations = {
   pt: {
     title: "Todos os Artigos",

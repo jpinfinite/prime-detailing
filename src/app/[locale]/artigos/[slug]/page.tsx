@@ -1,5 +1,24 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import { getAllArticles } from "@/lib/articles";
+
+// Gera todas as combinações de locale + slug
+export async function generateStaticParams() {
+  const articles = await getAllArticles();
+  const locales = ['pt', 'en', 'es'];
+  
+  const params = [];
+  for (const locale of locales) {
+    for (const article of articles) {
+      params.push({
+        locale,
+        slug: article.slug,
+      });
+    }
+  }
+  
+  return params;
+}
 
 export default function ArticlePage({ 
   params 
