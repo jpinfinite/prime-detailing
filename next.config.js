@@ -1,17 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
+    unoptimized: true,
   },
-  i18n: {
-    locales: ['pt', 'en'],
-    defaultLocale: 'pt',
-  },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
