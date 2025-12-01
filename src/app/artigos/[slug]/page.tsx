@@ -1,5 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getAllArticles } from "@/lib/articles";
+
+// Gera todas as rotas estáticas em build time
+export async function generateStaticParams() {
+  const articles = await getAllArticles();
+  
+  return articles.map((article) => ({
+    slug: article.slug,
+  }));
+}
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
   // Exemplo de artigo - depois integrar com markdown

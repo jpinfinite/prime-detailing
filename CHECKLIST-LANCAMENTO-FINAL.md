@@ -12,6 +12,9 @@
 ### Cloudflare Pages:
 - [ ] Repositório conectado
 - [ ] Build configurado (Next.js)
+  - **Build command:** `npx next build` ⚠️ IMPORTANTE: Use "npx"
+  - **Build output directory:** `out`
+  - **Node version:** 18+ (auto-detectado: 22.16.0)
 - [ ] Deploy bem-sucedido
 - [ ] Domínio customizado adicionado
 - [ ] Site acessível via domínio
@@ -271,6 +274,14 @@
 - Verifique pasta content/articles/pt
 - Confirme formato .md correto
 - Rebuild do site
+
+### "Build failed: next: not found"
+**Solução:**
+- ⚠️ ERRO COMUM no Cloudflare Pages
+- Vá em: Settings > Builds & deployments > Build configurations
+- Mude de `next build` para `npx next build`
+- Salve e faça retry do deploy
+- O "npx" é necessário para executar pacotes locais
 
 ---
 
