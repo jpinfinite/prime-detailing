@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Amarelo Prime */
+  --prime-yellow: #FFC107;
+  --prime-yellow-light: #FFD54F;
+  --prime-yellow-dark: #FFA000;
+  
+  /* Preto/Cinza */
+  --prime-black: #0A0A0A;
+  --prime-gray-dark: #141414;
+  --prime-gray-medium: #1F1F1F;
+  --prime-gray-light: #2A2A2A;
+  
+  /* Texto */
+  --text-primary: #F5F5F5;
+  --text-secondary: #B0B0B0;
+  --text-muted: #808080;
+  
+  /* Branco */
+  --white: #FFFFFF;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--prime-black);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .bg-gradient-prime {
+    background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+  }
+  
+  .bg-gradient-yellow {
+    background: linear-gradient(135deg, #FFC107 0%, #FF8F00 100%);
+  }
+}
