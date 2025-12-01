@@ -102,7 +102,7 @@ export function getAllArticles(locale: string = 'pt'): Article[] {
           readTime: `${readTime} min`,
         };
       })
-      .filter((article): article is Article => article !== null) as Article[];
+      .filter((article) => article !== null) as Article[];
 
     return articles.sort((a, b) => (a.date > b.date ? -1 : 1));
   } catch (error) {
