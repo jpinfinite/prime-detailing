@@ -7,7 +7,7 @@ category: "Reviews"
 tags: ["microfibra", "panos", "ferramentas", "equipamentos", "review", "gsm", "comparativo"]
 keywords: ["microfibra detailing", "melhores panos", "microfibra carro", "panos detailing", "gsm microfibra", "waffle weave", "edgeless"]
 featured: true
-image: "/images/pexels/pexels-tima-miroshnichenko-6873432.jpg"
+image: "/images/pexels/car-interior-cleaning-6873119.jpg"
 ---
 
 # Melhores Microfibras para Detailing 2025: Top 10 Testadas

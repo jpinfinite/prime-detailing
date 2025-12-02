@@ -7,7 +7,7 @@ category: "Guias"
 tags: ["pintura preta", "carro preto", "hologramas", "brilho", "manutenção"]
 keywords: ["pintura preta", "carro preto", "cuidados carro preto", "hologramas pintura"]
 featured: true
-image: "/images/pexels/pexels-tima-miroshnichenko-6873435.jpg"
+image: "/images/pexels/car-interior-cleaning-6872601.jpg"
 ---
 
 # Cuidados com Pintura Preta: Guia Definitivo

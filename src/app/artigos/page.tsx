@@ -1,57 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getAllArticles } from "@/lib/articles";
 
-export default function ArticlesPage() {
-  const articles = [
-    {
-      title: "Como Polir Faróis em Casa - Guia Completo 2025",
-      excerpt: "Aprenda técnicas profissionais para restaurar faróis amarelados com produtos acessíveis",
-      image: "/images/pexels/pexels-tima-miroshnichenko-6873076.jpg",
-      slug: "como-polir-farois-2025",
-      category: "Guias",
-      date: "15 Jan 2025",
-    },
-    {
-      title: "Mercado de Detailing: Crescimento em 2025",
-      excerpt: "Análise completa do mercado brasileiro de estética automotiva e tendências",
-      image: "/images/pexels/pexels-tima-miroshnichenko-6873205.jpg",
-      slug: "mercado-detailing-crescimento-2025",
-      category: "Notícias",
-      date: "10 Jan 2025",
-    },
-    {
-      title: "Guia Completo de Enceramento Automotivo",
-      excerpt: "Tudo sobre ceras, aplicação e proteção da pintura do seu veículo",
-      image: "/images/pexels/pexels-tima-miroshnichenko-6872648.jpg",
-      slug: "guia-enceramento-automotivo",
-      category: "Guias",
-      date: "08 Jan 2025",
-    },
-    {
-      title: "Limpeza Profunda do Interior do Carro",
-      excerpt: "Técnicas profissionais para deixar o interior do seu carro impecável",
-      image: "/arquivos para o site/Destaques/detailing-4-car-wash--clean--automobile--t.jpg",
-      slug: "limpeza-profunda-interior",
-      category: "Tutoriais",
-      date: "05 Jan 2025",
-    },
-    {
-      title: "Proteção de Pintura: Cera vs Selante",
-      excerpt: "Entenda as diferenças e escolha a melhor opção para seu carro",
-      image: "/arquivos para o site/Destaques/detailing-5-car--car-wallpapers--car-wash-.jpg",
-      slug: "cera-vs-selante",
-      category: "Reviews",
-      date: "03 Jan 2025",
-    },
-    {
-      title: "Kit Básico de Detailing para Iniciantes",
-      excerpt: "Os produtos essenciais para começar no mundo do detailing automotivo",
-      image: "/arquivos para o site/Destaques/detailing-6-door--door-handle--auto--air-i.jpg",
-      slug: "kit-basico-iniciantes",
-      category: "Guias",
-      date: "01 Jan 2025",
-    },
-  ];
+export default async function ArticlesPage() {
+  const articles = await getAllArticles('pt');
 
   return (
     <div className="min-h-screen bg-prime-black">

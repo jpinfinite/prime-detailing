@@ -7,7 +7,7 @@ category: "Tutoriais"
 tags: ["vidros", "limpeza", "manchas", "visibilidade", "segurança"]
 keywords: ["limpeza de vidros", "vidros sem manchas", "limpar parabrisa", "vidros automotivos"]
 featured: true
-image: "/images/pexels/pexels-tima-miroshnichenko-6873431.jpg"
+image: "/images/pexels/car-interior-cleaning-6873082.jpg"
 ---
 
 # Limpeza de Vidros Sem Manchas: Técnicas Profissionais

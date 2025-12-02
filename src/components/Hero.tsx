@@ -38,7 +38,7 @@ export default function Hero({ locale }: { locale: string }) {
       {/* Background com overlay gradiente forte */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/pexels/pexels-tima-miroshnichenko-6873076.jpg"
+          src="/images/pexels/car-detailing-6873074.jpg"
           alt="Detailing Prime - Estética Automotiva Profissional"
           fill
           className="object-cover"
