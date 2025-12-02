@@ -12,32 +12,32 @@ export async function POST(request: Request) {
       );
     }
 
-    // TODO: Integrar com serviço de email (Mailchimp, ConvertKit, etc.)
-    // Por enquanto, apenas simula sucesso e salva em arquivo
-    
-    console.log('Nova inscrição:', email);
+    // TODO: Integrar com Mailchimp, ConvertKit ou outro serviço
+    // Por enquanto, apenas simula sucesso
+    console.log('Newsletter signup:', email);
 
-    // Simular delay de API
-    await new Promise(resolve => setTimeout(resolve, 1000));
-
-    // Aqui você integraria com:
-    // - Mailchimp: https://mailchimp.com/developer/
-    // - ConvertKit: https://developers.convertkit.com/
-    // - SendGrid: https://sendgrid.com/
-    // - Resend: https://resend.com/
+    // Aqui você integraria com seu serviço de email marketing
+    // Exemplo Mailchimp:
+    // const response = await fetch('https://us1.api.mailchimp.com/3.0/lists/YOUR_LIST_ID/members', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Authorization': `Bearer ${process.env.MAILCHIMP_API_KEY}`,
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify({
+    //     email_address: email,
+    //     status: 'subscribed',
+    //   }),
+    // });
 
     return NextResponse.json(
-      { 
-        success: true,
-        message: 'Inscrição realizada com sucesso!' 
-      },
+      { success: true, message: 'Inscrição realizada com sucesso!' },
       { status: 200 }
     );
-
   } catch (error) {
-    console.error('Erro na API de newsletter:', error);
+    console.error('Newsletter error:', error);
     return NextResponse.json(
-      { error: 'Erro interno do servidor' },
+      { error: 'Erro ao processar inscrição' },
       { status: 500 }
     );
   }
