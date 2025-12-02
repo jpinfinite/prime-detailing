@@ -7,7 +7,7 @@ category: "Manutenção"
 tags: ["venda", "preparação", "valorização", "detailing", "dicas"]
 keywords: ["preparar carro venda", "vender carro", "valorizar carro", "detailing venda"]
 featured: true
-image: "/images/pexels/car-polishing-6872150.jpg"
+image: "/images/preparacao-venda.jpg"
 ---
 
 # Preparação de Carro para Venda: Guia Completo
