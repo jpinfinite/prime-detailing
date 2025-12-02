@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GoogleTagManager, { GoogleTagManagerNoScript } from "@/components/GoogleTagManager";
 import BackToTop from "@/components/BackToTop";
+import NewsletterPopup from "@/components/NewsletterPopup";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -93,6 +94,7 @@ export default function RootLayout({
         <main className="min-h-screen">{children}</main>
         <Footer locale={params.locale || "pt"} />
         <BackToTop />
+        <NewsletterPopup />
       </body>
     </html>
   );

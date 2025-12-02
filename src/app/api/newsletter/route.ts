@@ -33,7 +33,7 @@ export async function POST(request: NextRequest) {
           'Authorization': `Bearer ${RESEND_API_KEY}`,
         },
         body: JSON.stringify({
-          from: 'Detailing Prime <detailingprime@proton.me>',
+          from: 'Detailing Prime <newsletter@detailingprime.com.br>',
           to: [email],
           subject: '🚀 Bem-vindo ao Detailing Prime!',
           html: `

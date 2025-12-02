@@ -10,6 +10,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ArticleBadges from "@/components/ArticleBadges";
 import Comments from "@/components/Comments";
 import ArticleAnalytics from "@/components/ArticleAnalytics";
+import NewsletterInline from "@/components/NewsletterInline";
+import ArticleRating from "@/components/ArticleRating";
+import ReadingProgress from "@/components/ReadingProgress";
 
 // Gera todas as rotas estáticas em build time
 export async function generateStaticParams() {
@@ -126,6 +129,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
   return (
     <div className="min-h-screen bg-prime-black">
+      {/* Reading Progress Bar */}
+      <ReadingProgress />
+      
       {/* Structured Data */}
       <ArticleSchema
         title={article.title}
@@ -218,18 +224,11 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           dangerouslySetInnerHTML={{ __html: mockArticle.content }}
         />
 
-        {/* CTA Final */}
-        <div className="mt-12 p-8 bg-prime-gray-medium rounded-lg border border-prime-gray-light text-center">
-          <h3 className="text-2xl font-bold text-text-primary mb-4">
-            Gostou deste artigo?
-          </h3>
-          <p className="text-text-secondary mb-6">
-            Receba mais conteúdo como este direto no seu email
-          </p>
-          <button className="bg-prime-yellow hover:bg-prime-yellow-dark text-prime-black px-8 py-3 rounded-lg font-semibold transition-all">
-            Assinar Newsletter
-          </button>
-        </div>
+        {/* CTA Final - Newsletter */}
+        <NewsletterInline />
+
+        {/* Avaliação do Artigo */}
+        <ArticleRating slug={article.slug} />
 
         {/* Artigos Relacionados */}
         <RelatedArticles articles={relatedArticles} currentSlug={article.slug} />

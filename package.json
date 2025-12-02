@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "verify": "node scripts/verify-setup.js",
+    "setup:giscus": "node scripts/setup-giscus.js",
     "migrate": "node scripts/migrate-articles.js",
     "download-images": "node scripts/download-pixabay-images.js",
     "generate-ai-images": "node scripts/generate-ai-images.js"

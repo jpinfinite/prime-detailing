@@ -13,16 +13,37 @@ export default function Comments({ slug, title }: CommentsProps) {
   useEffect(() => {
     if (!commentsRef.current) return;
 
+    // Verificar se as variáveis de ambiente estão configuradas
+    const repo = process.env.NEXT_PUBLIC_GISCUS_REPO;
+    const repoId = process.env.NEXT_PUBLIC_GISCUS_REPO_ID;
+    const category = process.env.NEXT_PUBLIC_GISCUS_CATEGORY || 'Announcements';
+    const categoryId = process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID;
+
+    if (!repo || !repoId || !categoryId) {
+      console.warn('Giscus não configurado. Configure as variáveis de ambiente.');
+      commentsRef.current.innerHTML = `
+        <div class="text-center p-8 bg-prime-gray-medium rounded-lg border border-prime-gray-light">
+          <p class="text-text-secondary mb-4">
+            💬 Sistema de comentários em configuração
+          </p>
+          <p class="text-text-muted text-sm">
+            Veja <a href="/CONFIGURAR-GISCUS.md" class="text-prime-yellow hover:underline">CONFIGURAR-GISCUS.md</a> para instruções
+          </p>
+        </div>
+      `;
+      return;
+    }
+
     // Limpar comentários anteriores
     commentsRef.current.innerHTML = '';
 
     // Configurar Giscus
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
-    script.setAttribute('data-repo', 'jpinfinite/prime-detailing'); // Altere para seu repo
-    script.setAttribute('data-repo-id', 'SEU_REPO_ID'); // Configure no GitHub
-    script.setAttribute('data-category', 'Comments');
-    script.setAttribute('data-category-id', 'SEU_CATEGORY_ID'); // Configure no GitHub
+    script.setAttribute('data-repo', repo);
+    script.setAttribute('data-repo-id', repoId);
+    script.setAttribute('data-category', category);
+    script.setAttribute('data-category-id', categoryId);
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');

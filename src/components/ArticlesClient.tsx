@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Article } from "@/lib/articles";
 import SearchBar from "@/components/SearchBar";
+import AdvancedSearch from "@/components/AdvancedSearch";
 import Pagination from "@/components/Pagination";
 import ArticleBadges from "@/components/ArticleBadges";
 
@@ -56,8 +57,9 @@ export default function ArticlesClient({ articles }: ArticlesClientProps) {
           </p>
           
           {/* Busca */}
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center gap-4">
             <SearchBar />
+            <AdvancedSearch />
           </div>
         </div>
 
