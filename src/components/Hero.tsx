@@ -35,22 +35,20 @@ export default function Hero({ locale }: { locale: string }) {
 
   return (
     <section className="relative min-h-[700px] flex items-center justify-center overflow-hidden">
-      {/* Background com overlay gradiente forte */}
+      {/* Background com Hero Banner Premium */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/pexels/car-detailing-6873074.jpg"
-          alt="Detailing Prime - Estética Automotiva Profissional"
+          src="/images/hero-banner.jpg"
+          alt="Detailing Prime - Estética Automotiva Profissional Premium"
           fill
           className="object-cover"
           priority
+          quality={95}
         />
         {/* Overlay gradiente com identidade amarela */}
-        <div className="absolute inset-0 bg-gradient-to-br from-prime-black/95 via-prime-black/90 to-prime-yellow/20"></div>
-        {/* Padrão de grade sutil */}
-        <div className="absolute inset-0 opacity-5" style={{
-          backgroundImage: 'linear-gradient(#FFC107 1px, transparent 1px), linear-gradient(90deg, #FFC107 1px, transparent 1px)',
-          backgroundSize: '50px 50px'
-        }}></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-prime-black/85 via-prime-black/75 to-transparent"></div>
+        {/* Destaque amarelo sutil */}
+        <div className="absolute inset-0 bg-gradient-to-t from-prime-yellow/10 via-transparent to-transparent"></div>
       </div>
       
       <div className="relative z-10 container mx-auto px-4 py-20">
