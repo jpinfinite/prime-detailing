@@ -3,6 +3,9 @@ import Link from "next/link";
 import { getAllArticles, getArticlesByCategory } from "@/lib/articles";
 import SearchBar from "@/components/SearchBar";
 
+// Força renderização dinâmica para suportar searchParams
+export const dynamic = 'force-dynamic';
+
 export default async function ArticlesPage({
   searchParams,
 }: {
@@ -11,7 +14,7 @@ export default async function ArticlesPage({
   const categoria = searchParams.categoria;
   const articles = categoria 
     ? getArticlesByCategory(categoria, 'pt')
-    : await getAllArticles('pt');
+    : getAllArticles('pt');
 
   return (
     <div className="min-h-screen bg-prime-black">
