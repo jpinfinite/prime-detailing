@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import FeaturedArticles from "@/components/FeaturedArticles";
 import Categories from "@/components/Categories";
+import FeaturedVideos from "@/components/FeaturedVideos";
 import NewsletterCTA from "@/components/NewsletterCTA";
 import { OrganizationSchema, WebSiteSchema } from "@/components/StructuredData";
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Hero locale="pt" />
       <Categories locale="pt" />
       <FeaturedArticles locale="pt" />
+      <FeaturedVideos locale="pt" />
       <NewsletterCTA locale="pt" />
     </>
   );
