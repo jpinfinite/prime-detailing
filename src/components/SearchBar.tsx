@@ -2,14 +2,32 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { Article } from '@/lib/articles';
+
+interface SearchArticle {
+  slug: string;
+  title: string;
+  description: string;
+  category: string;
+  tags: string[];
+  readTime: string;
+  image: string;
+}
 
 export default function SearchBar() {
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<Article[]>([]);
+  const [results, setResults] = useState<SearchArticle[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [allArticles, setAllArticles] = useState<SearchArticle[]>([]);
   const searchRef = useRef<HTMLDivElement>(null);
+
+  // Carregar índice de busca uma vez
+  useEffect(() => {
+    fetch('/search-index.json')
+      .then(res => res.json())
+      .then(data => setAllArticles(data))
+      .catch(error => console.error('Erro ao carregar índice de busca:', error));
+  }, []);
 
   // Fechar ao clicar fora
   useEffect(() => {
@@ -23,9 +41,9 @@ export default function SearchBar() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Buscar artigos
+  // Buscar artigos (client-side)
   useEffect(() => {
-    const searchArticles = async () => {
+    const searchArticles = () => {
       if (query.length < 2) {
         setResults([]);
         setIsOpen(false);
@@ -35,10 +53,34 @@ export default function SearchBar() {
       setIsLoading(true);
       
       try {
-        const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-        const data = await response.json();
+        const queryLower = query.toLowerCase();
         
-        setResults(data.results || []);
+        // Filtrar artigos
+        const filtered = allArticles.filter(article => {
+          const titleMatch = article.title.toLowerCase().includes(queryLower);
+          const descriptionMatch = article.description.toLowerCase().includes(queryLower);
+          const categoryMatch = article.category.toLowerCase().includes(queryLower);
+          const tagsMatch = article.tags?.some(tag => tag.toLowerCase().includes(queryLower));
+
+          return titleMatch || descriptionMatch || categoryMatch || tagsMatch;
+        });
+
+        // Ordenar por relevância
+        const sorted = filtered.sort((a, b) => {
+          const aTitle = a.title.toLowerCase().includes(queryLower) ? 3 : 0;
+          const aDesc = a.description.toLowerCase().includes(queryLower) ? 2 : 0;
+          const aCat = a.category.toLowerCase().includes(queryLower) ? 1 : 0;
+          const aScore = aTitle + aDesc + aCat;
+
+          const bTitle = b.title.toLowerCase().includes(queryLower) ? 3 : 0;
+          const bDesc = b.description.toLowerCase().includes(queryLower) ? 2 : 0;
+          const bCat = b.category.toLowerCase().includes(queryLower) ? 1 : 0;
+          const bScore = bTitle + bDesc + bCat;
+
+          return bScore - aScore;
+        });
+
+        setResults(sorted.slice(0, 10));
         setIsOpen(true);
       } catch (error) {
         console.error('Erro na busca:', error);
@@ -50,7 +92,7 @@ export default function SearchBar() {
 
     const debounce = setTimeout(searchArticles, 300);
     return () => clearTimeout(debounce);
-  }, [query]);
+  }, [query, allArticles]);
 
   return (
     <div ref={searchRef} className="relative w-full max-w-2xl">
