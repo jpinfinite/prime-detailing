@@ -68,6 +68,8 @@ export default function RootLayout({
     <html lang={params.locale || "pt"}>
       <head>
         <GoogleAnalytics />
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="COLE_SEU_CODIGO_AQUI" />
       </head>
       <body className={inter.className}>
         <Header locale={params.locale || "pt"} />
