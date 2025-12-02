@@ -1,5 +1,20 @@
 [
   {
+    "slug": "cera-vs-selante-vs-coating",
+    "title": "Cera vs Selante vs Coating: Qual Escolher em 2025? Comparativo Completo",
+    "description": "Comparativo definitivo entre cera, selante e coating cerâmico: durabilidade, proteção, custo-benefício e qual é melhor para seu carro.",
+    "category": "Produtos",
+    "tags": [
+      "cera",
+      "selante",
+      "coating",
+      "proteção",
+      "comparativo"
+    ],
+    "readTime": "11 min",
+    "image": "/images/covers/cera-vs-selante-vs-coating.jpg"
+  },
+  {
     "slug": "como-aplicar-cera-liquida",
     "title": "Como Aplicar Cera Líquida: Passo a Passo Completo",
     "description": "Guia definitivo para aplicar cera líquida automotiva. Aprenda a técnica correta, tempo de cura ideal e como obter brilho profissional.",
@@ -12,7 +27,37 @@
       "tutorial"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-interior-cleaning-6873119.jpg"
+    "image": "/images/covers/como-aplicar-cera-liquida.jpg"
+  },
+  {
+    "slug": "como-limpar-motor-carro",
+    "title": "Como Limpar Motor do Carro: Guia Seguro 2025 - Sem Danificar",
+    "description": "Aprenda a limpar o motor do carro com segurança: passo a passo, produtos corretos, o que proteger e como evitar danos elétricos.",
+    "category": "Tutoriais",
+    "tags": [
+      "motor",
+      "limpeza",
+      "segurança",
+      "manutenção",
+      "desengraxante"
+    ],
+    "readTime": "9 min",
+    "image": "/images/covers/como-limpar-motor-carro.jpg"
+  },
+  {
+    "slug": "como-montar-negocio-detailing",
+    "title": "Como Montar um Negócio de Detailing do Zero em 2025",
+    "description": "Guia completo para abrir seu estúdio de estética automotiva. Investimento inicial, equipamentos, localização e como lucrar no mercado de detailing.",
+    "category": "Mercado",
+    "tags": [
+      "negócio",
+      "empreendedorismo",
+      "detailing",
+      "investimento",
+      "lucro"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/como-montar-negocio-detailing.jpg"
   },
   {
     "slug": "como-polir-farois-2025",
@@ -26,8 +71,38 @@
       "manutenção",
       "detailing"
     ],
-    "readTime": "5 min",
-    "image": "/images/default.jpg"
+    "readTime": "8 min",
+    "image": "/images/covers/como-polir-farois-2025.jpg"
+  },
+  {
+    "slug": "como-tirar-arranhoes-carro",
+    "title": "Como Tirar Arranhões do Carro: Guia Completo 2025 (Leves, Médios e Profundos)",
+    "description": "Aprenda a remover arranhões do carro: técnicas caseiras, produtos profissionais, quando polir e quando repintar. Guia completo com passo a passo.",
+    "category": "Tutoriais",
+    "tags": [
+      "arranhões",
+      "riscos",
+      "polimento",
+      "correção",
+      "pintura"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/como-tirar-arranhoes-carro.jpg"
+  },
+  {
+    "slug": "correcao-pintura-profissional",
+    "title": "Correção de Pintura Profissional: Guia Completo de Polimento 2025",
+    "description": "Aprenda tudo sobre correção de pintura: técnicas de polimento, produtos, equipamentos, custos e como remover riscos e hologramas profissionalmente.",
+    "category": "Técnicas",
+    "tags": [
+      "polimento",
+      "correção",
+      "pintura",
+      "riscos",
+      "profissional"
+    ],
+    "readTime": "14 min",
+    "image": "/images/covers/correcao-pintura-profissional.jpg"
   },
   {
     "slug": "cuidados-pintura-preta",
@@ -42,7 +117,52 @@
       "manutenção"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-interior-cleaning-6872601.jpg"
+    "image": "/images/covers/cuidados-pintura-preta.jpg"
+  },
+  {
+    "slug": "detailing-carros-eletricos",
+    "title": "Detailing em Carros Elétricos: Cuidados Especiais e Diferenças em 2025",
+    "description": "Guia completo de detailing para carros elétricos: cuidados com bateria, limpeza de componentes eletrônicos, produtos recomendados e técnicas específicas.",
+    "category": "Técnicas",
+    "tags": [
+      "elétricos",
+      "ev",
+      "tesla",
+      "tecnologia",
+      "cuidados"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/detailing-carros-eletricos.jpg"
+  },
+  {
+    "slug": "detailing-ecologico-sustentavel",
+    "title": "Detailing Ecológico: Como Cuidar do Carro de Forma Sustentável em 2025",
+    "description": "Descubra como fazer detailing automotivo sustentável: produtos ecológicos, lavagem sem água, técnicas que economizam recursos e protegem o meio ambiente.",
+    "category": "Técnicas",
+    "tags": [
+      "ecológico",
+      "sustentável",
+      "waterless",
+      "meio ambiente",
+      "economia"
+    ],
+    "readTime": "10 min",
+    "image": "/images/covers/detailing-ecologico-sustentavel.jpg"
+  },
+  {
+    "slug": "detailing-motos-completo",
+    "title": "Detailing de Motocicletas: Guia Completo 2025",
+    "description": "Aprenda detailing específico para motos: limpeza de motor, cromados, escapamento, proteção de pintura e cuidados especiais com cada componente.",
+    "category": "Técnicas",
+    "tags": [
+      "motos",
+      "motocicletas",
+      "limpeza",
+      "proteção",
+      "cromados"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/detailing-motos-completo.jpg"
   },
   {
     "slug": "detailing-parachoques-plasticos",
@@ -57,7 +177,52 @@
       "manutenção"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-interior-cleaning-6873082.jpg"
+    "image": "/images/covers/detailing-parachoques-plasticos.jpg"
+  },
+  {
+    "slug": "detailing-pos-enchente",
+    "title": "Detailing Pós-Enchente: Guia Completo de Recuperação 2025",
+    "description": "Aprenda a recuperar carro alagado: limpeza profunda, higienização, prevenção de mofo, o que verificar e quando vale a pena recuperar.",
+    "category": "Mercado",
+    "tags": [
+      "enchente",
+      "alagamento",
+      "recuperação",
+      "mofo",
+      "higienização"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/detailing-pos-enchente.jpg"
+  },
+  {
+    "slug": "detailing-suvs-picapes",
+    "title": "Detailing de SUVs e Picapes: Guia Completo 2025 - Cuidados Especiais",
+    "description": "Aprenda detailing específico para SUVs e picapes: limpeza de caçamba, proteção off-road, produtos recomendados e técnicas para veículos grandes.",
+    "category": "Técnicas",
+    "tags": [
+      "suv",
+      "picape",
+      "off-road",
+      "caçamba",
+      "detailing"
+    ],
+    "readTime": "10 min",
+    "image": "/images/covers/detailing-suvs-picapes.jpg"
+  },
+  {
+    "slug": "equipamentos-essenciais-detailing",
+    "title": "Equipamentos Essenciais para Detailing: Lista Completa 2025",
+    "description": "Guia definitivo de equipamentos para estética automotiva. O que comprar primeiro, marcas recomendadas, faixa de preço e como montar seu kit profissional.",
+    "category": "Mercado",
+    "tags": [
+      "equipamentos",
+      "ferramentas",
+      "investimento",
+      "compras",
+      "profissional"
+    ],
+    "readTime": "15 min",
+    "image": "/images/covers/equipamentos-essenciais-detailing.jpg"
   },
   {
     "slug": "guia-enceramento-automotivo",
@@ -72,7 +237,22 @@
       "manutenção"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-detailing-6873074.jpg"
+    "image": "/images/covers/guia-enceramento-automotivo.jpg"
+  },
+  {
+    "slug": "higienizacao-ozonio-automotivo",
+    "title": "Higienização com Ozônio Automotivo: Guia Completo 2025",
+    "description": "Descubra como a higienização com ozônio elimina odores, bactérias e vírus do carro. Processo, benefícios, custos e cuidados essenciais.",
+    "category": "Técnicas",
+    "tags": [
+      "higienização",
+      "ozônio",
+      "limpeza",
+      "saúde",
+      "odores"
+    ],
+    "readTime": "10 min",
+    "image": "/images/covers/higienizacao-ozonio-automotivo.jpg"
   },
   {
     "slug": "kit-basico-detailing-iniciantes",
@@ -89,7 +269,22 @@
       "recomendações"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-polishing-6872150.jpg"
+    "image": "/images/covers/kit-basico-detailing-iniciantes.jpg"
+  },
+  {
+    "slug": "limpeza-banco-couro-completo",
+    "title": "Limpeza de Banco de Couro: Guia Completo 2025 - Produtos e Técnicas",
+    "description": "Aprenda a limpar e hidratar banco de couro corretamente: produtos recomendados, técnicas profissionais, manutenção e como evitar ressecamento.",
+    "category": "Tutoriais",
+    "tags": [
+      "couro",
+      "banco",
+      "limpeza",
+      "hidratação",
+      "manutenção"
+    ],
+    "readTime": "10 min",
+    "image": "/images/covers/limpeza-banco-couro-completo.jpg"
   },
   {
     "slug": "limpeza-profunda-interior-carro",
@@ -104,7 +299,7 @@
       "diy"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-interior-cleaning-6872601.jpg"
+    "image": "/images/covers/limpeza-profunda-interior-carro.jpg"
   },
   {
     "slug": "limpeza-rodas-pneus",
@@ -119,7 +314,22 @@
       "detailing"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-polishing-6873118.jpg"
+    "image": "/images/covers/limpeza-rodas-pneus.jpg"
+  },
+  {
+    "slug": "limpeza-teto-automotivo",
+    "title": "Limpeza de Teto Automotivo: Guia Completo 2025 - Sem Manchar",
+    "description": "Aprenda a limpar o teto do carro sem manchar: produtos corretos, técnicas profissionais e como remover manchas difíceis do forro.",
+    "category": "Manutenção",
+    "tags": [
+      "teto",
+      "forro",
+      "limpeza",
+      "manchas",
+      "interior"
+    ],
+    "readTime": "9 min",
+    "image": "/images/covers/limpeza-teto-automotivo.jpg"
   },
   {
     "slug": "limpeza-vidros-sem-manchas",
@@ -134,7 +344,7 @@
       "segurança"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-interior-cleaning-6873082.jpg"
+    "image": "/images/covers/limpeza-vidros-sem-manchas.jpg"
   },
   {
     "slug": "manutencao-couro-automotivo",
@@ -149,7 +359,22 @@
       "manutenção"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-interior-cleaning-6872601.jpg"
+    "image": "/images/covers/manutencao-couro-automotivo.jpg"
+  },
+  {
+    "slug": "marketing-digital-detailing",
+    "title": "Marketing Digital para Detailing: Estratégias que Funcionam em 2025",
+    "description": "Guia completo de marketing digital para estética automotiva. Instagram, Google, TikTok, anúncios pagos e estratégias para atrair clientes e crescer seu negócio.",
+    "category": "Mercado",
+    "tags": [
+      "marketing",
+      "instagram",
+      "redes sociais",
+      "clientes",
+      "vendas"
+    ],
+    "readTime": "14 min",
+    "image": "/images/covers/marketing-digital-detailing.jpg"
   },
   {
     "slug": "melhores-ceras-automotivas-2025",
@@ -164,7 +389,7 @@
       "2025"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-detailing-6873074.jpg"
+    "image": "/images/covers/melhores-ceras-automotivas-2025.jpg"
   },
   {
     "slug": "melhores-microfibras-detailing",
@@ -181,7 +406,7 @@
       "comparativo"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-interior-cleaning-6873119.jpg"
+    "image": "/images/covers/melhores-microfibras-detailing.jpg"
   },
   {
     "slug": "mercado-detailing-crescimento-2025",
@@ -198,7 +423,22 @@
       "franquias"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-detailing-6873185.jpg"
+    "image": "/images/covers/mercado-detailing-crescimento-2025.jpg"
+  },
+  {
+    "slug": "polimento-caseiro-diy",
+    "title": "Polimento Caseiro: Guia DIY Completo 2025 - Passo a Passo",
+    "description": "Aprenda a polir seu carro em casa: equipamentos necessários, técnicas profissionais, produtos recomendados e como evitar erros comuns no polimento DIY.",
+    "category": "Técnicas",
+    "tags": [
+      "polimento",
+      "diy",
+      "caseiro",
+      "politriz",
+      "tutorial"
+    ],
+    "readTime": "13 min",
+    "image": "/images/covers/polimento-caseiro-diy.jpg"
   },
   {
     "slug": "polimento-manual-vs-maquina",
@@ -215,7 +455,37 @@
       "rotativa"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-detailing-6873185.jpg"
+    "image": "/images/covers/polimento-manual-vs-maquina.jpg"
+  },
+  {
+    "slug": "ppf-paint-protection-film-guia",
+    "title": "PPF (Paint Protection Film): Guia Completo 2025 - Vale a Pena?",
+    "description": "Tudo sobre PPF: o que é, quanto custa, durabilidade, vantagens e desvantagens. Descubra se vale a pena investir em película de proteção de pintura.",
+    "category": "Técnicas",
+    "tags": [
+      "ppf",
+      "proteção",
+      "película",
+      "pintura",
+      "investimento"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/ppf-paint-protection-film-guia.jpg"
+  },
+  {
+    "slug": "precificacao-servicos-detailing",
+    "title": "Precificação de Serviços de Detailing: Guia Completo 2025",
+    "description": "Aprenda a precificar seus serviços de detailing corretamente. Tabelas de preços, cálculo de custos, margem de lucro e estratégias para cobrar o valor justo.",
+    "category": "Mercado",
+    "tags": [
+      "precificação",
+      "preços",
+      "lucro",
+      "gestão",
+      "negócio"
+    ],
+    "readTime": "10 min",
+    "image": "/images/covers/precificacao-servicos-detailing.jpg"
   },
   {
     "slug": "preparacao-carro-venda",
@@ -230,7 +500,82 @@
       "dicas"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-polishing-6872150.jpg"
+    "image": "/images/covers/preparacao-carro-venda.jpg"
+  },
+  {
+    "slug": "primeiros-produtos-detailing",
+    "title": "Primeiros Produtos de Detailing: Guia de Compra Completo 2025",
+    "description": "Descubra quais produtos comprar primeiro para começar no detailing: kit essencial, marcas recomendadas, ordem de prioridade e quanto investir.",
+    "category": "Reviews",
+    "tags": [
+      "produtos",
+      "iniciantes",
+      "kit",
+      "compras",
+      "guia"
+    ],
+    "readTime": "11 min",
+    "image": "/images/covers/primeiros-produtos-detailing.jpg"
+  },
+  {
+    "slug": "produtos-waterless-sem-agua",
+    "title": "Produtos Waterless: Lavagem Sem Água - Guia Completo 2025",
+    "description": "Tudo sobre lavagem sem água: como funciona, melhores produtos, técnicas corretas, economia e quando usar waterless wash no seu carro.",
+    "category": "Produtos",
+    "tags": [
+      "waterless",
+      "sem água",
+      "ecológico",
+      "economia",
+      "lavagem"
+    ],
+    "readTime": "11 min",
+    "image": "/images/covers/produtos-waterless-sem-agua.jpg"
+  },
+  {
+    "slug": "protecao-painel-sol",
+    "title": "Proteção de Painel Contra Sol: Guia Completo 2025 - Evite Rachaduras",
+    "description": "Aprenda a proteger o painel do carro contra o sol: produtos UV, películas, capas e técnicas para evitar ressecamento e rachaduras.",
+    "category": "Produtos",
+    "tags": [
+      "painel",
+      "sol",
+      "uv",
+      "proteção",
+      "ressecamento"
+    ],
+    "readTime": "8 min",
+    "image": "/images/covers/protecao-painel-sol.jpg"
+  },
+  {
+    "slug": "protecao-rodas-freios-detailing",
+    "title": "Proteção de Rodas e Freios: Guia Completo de Detailing 2025",
+    "description": "Aprenda a proteger rodas e freios contra pó de freio, ferrugem e sujeira. Produtos, técnicas e manutenção para manter suas rodas impecáveis.",
+    "category": "Técnicas",
+    "tags": [
+      "rodas",
+      "freios",
+      "proteção",
+      "limpeza",
+      "manutenção"
+    ],
+    "readTime": "11 min",
+    "image": "/images/covers/protecao-rodas-freios-detailing.jpg"
+  },
+  {
+    "slug": "remover-cheiro-cigarro-carro",
+    "title": "Como Remover Cheiro de Cigarro do Carro: 7 Métodos Eficazes 2025",
+    "description": "Aprenda a eliminar completamente o cheiro de cigarro do carro: métodos caseiros, produtos profissionais, ozônio e técnicas que realmente funcionam.",
+    "category": "Manutenção",
+    "tags": [
+      "odor",
+      "cigarro",
+      "limpeza",
+      "higienização",
+      "ozônio"
+    ],
+    "readTime": "11 min",
+    "image": "/images/covers/remover-cheiro-cigarro-carro.jpg"
   },
   {
     "slug": "remover-manchas-agua",
@@ -245,7 +590,127 @@
       "limpeza"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-polishing-6873129.jpg"
+    "image": "/images/covers/remover-manchas-agua.jpg"
+  },
+  {
+    "slug": "review-3m-perfect-it",
+    "title": "Review: 3M Perfect-It - Melhor Composto de Polimento?",
+    "description": "Review completo da linha 3M Perfect-It. Testamos Fast Cut, Extra Fine e Ultrafine. Vale o preço premium?",
+    "category": "Reviews",
+    "tags": [
+      "3m",
+      "polimento",
+      "compound",
+      "review",
+      "profissional"
+    ],
+    "readTime": "11 min",
+    "image": "/images/covers/review-3m-perfect-it.jpg"
+  },
+  {
+    "slug": "review-chemical-guys-hex-logic",
+    "title": "Review: Chemical Guys Hex-Logic - Melhores Boinas 2025?",
+    "description": "Review completo das boinas Chemical Guys Hex-Logic. Testamos corte, refino e lustro. Vale a pena o preço premium?",
+    "category": "Reviews",
+    "tags": [
+      "boinas",
+      "chemical guys",
+      "polimento",
+      "review",
+      "equipamentos"
+    ],
+    "readTime": "10 min",
+    "image": "/images/covers/review-chemical-guys-hex-logic.jpg"
+  },
+  {
+    "slug": "review-extratora-wap-carpet-cleaner",
+    "title": "Review: Extratora Wap Carpet Cleaner - Vale o Investimento?",
+    "description": "Review completo da Extratora Wap Carpet Cleaner. Testamos sucção, limpeza, durabilidade e custo-benefício. Melhor extratora para iniciantes?",
+    "category": "Reviews",
+    "tags": [
+      "extratora",
+      "wap",
+      "limpeza",
+      "interior",
+      "review"
+    ],
+    "readTime": "11 min",
+    "image": "/images/covers/review-extratora-wap-carpet-cleaner.jpg"
+  },
+  {
+    "slug": "review-meguiars-ultimate-wax",
+    "title": "Review: Meguiar's Ultimate Liquid Wax - Vale a Pena em 2025?",
+    "description": "Review completo da Meguiar's Ultimate Liquid Wax. Testamos aplicação, durabilidade, brilho e custo-benefício. Veja se vale a pena investir nesta cera sintética.",
+    "category": "Reviews",
+    "tags": [
+      "meguiars",
+      "cera",
+      "review",
+      "produtos",
+      "detailing"
+    ],
+    "readTime": "10 min",
+    "image": "/images/covers/review-meguiars-ultimate-wax.jpg"
+  },
+  {
+    "slug": "review-mothers-cmx-ceramic",
+    "title": "Review: Mothers CMX Ceramic Spray - Ceramic Coating Fácil?",
+    "description": "Review completo do Mothers CMX Ceramic Spray. Testamos durabilidade, brilho e facilidade. Ceramic coating em spray funciona?",
+    "category": "Reviews",
+    "tags": [
+      "mothers",
+      "ceramic",
+      "proteção",
+      "review",
+      "spray"
+    ],
+    "readTime": "9 min",
+    "image": "/images/covers/review-mothers-cmx-ceramic.jpg"
+  },
+  {
+    "slug": "review-politriz-vonder-pev1200",
+    "title": "Review: Politriz Vonder PEV1200 - Melhor Custo-Benefício 2025?",
+    "description": "Review completo da Politriz Vonder PEV1200. Testamos potência, vibração, resultados e durabilidade. Vale a pena para iniciantes? Descubra aqui.",
+    "category": "Reviews",
+    "tags": [
+      "politriz",
+      "vonder",
+      "equipamentos",
+      "review",
+      "polimento"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/review-politriz-vonder-pev1200.jpg"
+  },
+  {
+    "slug": "review-vonixx-vintage-wax",
+    "title": "Review: Vonixx Vintage Wax - Melhor Cera Nacional 2025?",
+    "description": "Review completo da Vonixx Vintage Wax. Testamos brilho, durabilidade e custo-benefício da cera carnaúba brasileira. Vale a pena?",
+    "category": "Reviews",
+    "tags": [
+      "vonixx",
+      "cera",
+      "carnaúba",
+      "review",
+      "nacional"
+    ],
+    "readTime": "9 min",
+    "image": "/images/covers/review-vonixx-vintage-wax.jpg"
+  },
+  {
+    "slug": "tendencias-detailing-2025",
+    "title": "Tendências de Detailing 2025: O Futuro da Estética Automotiva",
+    "description": "Descubra as principais tendências do detailing em 2025: tecnologias emergentes, produtos inovadores, técnicas revolucionárias e o futuro do mercado.",
+    "category": "Mercado",
+    "tags": [
+      "tendências",
+      "futuro",
+      "tecnologia",
+      "inovação",
+      "mercado"
+    ],
+    "readTime": "14 min",
+    "image": "/images/covers/tendencias-detailing-2025.jpg"
   },
   {
     "slug": "top-10-shampoos-2025",
@@ -260,6 +725,36 @@
       "2025"
     ],
     "readTime": "5 min",
-    "image": "/images/pexels/car-detailing-6873074.jpg"
+    "image": "/images/covers/top-10-shampoos-2025.jpg"
+  },
+  {
+    "slug": "vitrificacao-ceramica-completo",
+    "title": "Vitrificação Cerâmica: Guia Definitivo 2025 - Tudo Que Você Precisa Saber",
+    "description": "Guia completo sobre vitrificação cerâmica: o que é, como funciona, quanto custa, durabilidade e se realmente vale a pena. Descubra tudo antes de investir.",
+    "category": "Técnicas",
+    "tags": [
+      "vitrificação",
+      "cerâmica",
+      "proteção",
+      "coating",
+      "pintura"
+    ],
+    "readTime": "15 min",
+    "image": "/images/covers/vitrificacao-ceramica-completo.jpg"
+  },
+  {
+    "slug": "wraps-personalizacao-automotiva",
+    "title": "Wraps e Personalização Automotiva: Guia Completo 2025",
+    "description": "Tudo sobre envelopamento automotivo: tipos de wraps, custos, durabilidade, vantagens sobre pintura e cuidados essenciais.",
+    "category": "Técnicas",
+    "tags": [
+      "wrap",
+      "envelopamento",
+      "personalização",
+      "adesivo",
+      "customização"
+    ],
+    "readTime": "13 min",
+    "image": "/images/covers/wraps-personalizacao-automotiva.jpg"
   }
 ]

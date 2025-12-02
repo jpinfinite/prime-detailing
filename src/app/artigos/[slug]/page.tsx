@@ -8,6 +8,8 @@ import TableOfContents from "@/components/TableOfContents";
 import RelatedArticles from "@/components/RelatedArticles";
 import Breadcrumb from "@/components/Breadcrumb";
 import ArticleBadges from "@/components/ArticleBadges";
+import Comments from "@/components/Comments";
+import ArticleAnalytics from "@/components/ArticleAnalytics";
 
 // Gera todas as rotas estáticas em build time
 export async function generateStaticParams() {
@@ -165,6 +167,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
           {/* Conteúdo Principal */}
           <article className="lg:col-span-9 max-w-4xl">
+        {/* Analytics Tracking */}
+        <ArticleAnalytics slug={article.slug} title={article.title} category={article.category} />
+        
         {/* Header */}
         <div className="mb-8">
           <ArticleBadges 
@@ -228,6 +233,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
         {/* Artigos Relacionados */}
         <RelatedArticles articles={relatedArticles} currentSlug={article.slug} />
+
+        {/* Comentários */}
+        <Comments slug={article.slug} title={article.title} />
       </article>
         </div>
       </div>

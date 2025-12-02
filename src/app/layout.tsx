@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GoogleTagManager, { GoogleTagManagerNoScript } from "@/components/GoogleTagManager";
 import BackToTop from "@/components/BackToTop";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -69,10 +70,25 @@ export default function RootLayout({
     <html lang={params.locale || "pt"}>
       <head>
         <GoogleAnalytics />
+        <GoogleTagManager />
         {/* Google Search Console Verification */}
-        <meta name="google-site-verification" content="COLE_SEU_CODIGO_AQUI" />
+        <meta name="google-site-verification" content={process.env.NEXT_PUBLIC_GSC_VERIFICATION || ""} />
+        {/* Microsoft Clarity */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "${process.env.NEXT_PUBLIC_CLARITY_ID || ''}");
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>
+        <GoogleTagManagerNoScript />
         <Header locale={params.locale || "pt"} />
         <main className="min-h-screen">{children}</main>
         <Footer locale={params.locale || "pt"} />

@@ -19,8 +19,28 @@ export default function SocialShare({ title, url }: SocialShareProps) {
       await navigator.clipboard.writeText(shareUrl);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
+      
+      // Track copy link
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'share', {
+          method: 'copy_link',
+          content_type: 'article',
+          item_id: url
+        });
+      }
     } catch (err) {
       console.error('Erro ao copiar:', err);
+    }
+  };
+
+  const handleShare = (platform: string) => {
+    // Track social share
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'share', {
+        method: platform.toLowerCase(),
+        content_type: 'article',
+        item_id: url
+      });
     }
   };
 
@@ -64,6 +84,7 @@ export default function SocialShare({ title, url }: SocialShareProps) {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => handleShare(link.name)}
             className={`flex items-center gap-2 px-4 py-2 bg-prime-gray-dark text-text-primary rounded-lg transition-colors ${link.color}`}
             aria-label={`Compartilhar no ${link.name}`}
           >

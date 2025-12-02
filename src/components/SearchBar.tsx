@@ -80,8 +80,17 @@ export default function SearchBar() {
           return bScore - aScore;
         });
 
-        setResults(sorted.slice(0, 10));
+        const results = sorted.slice(0, 10);
+        setResults(results);
         setIsOpen(true);
+
+        // Track search
+        if (typeof window !== 'undefined' && window.gtag) {
+          window.gtag('event', 'search', {
+            search_term: query,
+            results_count: results.length
+          });
+        }
       } catch (error) {
         console.error('Erro na busca:', error);
         setResults([]);

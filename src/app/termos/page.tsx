@@ -94,7 +94,7 @@ export default function TermsPage() {
                 Dúvidas sobre os Termos de Uso?
               </p>
               <p className="text-text-secondary mt-4">
-                Email: <a href="mailto:contato@detailingprime.com.br" className="text-prime-yellow hover:underline">contato@detailingprime.com.br</a>
+                Email: <a href="mailto:detailingprime@proton.me" className="text-prime-yellow hover:underline">detailingprime@proton.me</a>
               </p>
             </div>
           </div>

@@ -80,7 +80,7 @@ export default function PrivacyPage() {
                 <li>Revogar consentimento (cancelar newsletter)</li>
               </ul>
               <p className="text-text-secondary mt-4">
-                Para exercer seus direitos, entre em contato: <a href="mailto:contato@detailingprime.com.br" className="text-prime-yellow hover:underline">contato@detailingprime.com.br</a>
+                Para exercer seus direitos, entre em contato: <a href="mailto:detailingprime@proton.me" className="text-prime-yellow hover:underline">detailingprime@proton.me</a>
               </p>
             </div>
 
@@ -102,7 +102,7 @@ export default function PrivacyPage() {
                 Dúvidas sobre nossa política de privacidade?
               </p>
               <p className="text-text-secondary mt-4">
-                Email: <a href="mailto:contato@detailingprime.com.br" className="text-prime-yellow hover:underline">contato@detailingprime.com.br</a>
+                Email: <a href="mailto:detailingprime@proton.me" className="text-prime-yellow hover:underline">detailingprime@proton.me</a>
               </p>
             </div>
           </div>

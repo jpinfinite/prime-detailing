@@ -31,7 +31,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2 text-text-primary">Email</h3>
-              <p className="text-text-secondary">contato@detailingprime.com.br</p>
+              <p className="text-text-secondary">detailingprime@proton.me</p>
             </div>
 
             <div className="bg-prime-gray-medium p-6 rounded-lg">
