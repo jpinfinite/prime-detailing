@@ -42,6 +42,14 @@ const coverMapping = {
   'detailing-motos-completo': '/images/covers/detailing-motos-completo.jpg',
   'produtos-waterless-sem-agua': '/images/covers/produtos-waterless-sem-agua.jpg',
   'tendencias-detailing-2025': '/images/covers/tendencias-detailing-2025.jpg',
+  'como-tirar-arranhoes-carro': '/images/covers/como-tirar-arranhoes-carro.jpg',
+  'limpeza-banco-couro-completo': '/images/covers/limpeza-banco-couro-completo.jpg',
+  'remover-cheiro-cigarro-carro': '/images/covers/remover-cheiro-cigarro-carro.jpg',
+  'polimento-caseiro-diy': '/images/covers/polimento-caseiro-diy.jpg',
+  'cera-vs-selante-vs-coating': '/images/covers/cera-vs-selante-vs-coating.jpg',
+  'limpeza-teto-automotivo': '/images/covers/limpeza-teto-automotivo.jpg',
+  'protecao-painel-sol': '/images/covers/protecao-painel-sol.jpg',
+  'detailing-suvs-picapes': '/images/covers/detailing-suvs-picapes.jpg',
 };
 
 function updateArticleCover(filePath) {

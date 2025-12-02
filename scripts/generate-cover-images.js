@@ -58,6 +58,19 @@ const coverPrompts = {
   'detailing-motos-completo.jpg': 'Professional cleaning black sport motorcycle with yellow microfiber cloth, chrome exhaust pipes, detailed bike care, no text on products',
   'produtos-waterless-sem-agua.jpg': 'Cleaning black car with yellow microfiber towel, spray bottle nearby, waterless wash technique, eco-friendly detailing, no text visible',
   'tendencias-detailing-2025.jpg': 'Futuristic car detailing technology, yellow and black theme, modern automotive care, innovation concept, professional studio',
+  
+  // Novos 11 Artigos
+  'como-tirar-arranhoes-carro.jpg': 'Removing car scratch with yellow polishing pad, black car paint, professional scratch removal, automotive detailing',
+  'limpeza-banco-couro-completo.jpg': 'Cleaning black leather car seat with yellow microfiber, leather conditioner bottle, professional interior care',
+  'remover-cheiro-cigarro-carro.jpg': 'Car interior air freshening, yellow ozone generator, black interior, odor removal, professional sanitization',
+  'polimento-caseiro-diy.jpg': 'DIY car polishing at home, yellow orbital polisher, black car hood, home garage detailing setup',
+  'cera-vs-selante-vs-coating.jpg': 'Three car care products comparison, yellow and black bottles, wax selante coating, professional detailing products',
+  'limpeza-teto-automotivo.jpg': 'Cleaning car headliner with yellow brush, black car interior ceiling, professional upholstery cleaning',
+  'protecao-painel-sol.jpg': 'Protecting car dashboard from sun, yellow UV protectant spray, black dashboard, sun protection concept',
+  'detailing-suvs-picapes.jpg': 'Detailing large black SUV, yellow cleaning products, professional truck detailing, large vehicle care',
+  'como-limpar-motor-carro.jpg': 'Cleaning car engine bay, yellow degreaser spray, black engine, professional engine detailing, no text',
+  'primeiros-produtos-detailing.jpg': 'Beginner detailing products kit, yellow and black bottles organized, starter products, professional setup',
+  'detailing-pos-enchente.jpg': 'Flood damaged car recovery, yellow water extraction equipment, black car interior, professional restoration',
 };
 
 async function generateCoverImage(prompt, filename) {
