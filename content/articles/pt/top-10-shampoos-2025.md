@@ -3,7 +3,7 @@ title: "Top 10 Shampoos Automotivos 2025: Análise Completa"
 description: "Descubra os melhores shampoos automotivos de 2025. Análise detalhada, comparação de preços e qual escolher para seu carro."
 slug: "top-10-shampoos-2025"
 date: "2025-01-24"
-category: "Reviews"
+category: "Produtos"
 tags: ["shampoo", "produtos", "review", "comparação", "2025"]
 keywords: ["melhor shampoo automotivo", "shampoo carro", "review shampoo", "comparação shampoo"]
 featured: true

@@ -3,7 +3,7 @@ title: "Preparação de Carro para Venda: Guia Completo"
 description: "Aprenda a preparar seu carro para venda e aumentar o valor em até 20%. Detailing completo, documentação e apresentação profissional."
 slug: "preparacao-carro-venda"
 date: "2025-01-23"
-category: "Guias"
+category: "Manutenção"
 tags: ["venda", "preparação", "valorização", "detailing", "dicas"]
 keywords: ["preparar carro venda", "vender carro", "valorizar carro", "detailing venda"]
 featured: true

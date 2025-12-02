@@ -3,7 +3,7 @@ title: "Manutenção de Couro Automotivo: Guia Completo"
 description: "Aprenda a cuidar de bancos de couro automotivo. Limpeza, hidratação, proteção e como manter o couro sempre novo."
 slug: "manutencao-couro-automotivo"
 date: "2025-01-26"
-category: "Guias"
+category: "Manutenção"
 tags: ["couro", "bancos", "limpeza", "hidratação", "manutenção"]
 keywords: ["manutenção couro", "limpar banco couro", "hidratar couro", "couro automotivo"]
 featured: false

@@ -3,7 +3,7 @@ title: "Detailing de Para-choques Plásticos: Restauração Completa"
 description: "Aprenda a restaurar para-choques plásticos desbotados. Técnicas profissionais, produtos eficazes e como manter a cor preta original."
 slug: "detailing-parachoques-plasticos"
 date: "2025-01-25"
-category: "Tutoriais"
+category: "Técnicas"
 tags: ["plásticos", "para-choques", "restauração", "renovação", "manutenção"]
 keywords: ["restaurar para-choques", "plásticos desbotados", "renovador plásticos", "para-choques pretos"]
 featured: false

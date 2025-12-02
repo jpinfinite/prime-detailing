@@ -3,7 +3,7 @@ title: "Melhores Ceras Automotivas 2025: Comparativo Completo [Guia Definitivo]"
 slug: "melhores-ceras-automotivas-2025"
 description: "Descubra as 10 melhores ceras automotivas de 2025. Comparativo completo com preços, durabilidade, brilho e custo-benefício. Guia atualizado para escolher a cera ideal."
 date: "2025-01-28"
-category: "Reviews"
+category: "Produtos"
 image: "/images/pexels/car-detailing-6873074.jpg"
 featured: true
 tags: ["cera automotiva", "reviews", "produtos", "comparativo", "2025"]

@@ -3,7 +3,7 @@ title: "Mercado de Detailing Cresce 5.9% ao Ano: Oportunidades e Tendências 202
 description: "Mercado global de detailing deve atingir $58 bilhões até 2030. Descubra oportunidades, tendências e como lucrar com o crescimento de 5.9% ao ano no setor."
 slug: "mercado-detailing-crescimento-2025"
 date: "2025-01-15"
-category: "Notícias"
+category: "Mercado"
 tags: ["mercado", "crescimento", "oportunidades", "tendências", "negócios", "investimento", "franquias"]
 keywords: ["mercado de detailing", "crescimento detailing", "oportunidades detailing", "negócio detailing", "investir em detailing", "franquia detailing", "lucro detailing"]
 featured: true

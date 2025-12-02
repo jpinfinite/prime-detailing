@@ -3,7 +3,7 @@ title: "Melhores Microfibras para Detailing 2025: Top 10 + Guia Completo [GSM]"
 description: "Top 10 melhores microfibras testadas: secagem, polimento, vidros. Guia GSM, tabela comparativa, como lavar e quando trocar. De R$ 12 a R$ 200. Reviews honestos."
 slug: "melhores-microfibras-detailing"
 date: "2025-01-27"
-category: "Reviews"
+category: "Produtos"
 tags: ["microfibra", "panos", "ferramentas", "equipamentos", "review", "gsm", "comparativo"]
 keywords: ["microfibra detailing", "melhores panos", "microfibra carro", "panos detailing", "gsm microfibra", "waffle weave", "edgeless"]
 featured: true

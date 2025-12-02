@@ -9,33 +9,49 @@ const translations = {
         name: "Tutoriais", 
         icon: "🔧",
         description: "Passo a passo detalhado",
-        count: "8 artigos",
+        count: "6 artigos",
         color: "from-blue-500/20 to-blue-600/20",
-        href: "/artigos"
-      },
-      { 
-        name: "Guias Completos", 
-        icon: "📚",
-        description: "Conhecimento profundo",
-        count: "7 artigos",
-        color: "from-green-500/20 to-green-600/20",
-        href: "/artigos"
+        href: "/artigos?categoria=Tutoriais"
       },
       { 
         name: "Reviews", 
         icon: "⭐",
-        description: "Análises honestas",
-        count: "2 artigos",
-        color: "from-purple-500/20 to-purple-600/20",
-        href: "/artigos"
+        description: "Análises honestas de produtos",
+        count: "3 artigos",
+        color: "from-green-500/20 to-green-600/20",
+        href: "/artigos?categoria=Reviews"
       },
       { 
-        name: "Notícias", 
-        icon: "📰",
-        description: "Mercado e tendências",
+        name: "Produtos", 
+        icon: "🧴",
+        description: "Comparativos e recomendações",
+        count: "3 artigos",
+        color: "from-purple-500/20 to-purple-600/20",
+        href: "/artigos?categoria=Produtos"
+      },
+      { 
+        name: "Técnicas", 
+        icon: "🛠️",
+        description: "Métodos profissionais",
+        count: "3 artigos",
+        color: "from-yellow-500/20 to-yellow-600/20",
+        href: "/artigos?categoria=Técnicas"
+      },
+      { 
+        name: "Mercado", 
+        icon: "📈",
+        description: "Tendências e novidades",
         count: "1 artigo",
         color: "from-orange-500/20 to-orange-600/20",
-        href: "/artigos"
+        href: "/artigos?categoria=Mercado"
+      },
+      { 
+        name: "Manutenção", 
+        icon: "🔩",
+        description: "Cuidados e conservação",
+        count: "4 artigos",
+        color: "from-red-500/20 to-red-600/20",
+        href: "/artigos?categoria=Manutenção"
       },
     ]
   },
@@ -47,33 +63,49 @@ const translations = {
         name: "Tutorials", 
         icon: "🔧",
         description: "Detailed step-by-step",
-        count: "8 articles",
+        count: "6 articles",
         color: "from-blue-500/20 to-blue-600/20",
-        href: "/artigos"
-      },
-      { 
-        name: "Complete Guides", 
-        icon: "📚",
-        description: "Deep knowledge",
-        count: "7 articles",
-        color: "from-green-500/20 to-green-600/20",
-        href: "/artigos"
+        href: "/artigos?categoria=Tutoriais"
       },
       { 
         name: "Reviews", 
         icon: "⭐",
-        description: "Honest analysis",
-        count: "2 articles",
-        color: "from-purple-500/20 to-purple-600/20",
-        href: "/artigos"
+        description: "Honest product analysis",
+        count: "3 articles",
+        color: "from-green-500/20 to-green-600/20",
+        href: "/artigos?categoria=Reviews"
       },
       { 
-        name: "News", 
-        icon: "📰",
-        description: "Market and trends",
+        name: "Products", 
+        icon: "🧴",
+        description: "Comparisons and recommendations",
+        count: "3 articles",
+        color: "from-purple-500/20 to-purple-600/20",
+        href: "/artigos?categoria=Produtos"
+      },
+      { 
+        name: "Techniques", 
+        icon: "🛠️",
+        description: "Professional methods",
+        count: "3 articles",
+        color: "from-yellow-500/20 to-yellow-600/20",
+        href: "/artigos?categoria=Técnicas"
+      },
+      { 
+        name: "Market", 
+        icon: "📈",
+        description: "Trends and news",
         count: "1 article",
         color: "from-orange-500/20 to-orange-600/20",
-        href: "/artigos"
+        href: "/artigos?categoria=Mercado"
+      },
+      { 
+        name: "Maintenance", 
+        icon: "🔩",
+        description: "Care and conservation",
+        count: "4 articles",
+        color: "from-red-500/20 to-red-600/20",
+        href: "/artigos?categoria=Manutenção"
       },
     ]
   },
@@ -106,7 +138,7 @@ export default function Categories({ locale }: { locale: string }) {
         </div>
 
         {/* Grid de categorias */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {t.categories.map((category, index) => (
             <Link
               key={category.name}

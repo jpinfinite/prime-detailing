@@ -3,7 +3,7 @@ title: "Guia Completo de Enceramento Automotivo: Tudo Que Você Precisa Saber"
 description: "Aprenda tudo sobre enceramento automotivo: tipos de cera, técnicas de aplicação, frequência ideal e como obter resultados profissionais."
 slug: "guia-enceramento-automotivo"
 date: "2025-01-16"
-category: "Guias"
+category: "Tutoriais"
 tags: ["enceramento", "cera", "proteção", "brilho", "manutenção"]
 keywords: ["enceramento automotivo", "como encerar carro", "tipos de cera", "cera carnaúba", "cera sintética"]
 featured: true

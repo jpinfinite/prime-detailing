@@ -3,7 +3,7 @@ title: "Polimento Manual vs Máquina: Guia Completo 2025 [Comparativo Detalhado]
 description: "Polimento manual ou politriz? Compare custos (R$ 75 vs R$ 2.700), resultados, tempo e segurança. Tabelas comparativas, recomendações por perfil e guia de compra completo."
 slug: "polimento-manual-vs-maquina"
 date: "2025-01-22"
-category: "Guias"
+category: "Técnicas"
 tags: ["polimento", "politriz", "manual", "técnicas", "comparação", "dual action", "rotativa"]
 keywords: ["polimento manual", "politriz", "polimento máquina", "qual melhor", "dual action", "politriz rotativa", "comparação polimento"]
 featured: true

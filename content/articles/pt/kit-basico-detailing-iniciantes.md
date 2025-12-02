@@ -3,7 +3,7 @@ title: "Kit Básico de Detailing para Iniciantes: Guia Completo 2025 [R$ 300-2.5
 description: "Monte seu kit de detailing com R$ 300-2.500. Guia completo com produtos essenciais, tabelas comparativas, onde comprar e como economizar. Resultados profissionais garantidos."
 slug: "kit-basico-detailing-iniciantes"
 date: "2025-01-13"
-category: "Guias"
+category: "Tutoriais"
 tags: ["iniciantes", "kit", "produtos", "equipamentos", "guia", "preços", "recomendações"]
 keywords: ["kit detailing iniciantes", "produtos detailing", "começar detailing", "equipamentos básicos", "quanto custa detailing", "kit completo detailing"]
 featured: true

@@ -3,7 +3,7 @@ title: "Como Polir Faróis em Casa: Guia Completo 2025"
 description: "Aprenda o método profissional de polimento de faróis. Passo a passo simples, materiais acessíveis e resultado garantido. Veja como restaurar seus faróis!"
 slug: "como-polir-farois-2025"
 date: "2025-11-30"
-category: "Tutoriais"
+category: "Técnicas"
 tags: ["polimento", "faróis", "diy", "manutenção", "detailing"]
 keywords: ["polir faróis", "faróis amarelados", "restaurar faróis", "polimento de faróis", "faróis opacos"]
 featured: true

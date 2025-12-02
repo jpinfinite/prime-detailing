@@ -3,7 +3,7 @@ title: "Cuidados com Pintura Preta: Guia Definitivo"
 description: "Pintura preta é linda mas exigente. Aprenda técnicas específicas para lavar, polir e proteger carros pretos sem hologramas ou arranhões."
 slug: "cuidados-pintura-preta"
 date: "2025-01-21"
-category: "Guias"
+category: "Manutenção"
 tags: ["pintura preta", "carro preto", "hologramas", "brilho", "manutenção"]
 keywords: ["pintura preta", "carro preto", "cuidados carro preto", "hologramas pintura"]
 featured: true

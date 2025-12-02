@@ -3,7 +3,7 @@ title: "Como Remover Manchas de Água da Pintura: Guia Completo"
 description: "Aprenda a remover manchas de água (water spots) da pintura automotiva. Técnicas profissionais, produtos eficazes e prevenção."
 slug: "remover-manchas-agua"
 date: "2025-01-20"
-category: "Tutoriais"
+category: "Manutenção"
 tags: ["manchas", "water spots", "pintura", "correção", "limpeza"]
 keywords: ["manchas de água", "water spots", "remover manchas pintura", "manchas de chuva"]
 featured: true

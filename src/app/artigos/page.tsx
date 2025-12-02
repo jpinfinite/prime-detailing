@@ -1,10 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import { getAllArticles } from "@/lib/articles";
+import { getAllArticles, getArticlesByCategory } from "@/lib/articles";
 import SearchBar from "@/components/SearchBar";
 
-export default async function ArticlesPage() {
-  const articles = await getAllArticles('pt');
+export default async function ArticlesPage({
+  searchParams,
+}: {
+  searchParams: { categoria?: string };
+}) {
+  const categoria = searchParams.categoria;
+  const articles = categoria 
+    ? getArticlesByCategory(categoria, 'pt')
+    : await getAllArticles('pt');
 
   return (
     <div className="min-h-screen bg-prime-black">
@@ -25,27 +32,95 @@ export default async function ArticlesPage() {
         </div>
 
         {/* Filtros */}
-        <div className="flex flex-wrap gap-4 mb-8">
-          <button className="px-4 py-2 bg-prime-yellow text-prime-black rounded-lg font-semibold">
+        <div className="flex flex-wrap gap-4 mb-8 justify-center">
+          <Link 
+            href="/artigos"
+            className={`px-4 py-2 rounded-lg font-semibold transition ${
+              !categoria 
+                ? 'bg-prime-yellow text-prime-black' 
+                : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
+            }`}
+          >
             Todos
-          </button>
-          <button className="px-4 py-2 bg-prime-gray-medium text-text-primary rounded-lg hover:bg-prime-gray-light transition">
-            Guias
-          </button>
-          <button className="px-4 py-2 bg-prime-gray-medium text-text-primary rounded-lg hover:bg-prime-gray-light transition">
-            Tutoriais
-          </button>
-          <button className="px-4 py-2 bg-prime-gray-medium text-text-primary rounded-lg hover:bg-prime-gray-light transition">
-            Reviews
-          </button>
-          <button className="px-4 py-2 bg-prime-gray-medium text-text-primary rounded-lg hover:bg-prime-gray-light transition">
-            Notícias
-          </button>
+          </Link>
+          <Link 
+            href="/artigos?categoria=Tutoriais"
+            className={`px-4 py-2 rounded-lg font-semibold transition ${
+              categoria === 'Tutoriais' 
+                ? 'bg-prime-yellow text-prime-black' 
+                : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
+            }`}
+          >
+            📚 Tutoriais
+          </Link>
+          <Link 
+            href="/artigos?categoria=Reviews"
+            className={`px-4 py-2 rounded-lg font-semibold transition ${
+              categoria === 'Reviews' 
+                ? 'bg-prime-yellow text-prime-black' 
+                : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
+            }`}
+          >
+            ⭐ Reviews
+          </Link>
+          <Link 
+            href="/artigos?categoria=Produtos"
+            className={`px-4 py-2 rounded-lg font-semibold transition ${
+              categoria === 'Produtos' 
+                ? 'bg-prime-yellow text-prime-black' 
+                : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
+            }`}
+          >
+            🧴 Produtos
+          </Link>
+          <Link 
+            href="/artigos?categoria=Técnicas"
+            className={`px-4 py-2 rounded-lg font-semibold transition ${
+              categoria === 'Técnicas' 
+                ? 'bg-prime-yellow text-prime-black' 
+                : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
+            }`}
+          >
+            🛠️ Técnicas
+          </Link>
+          <Link 
+            href="/artigos?categoria=Mercado"
+            className={`px-4 py-2 rounded-lg font-semibold transition ${
+              categoria === 'Mercado' 
+                ? 'bg-prime-yellow text-prime-black' 
+                : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
+            }`}
+          >
+            📈 Mercado
+          </Link>
+          <Link 
+            href="/artigos?categoria=Manutenção"
+            className={`px-4 py-2 rounded-lg font-semibold transition ${
+              categoria === 'Manutenção' 
+                ? 'bg-prime-yellow text-prime-black' 
+                : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
+            }`}
+          >
+            🔩 Manutenção
+          </Link>
         </div>
         
         {/* Grid de Artigos */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {articles.map((article) => (
+        {articles.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-xl text-text-secondary mb-4">
+              Nenhum artigo encontrado nesta categoria ainda.
+            </p>
+            <Link 
+              href="/artigos"
+              className="text-prime-yellow hover:text-prime-yellow-light font-semibold"
+            >
+              ← Ver todos os artigos
+            </Link>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {articles.map((article) => (
             <article 
               key={article.slug} 
               className="bg-prime-gray-medium rounded-lg border border-prime-gray-light overflow-hidden hover:border-prime-yellow transition-all group"
@@ -82,7 +157,8 @@ export default async function ArticlesPage() {
               </div>
             </article>
           ))}
-        </div>
+          </div>
+        )}
 
         {/* Paginação */}
         <div className="mt-12 flex justify-center gap-2">
