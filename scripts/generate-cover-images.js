@@ -78,6 +78,8 @@ async function generateCoverImage(prompt, filename) {
     console.log(`🎨 Gerando capa: ${filename}`);
     console.log(`📝 Prompt: ${prompt}\n`);
 
+    // Usando FLUX.1-schnell (rápido e gratuito)
+    // Para melhor qualidade, use: 'black-forest-labs/FLUX.2-dev'
     const blob = await client.textToImage({
       model: 'black-forest-labs/FLUX.1-schnell',
       inputs: prompt,
