@@ -21,6 +21,11 @@ export interface Article {
   readTime?: string;
 }
 
+// Cache de artigos em memória
+const articlesCache = new Map<string, Article[]>();
+const CACHE_TTL = 1000 * 60 * 5; // 5 minutos
+let lastCacheTime = 0;
+
 export async function getArticleBySlug(slug: string, locale: string = 'pt'): Promise<Article | null> {
   try {
     const fullPath = path.join(articlesDirectory, locale, `${slug}.md`);
@@ -62,6 +67,14 @@ export async function getArticleBySlug(slug: string, locale: string = 'pt'): Pro
 
 export function getAllArticles(locale: string = 'pt'): Article[] {
   try {
+    // Verificar cache
+    const now = Date.now();
+    const cacheKey = `articles_${locale}`;
+    
+    if (articlesCache.has(cacheKey) && (now - lastCacheTime) < CACHE_TTL) {
+      return articlesCache.get(cacheKey)!;
+    }
+
     const localeDir = path.join(articlesDirectory, locale);
     
     // Verificar se o diretório existe
@@ -104,7 +117,13 @@ export function getAllArticles(locale: string = 'pt'): Article[] {
       })
       .filter((article) => article !== null) as Article[];
 
-    return articles.sort((a, b) => (a.date > b.date ? -1 : 1));
+    const sortedArticles = articles.sort((a, b) => (a.date > b.date ? -1 : 1));
+    
+    // Atualizar cache
+    articlesCache.set(cacheKey, sortedArticles);
+    lastCacheTime = now;
+    
+    return sortedArticles;
   } catch (error) {
     console.error('Error loading articles:', error);
     return [];

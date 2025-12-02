@@ -40,19 +40,19 @@ export default function Header({ locale }: { locale: string }) {
 
           {/* Menu Desktop */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-text-primary hover:text-prime-yellow transition-colors">
+            <Link href="/" className="text-text-primary hover:text-prime-yellow transition-colors" aria-label={t.home}>
               {t.home}
             </Link>
-            <Link href="/artigos" className="text-text-primary hover:text-prime-yellow transition-colors">
+            <Link href="/artigos" className="text-text-primary hover:text-prime-yellow transition-colors" aria-label={t.articles}>
               {t.articles}
             </Link>
-            <Link href="/reviews" className="text-text-primary hover:text-prime-yellow transition-colors">
+            <Link href="/reviews" className="text-text-primary hover:text-prime-yellow transition-colors" aria-label={t.reviews}>
               {t.reviews}
             </Link>
-            <Link href="/educacao" className="text-text-primary hover:text-prime-yellow transition-colors">
+            <Link href="/educacao" className="text-text-primary hover:text-prime-yellow transition-colors" aria-label={t.education}>
               {t.education}
             </Link>
-            <Link href="/sobre" className="text-text-primary hover:text-prime-yellow transition-colors">
+            <Link href="/sobre" className="text-text-primary hover:text-prime-yellow transition-colors" aria-label={t.about}>
               {t.about}
             </Link>
             <LanguageSwitcher currentLocale={locale} />

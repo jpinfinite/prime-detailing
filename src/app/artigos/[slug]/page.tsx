@@ -14,6 +14,46 @@ export async function generateStaticParams() {
 import { getArticleBySlug } from "@/lib/articles";
 import { notFound } from "next/navigation";
 
+// Gerar metadata dinâmica
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  const article = await getArticleBySlug(params.slug, 'pt');
+  
+  if (!article) {
+    return {
+      title: 'Artigo não encontrado',
+    };
+  }
+
+  return {
+    title: article.title,
+    description: article.description,
+    keywords: article.tags?.join(', '),
+    openGraph: {
+      title: article.title,
+      description: article.description,
+      url: `https://detailingprime.com.br/artigos/${article.slug}`,
+      siteName: 'Detailing Prime',
+      images: [
+        {
+          url: article.image,
+          width: 1200,
+          height: 630,
+          alt: article.title,
+        },
+      ],
+      locale: 'pt_BR',
+      type: 'article',
+      publishedTime: article.date,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description: article.description,
+      images: [article.image],
+    },
+  };
+}
+
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
   const article = await getArticleBySlug(params.slug, 'pt');
   
@@ -94,7 +134,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           <div className="flex items-center text-text-secondary space-x-4">
             <span>{article.date}</span>
             <span>•</span>
-            <span>Por {article.author}</span>
+            <span>Por Detailing Prime</span>
           </div>
         </div>
 
