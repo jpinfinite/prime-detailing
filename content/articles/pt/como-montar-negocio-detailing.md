@@ -5,7 +5,7 @@ date: "2025-01-15"
 author: "Detailing Prime"
 category: "Mercado"
 tags: ["negócio", "empreendedorismo", "detailing", "investimento", "lucro"]
-image: "/images/negocio-detailing.jpg"
+image: "/images/negocio.jpg"
 readTime: "12 min"
 featured: true
 ---
