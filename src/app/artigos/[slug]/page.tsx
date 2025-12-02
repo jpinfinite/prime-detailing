@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/articles";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/StructuredData";
 
 // Gera todas as rotas estáticas em build time
 export async function generateStaticParams() {
@@ -11,7 +12,7 @@ export async function generateStaticParams() {
   }));
 }
 
-import { getArticleBySlug } from "@/lib/articles";
+import { getArticleBySlug, getRelatedArticles } from "@/lib/articles";
 import { notFound } from "next/navigation";
 
 // Gerar metadata dinâmica
@@ -24,18 +25,23 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     };
   }
 
+  const articleUrl = `https://detailingprime.com.br/artigos/${article.slug}`;
+
   return {
     title: article.title,
     description: article.description,
     keywords: article.tags?.join(', '),
+    alternates: {
+      canonical: articleUrl,
+    },
     openGraph: {
       title: article.title,
       description: article.description,
-      url: `https://detailingprime.com.br/artigos/${article.slug}`,
+      url: articleUrl,
       siteName: 'Detailing Prime',
       images: [
         {
-          url: article.image,
+          url: `https://detailingprime.com.br${article.image}`,
           width: 1200,
           height: 630,
           alt: article.title,
@@ -44,12 +50,17 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       locale: 'pt_BR',
       type: 'article',
       publishedTime: article.date,
+      modifiedTime: article.date,
+      authors: ['Detailing Prime'],
+      section: article.category,
+      tags: article.tags,
     },
     twitter: {
       card: 'summary_large_image',
       title: article.title,
       description: article.description,
-      images: [article.image],
+      images: [`https://detailingprime.com.br${article.image}`],
+      creator: '@detailingprime',
     },
   };
 }
@@ -60,6 +71,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   if (!article) {
     notFound();
   }
+
+  // Buscar artigos relacionados
+  const relatedArticles = getRelatedArticles(article.slug, article.category, 'pt', 3);
   
   const mockArticle = {
     title: article.title,
@@ -104,6 +118,25 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
   return (
     <div className="min-h-screen bg-prime-black">
+      {/* Structured Data */}
+      <ArticleSchema
+        title={article.title}
+        description={article.description}
+        image={`https://detailingprime.com.br${article.image}`}
+        datePublished={article.date}
+        dateModified={article.date}
+        author="Detailing Prime"
+        url={`https://detailingprime.com.br/artigos/${article.slug}`}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://detailingprime.com.br' },
+          { name: 'Artigos', url: 'https://detailingprime.com.br/artigos' },
+          { name: article.category, url: `https://detailingprime.com.br/artigos?categoria=${article.category}` },
+          { name: article.title, url: `https://detailingprime.com.br/artigos/${article.slug}` },
+        ]}
+      />
+
       {/* Breadcrumb */}
       <div className="bg-prime-gray-dark border-b border-prime-gray-medium">
         <div className="container mx-auto px-4 py-4">
@@ -142,8 +175,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         <div className="relative h-64 md:h-96 lg:h-[500px] mb-12 rounded-lg overflow-hidden shadow-2xl">
           <Image
             src={article.image}
-            alt={article.title}
+            alt={`${article.title} - Guia completo de detailing automotivo`}
             fill
+            priority
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
             className="object-cover"
           />
         </div>
@@ -188,34 +223,44 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         </div>
 
         {/* Artigos Relacionados */}
-        <div className="mt-16">
-          <h3 className="text-2xl font-bold text-text-primary mb-8">
-            Artigos Relacionados
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
-              <Link
-                key={i}
-                href="/artigos/exemplo"
-                className="bg-prime-gray-medium rounded-lg border border-prime-gray-light overflow-hidden hover:border-prime-yellow transition group"
-              >
-                <div className="relative h-32">
-                  <Image
-                    src="/arquivos para o site/Destaques/detailing-2-automobile--car-wallpapers--na.jpg"
-                    alt="Artigo relacionado"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-4">
-                  <h4 className="font-semibold text-text-primary group-hover:text-prime-yellow transition">
-                    Artigo Relacionado {i}
-                  </h4>
-                </div>
-              </Link>
-            ))}
+        {relatedArticles.length > 0 && (
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold text-text-primary mb-8">
+              Artigos Relacionados
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {relatedArticles.map((relatedArticle) => (
+                <Link
+                  key={relatedArticle.slug}
+                  href={`/artigos/${relatedArticle.slug}`}
+                  className="bg-prime-gray-medium rounded-lg border border-prime-gray-light overflow-hidden hover:border-prime-yellow transition group"
+                >
+                  <div className="relative h-32">
+                    <Image
+                      src={relatedArticle.image}
+                      alt={`${relatedArticle.title} - ${relatedArticle.category}`}
+                      fill
+                      loading="lazy"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <span className="text-xs text-prime-yellow font-semibold mb-2 block">
+                      {relatedArticle.category}
+                    </span>
+                    <h4 className="font-semibold text-text-primary group-hover:text-prime-yellow transition line-clamp-2">
+                      {relatedArticle.title}
+                    </h4>
+                    <p className="text-sm text-text-secondary mt-2">
+                      {relatedArticle.readTime}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </article>
     </div>
   );

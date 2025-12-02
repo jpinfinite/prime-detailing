@@ -139,3 +139,22 @@ export function getArticlesByCategory(category: string, locale: string = 'pt'): 
   const allArticles = getAllArticles(locale);
   return allArticles.filter(article => article.category === category);
 }
+
+export function getRelatedArticles(currentSlug: string, category: string, locale: string = 'pt', limit: number = 3): Article[] {
+  const allArticles = getAllArticles(locale);
+  
+  // Filtrar artigos da mesma categoria, excluindo o atual
+  const relatedByCategory = allArticles.filter(
+    article => article.category === category && article.slug !== currentSlug
+  );
+  
+  // Se não houver artigos suficientes na mesma categoria, pegar outros artigos
+  if (relatedByCategory.length < limit) {
+    const otherArticles = allArticles.filter(
+      article => article.slug !== currentSlug && article.category !== category
+    );
+    return [...relatedByCategory, ...otherArticles].slice(0, limit);
+  }
+  
+  return relatedByCategory.slice(0, limit);
+}

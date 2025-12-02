@@ -53,8 +53,10 @@ export default async function ArticlesPage() {
               <div className="relative h-48 overflow-hidden">
                 <Image
                   src={article.image}
-                  alt={article.title}
+                  alt={`${article.title} - ${article.category}`}
                   fill
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
