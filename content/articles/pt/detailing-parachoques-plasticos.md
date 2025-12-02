@@ -7,7 +7,7 @@ category: "Técnicas"
 tags: ["plásticos", "para-choques", "restauração", "renovação", "manutenção"]
 keywords: ["restaurar para-choques", "plásticos desbotados", "renovador plásticos", "para-choques pretos"]
 featured: false
-image: "/images/parachoques-plasticos.jpg"
+image: "/images/Para-choques.jpg"
 ---
 
 # Detailing de Para-choques Plásticos: Restauração Completa
