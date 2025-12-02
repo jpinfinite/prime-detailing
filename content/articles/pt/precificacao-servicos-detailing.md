@@ -5,7 +5,7 @@ date: "2025-01-14"
 author: "Detailing Prime"
 category: "Mercado"
 tags: ["precificação", "preços", "lucro", "gestão", "negócio"]
-image: "/images/precificacao-detailing.jpg"
+image: "/images/covers/precificacao-servicos-detailing.jpg"
 readTime: "10 min"
 featured: true
 ---

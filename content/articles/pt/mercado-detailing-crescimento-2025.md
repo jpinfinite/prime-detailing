@@ -7,7 +7,7 @@ category: "Mercado"
 tags: ["mercado", "crescimento", "oportunidades", "tendências", "negócios", "investimento", "franquias"]
 keywords: ["mercado de detailing", "crescimento detailing", "oportunidades detailing", "negócio detailing", "investir em detailing", "franquia detailing", "lucro detailing"]
 featured: true
-image: "/images/mercado-crescimento.jpg"
+image: "/images/covers/mercado-detailing-crescimento-2025.jpg"
 ---
 
 # Mercado de Detailing Cresce 5.9% ao Ano: Oportunidades e Tendências 2025

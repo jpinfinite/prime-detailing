@@ -7,7 +7,7 @@ author: "Detailing Prime"
 category: "Técnicas"
 tags: ["polimento", "faróis", "diy", "manutenção", "detailing"]
 keywords: ["polir faróis", "faróis amarelados", "restaurar faróis", "polimento de faróis", "faróis opacos"]
-image: "/images/polir-farois.jpg"
+image: "/images/covers/como-polir-farois-2025.jpg"
 readTime: "8 min"
 featured: true
 ---

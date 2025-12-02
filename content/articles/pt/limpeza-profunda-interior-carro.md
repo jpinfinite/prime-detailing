@@ -7,7 +7,7 @@ category: "Tutoriais"
 tags: ["limpeza interior", "detailing", "manutenção", "tutorial", "diy"]
 keywords: ["limpeza interior carro", "limpar banco carro", "detailing interior", "limpeza profunda"]
 featured: true
-image: "/images/interior-carro.jpg"
+image: "/images/covers/limpeza-profunda-interior-carro.jpg"
 ---
 
 # Limpeza Profunda do Interior do Carro: Guia Completo 2025

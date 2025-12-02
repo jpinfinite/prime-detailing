@@ -5,7 +5,7 @@ date: "2025-01-24"
 author: "Detailing Prime"
 category: "Reviews"
 tags: ["mothers", "ceramic", "proteção", "review", "spray"]
-image: "/images/mothers-cmx.jpg"
+image: "/images/covers/review-mothers-cmx-ceramic.jpg"
 readTime: "9 min"
 featured: false
 ---

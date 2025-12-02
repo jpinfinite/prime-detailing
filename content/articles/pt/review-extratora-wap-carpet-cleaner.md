@@ -5,7 +5,7 @@ date: "2025-01-27"
 author: "Detailing Prime"
 category: "Reviews"
 tags: ["extratora", "wap", "limpeza", "interior", "review"]
-image: "/images/extratora-wap.jpg"
+image: "/images/covers/review-extratora-wap-carpet-cleaner.jpg"
 readTime: "11 min"
 featured: false
 ---

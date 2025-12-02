@@ -21,7 +21,7 @@ const imagePrompts = {
   'negocio-detailing-ai.jpg': 'Professional car detailing business, modern auto spa, clean workspace, automotive care center, professional environment',
   'equipamentos-detailing-ai.jpg': 'Complete car detailing equipment set, professional tools, polishers, cleaners, organized workspace, automotive care',
   'marketing-detailing-ai.jpg': 'Car detailing marketing concept, social media on phone, before and after car photos, digital marketing, automotive business',
-  'precificacao-detailing-ai.jpg': 'Car detailing pricing chart, professional service menu, automotive care packages, business concept',
+  'precificacao-detailing-ai.jpg': 'Professional detailer calculating prices on tablet, modern car detailing shop, business planning, automotive service pricing concept, no text',
   
   // Técnicas e Processos
   'polimento-processo-ai.jpg': 'Car polishing process, professional detailer working, orbital polisher on car paint, automotive detailing in action',
@@ -35,14 +35,10 @@ async function generateImage(prompt, filename) {
     console.log(`🎨 Gerando: ${filename}`);
     console.log(`📝 Prompt: ${prompt}\n`);
 
+    // Usar modelo gratuito e acessível
     const blob = await client.textToImage({
       model: 'black-forest-labs/FLUX.1-schnell',
       inputs: prompt,
-      parameters: {
-        width: 1024,
-        height: 768,
-        num_inference_steps: 4,
-      }
     });
 
     // Converter Blob para Buffer

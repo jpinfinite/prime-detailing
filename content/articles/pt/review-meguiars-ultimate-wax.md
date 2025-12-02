@@ -5,7 +5,7 @@ date: "2025-01-29"
 author: "Detailing Prime"
 category: "Reviews"
 tags: ["meguiars", "cera", "review", "produtos", "detailing"]
-image: "/images/meguiars-ultimate.jpg"
+image: "/images/covers/review-meguiars-ultimate-wax.jpg"
 readTime: "10 min"
 featured: true
 ---

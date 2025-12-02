@@ -7,7 +7,7 @@ category: "Tutoriais"
 tags: ["enceramento", "cera", "proteção", "brilho", "manutenção"]
 keywords: ["enceramento automotivo", "como encerar carro", "tipos de cera", "cera carnaúba", "cera sintética"]
 featured: true
-image: "/images/enceramento.jpg"
+image: "/images/covers/guia-enceramento-automotivo.jpg"
 ---
 
 # Guia Completo de Enceramento Automotivo: Tudo Que Você Precisa Saber

@@ -5,7 +5,7 @@ date: "2025-01-13"
 author: "Detailing Prime"
 category: "Mercado"
 tags: ["equipamentos", "ferramentas", "investimento", "compras", "profissional"]
-image: "/images/equipamentos-detailing.jpg"
+image: "/images/covers/equipamentos-essenciais-detailing.jpg"
 readTime: "15 min"
 featured: true
 ---

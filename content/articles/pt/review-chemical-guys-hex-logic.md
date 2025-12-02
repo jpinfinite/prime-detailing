@@ -5,7 +5,7 @@ date: "2025-01-25"
 author: "Detailing Prime"
 category: "Reviews"
 tags: ["boinas", "chemical guys", "polimento", "review", "equipamentos"]
-image: "/images/hex-logic.jpg"
+image: "/images/covers/review-chemical-guys-hex-logic.jpg"
 readTime: "10 min"
 featured: false
 ---

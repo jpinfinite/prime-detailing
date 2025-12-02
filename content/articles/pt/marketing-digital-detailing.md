@@ -5,7 +5,7 @@ date: "2025-01-12"
 author: "Detailing Prime"
 category: "Mercado"
 tags: ["marketing", "instagram", "redes sociais", "clientes", "vendas"]
-image: "/images/marketing-detailing.jpg"
+image: "/images/covers/marketing-digital-detailing.jpg"
 readTime: "14 min"
 ---
 

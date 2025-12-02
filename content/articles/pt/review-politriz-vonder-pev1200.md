@@ -5,7 +5,7 @@ date: "2025-01-28"
 author: "Detailing Prime"
 category: "Reviews"
 tags: ["politriz", "vonder", "equipamentos", "review", "polimento"]
-image: "/images/politriz-vonder.jpg"
+image: "/images/covers/review-politriz-vonder-pev1200.jpg"
 readTime: "12 min"
 featured: true
 ---

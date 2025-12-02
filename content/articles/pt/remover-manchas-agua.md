@@ -7,7 +7,7 @@ category: "Manutenção"
 tags: ["manchas", "water spots", "pintura", "correção", "limpeza"]
 keywords: ["manchas de água", "water spots", "remover manchas pintura", "manchas de chuva"]
 featured: true
-image: "/images/manchas-agua.jpg"
+image: "/images/covers/remover-manchas-agua.jpg"
 ---
 
 # Como Remover Manchas de Água da Pintura: Guia Completo

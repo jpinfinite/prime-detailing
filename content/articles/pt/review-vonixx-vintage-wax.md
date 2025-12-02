@@ -5,7 +5,7 @@ date: "2025-01-26"
 author: "Detailing Prime"
 category: "Reviews"
 tags: ["vonixx", "cera", "carnaúba", "review", "nacional"]
-image: "/images/vonixx-vintage.jpg"
+image: "/images/covers/review-vonixx-vintage-wax.jpg"
 readTime: "9 min"
 featured: false
 ---

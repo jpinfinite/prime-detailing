@@ -7,7 +7,7 @@ category: "Tutoriais"
 tags: ["rodas", "pneus", "limpeza", "manutenção", "detailing"]
 keywords: ["limpeza de rodas", "limpar pneus", "pó de freio", "pretinho pneus"]
 featured: true
-image: "/images/rodas.jpg"
+image: "/images/covers/limpeza-rodas-pneus.jpg"
 ---
 
 # Limpeza de Rodas e Pneus: Guia Profissional Completo

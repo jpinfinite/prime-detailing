@@ -5,7 +5,7 @@ date: "2025-01-23"
 author: "Detailing Prime"
 category: "Reviews"
 tags: ["3m", "polimento", "compound", "review", "profissional"]
-image: "/images/3m-perfect-it.jpg"
+image: "/images/covers/review-3m-perfect-it.jpg"
 readTime: "11 min"
 featured: false
 ---
