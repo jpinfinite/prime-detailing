@@ -1,3 +1,5 @@
+import NewsletterForm from './NewsletterForm';
+
 const translations = {
   pt: {
     badge: "📧 Fique por Dentro",
@@ -51,19 +53,7 @@ export default function NewsletterCTA({ locale }: { locale: string }) {
                 <p className="text-gray-400 text-lg">{t.subtitle}</p>
               </div>
 
-              <form className="flex flex-col sm:flex-row gap-4 mb-6">
-                <input
-                  type="email"
-                  placeholder={t.placeholder}
-                  className="flex-1 px-6 py-4 bg-prime-black border-2 border-prime-gray-light focus:border-prime-yellow rounded-lg text-white placeholder-gray-500 outline-none transition-all"
-                />
-                <button
-                  type="submit"
-                  className="px-8 py-4 bg-prime-yellow hover:bg-prime-yellow-dark text-prime-black font-bold rounded-lg transition-all transform hover:scale-105 whitespace-nowrap"
-                >
-                  {t.cta}
-                </button>
-              </form>
+              <NewsletterForm ctaText={t.cta} placeholder={t.placeholder} />
 
               <p className="text-center text-gray-500 text-sm mb-6">{t.privacy}</p>
 

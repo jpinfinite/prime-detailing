@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contato - Detailing Prime",
@@ -44,57 +45,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="bg-prime-gray-medium p-8 rounded-lg">
-            <h2 className="text-2xl font-bold mb-6 text-text-primary">Envie sua Mensagem</h2>
-            <form className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-text-primary mb-2">Nome</label>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full px-4 py-3 bg-prime-black border border-prime-gray-light rounded-lg text-text-primary focus:outline-none focus:border-prime-yellow"
-                  placeholder="Seu nome"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-text-primary mb-2">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full px-4 py-3 bg-prime-black border border-prime-gray-light rounded-lg text-text-primary focus:outline-none focus:border-prime-yellow"
-                  placeholder="seu@email.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-text-primary mb-2">Assunto</label>
-                <input
-                  type="text"
-                  id="subject"
-                  className="w-full px-4 py-3 bg-prime-black border border-prime-gray-light rounded-lg text-text-primary focus:outline-none focus:border-prime-yellow"
-                  placeholder="Sobre o que você quer falar?"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-text-primary mb-2">Mensagem</label>
-                <textarea
-                  id="message"
-                  rows={6}
-                  className="w-full px-4 py-3 bg-prime-black border border-prime-gray-light rounded-lg text-text-primary focus:outline-none focus:border-prime-yellow resize-none"
-                  placeholder="Sua mensagem..."
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-prime-yellow text-prime-black px-8 py-4 rounded-lg font-bold hover:bg-prime-yellow-light transition-colors"
-              >
-                Enviar Mensagem
-              </button>
-            </form>
-          </div>
+          <ContactForm />
         </div>
       </div>
     </div>

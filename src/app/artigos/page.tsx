@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/articles";
+import SearchBar from "@/components/SearchBar";
 
 export default async function ArticlesPage() {
   const articles = await getAllArticles('pt');
@@ -10,12 +11,17 @@ export default async function ArticlesPage() {
       <div className="container mx-auto px-4 py-12">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
-            Todos os Artigos
+          <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4 text-center">
+            Todos os <span className="text-prime-yellow">Artigos</span>
           </h1>
-          <p className="text-xl text-text-secondary">
+          <p className="text-xl text-text-secondary text-center mb-8">
             Explore nosso conteúdo sobre estética automotiva
           </p>
+          
+          {/* Busca */}
+          <div className="flex justify-center">
+            <SearchBar />
+          </div>
         </div>
 
         {/* Filtros */}
