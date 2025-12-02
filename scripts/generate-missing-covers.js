@@ -2,7 +2,7 @@ const { HfInference } = require('@huggingface/inference');
 const fs = require('fs');
 const path = require('path');
 
-const HF_TOKEN = process.env.HF_TOKEN || 'hf_your_token_here';
+const HF_TOKEN = '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';
 const client = new HfInference(HF_TOKEN);
 
 // Apenas as 3 imagens faltantes
