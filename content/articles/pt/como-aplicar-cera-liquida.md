@@ -7,7 +7,7 @@ category: "Tutoriais"
 tags: ["cera líquida", "aplicação", "proteção", "brilho", "tutorial"]
 keywords: ["aplicar cera líquida", "cera líquida carro", "como encerar", "técnica de enceramento"]
 featured: true
-image: "/arquivos para o site/Destaques/detailing-5-car--vehicle--transportation-s.jpg"
+image: "/images/pexels/pexels-tima-miroshnichenko-6873432.jpg"
 ---
 
 # Como Aplicar Cera Líquida: Passo a Passo Completo

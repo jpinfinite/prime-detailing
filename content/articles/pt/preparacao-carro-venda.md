@@ -7,7 +7,7 @@ category: "Guias"
 tags: ["venda", "preparação", "valorização", "detailing", "dicas"]
 keywords: ["preparar carro venda", "vender carro", "valorizar carro", "detailing venda"]
 featured: true
-image: "/arquivos para o site/Destaques/detailing-3-automobile--to-wash--clean--to.jpg"
+image: "/images/pexels/pexels-tima-miroshnichenko-6872648.jpg"
 ---
 
 # Preparação de Carro para Venda: Guia Completo

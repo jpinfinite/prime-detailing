@@ -7,7 +7,7 @@ category: "Tutoriais"
 tags: ["rodas", "pneus", "limpeza", "manutenção", "detailing"]
 keywords: ["limpeza de rodas", "limpar pneus", "pó de freio", "pretinho pneus"]
 featured: true
-image: "/arquivos para o site/Destaques/detailing-6-car--vehicle--chrome--bumper--.jpg"
+image: "/images/pexels/pexels-tima-miroshnichenko-6873433.jpg"
 ---
 
 # Limpeza de Rodas e Pneus: Guia Profissional Completo

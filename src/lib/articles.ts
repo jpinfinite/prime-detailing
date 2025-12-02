@@ -48,7 +48,7 @@ export async function getArticleBySlug(slug: string, locale: string = 'pt'): Pro
       content: contentHtml,
       date: data.date,
       category: data.category || 'Geral',
-      image: data.image || '/arquivos para o site/Destaques/detailing-1-car-washing--worker--man--car-.jpg',
+      image: data.image || '/images/pexels/pexels-tima-miroshnichenko-6873076.jpg',
       locale,
       featured: data.featured || false,
       tags: data.tags || [],
@@ -95,7 +95,7 @@ export function getAllArticles(locale: string = 'pt'): Article[] {
           content: '', // Não carregar conteúdo completo na listagem
           date: data.date,
           category: data.category || 'Geral',
-          image: data.image || '/arquivos para o site/Destaques/detailing-1-car-washing--worker--man--car-.jpg',
+          image: data.image || '/images/pexels/pexels-tima-miroshnichenko-6873076.jpg',
           locale,
           featured: data.featured || false,
           tags: data.tags || [],

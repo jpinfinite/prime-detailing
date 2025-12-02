@@ -7,7 +7,7 @@ category: "Guias"
 tags: ["iniciantes", "kit", "produtos", "equipamentos", "guia", "preços", "recomendações"]
 keywords: ["kit detailing iniciantes", "produtos detailing", "começar detailing", "equipamentos básicos", "quanto custa detailing", "kit completo detailing"]
 featured: true
-image: "/arquivos para o site/Destaques/detailing-3-automobile--to-wash--clean--to.jpg"
+image: "/images/pexels/pexels-tima-miroshnichenko-6872648.jpg"
 ---
 
 # Kit Básico de Detailing para Iniciantes: Guia Completo 2025

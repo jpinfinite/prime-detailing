@@ -6,7 +6,7 @@ export default function ArticlesPage() {
     {
       title: "Como Polir Faróis em Casa - Guia Completo 2025",
       excerpt: "Aprenda técnicas profissionais para restaurar faróis amarelados com produtos acessíveis",
-      image: "/arquivos para o site/Destaques/detailing-1-car-washing--worker--man--car-.jpg",
+      image: "/images/pexels/pexels-tima-miroshnichenko-6873076.jpg",
       slug: "como-polir-farois-2025",
       category: "Guias",
       date: "15 Jan 2025",
@@ -14,7 +14,7 @@ export default function ArticlesPage() {
     {
       title: "Mercado de Detailing: Crescimento em 2025",
       excerpt: "Análise completa do mercado brasileiro de estética automotiva e tendências",
-      image: "/arquivos para o site/Destaques/detailing-2-automobile--car-wallpapers--na.jpg",
+      image: "/images/pexels/pexels-tima-miroshnichenko-6873205.jpg",
       slug: "mercado-detailing-crescimento-2025",
       category: "Notícias",
       date: "10 Jan 2025",
@@ -22,7 +22,7 @@ export default function ArticlesPage() {
     {
       title: "Guia Completo de Enceramento Automotivo",
       excerpt: "Tudo sobre ceras, aplicação e proteção da pintura do seu veículo",
-      image: "/arquivos para o site/Destaques/detailing-3-automobile--to-wash--clean--to.jpg",
+      image: "/images/pexels/pexels-tima-miroshnichenko-6872648.jpg",
       slug: "guia-enceramento-automotivo",
       category: "Guias",
       date: "08 Jan 2025",

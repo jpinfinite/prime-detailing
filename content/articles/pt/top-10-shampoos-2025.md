@@ -7,7 +7,7 @@ category: "Reviews"
 tags: ["shampoo", "produtos", "review", "comparação", "2025"]
 keywords: ["melhor shampoo automotivo", "shampoo carro", "review shampoo", "comparação shampoo"]
 featured: true
-image: "/arquivos para o site/Destaques/detailing-1-car-washing--worker--man--car-.jpg"
+image: "/images/pexels/pexels-tima-miroshnichenko-6873076.jpg"
 ---
 
 # Top 10 Shampoos Automotivos 2025: Análise Completa

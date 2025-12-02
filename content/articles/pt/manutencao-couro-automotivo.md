@@ -7,7 +7,7 @@ category: "Guias"
 tags: ["couro", "bancos", "limpeza", "hidratação", "manutenção"]
 keywords: ["manutenção couro", "limpar banco couro", "hidratar couro", "couro automotivo"]
 featured: false
-image: "/arquivos para o site/Destaques/detailing-8-toyota--car--interior--suv--4r.jpg"
+image: "/images/pexels/pexels-tima-miroshnichenko-6873435.jpg"
 ---
 
 # Manutenção de Couro Automotivo: Guia Completo

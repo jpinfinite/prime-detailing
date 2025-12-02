@@ -7,7 +7,7 @@ category: "Guias"
 tags: ["polimento", "politriz", "manual", "técnicas", "comparação", "dual action", "rotativa"]
 keywords: ["polimento manual", "politriz", "polimento máquina", "qual melhor", "dual action", "politriz rotativa", "comparação polimento"]
 featured: true
-image: "/arquivos para o site/Destaques/detailing-2-automobile--car-wallpapers--na.jpg"
+image: "/images/pexels/pexels-tima-miroshnichenko-6873205.jpg"
 ---
 
 # Polimento Manual vs Máquina: Guia Completo 2025
