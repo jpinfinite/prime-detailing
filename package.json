@@ -9,13 +9,15 @@
     "start": "next start",
     "lint": "next lint",
     "migrate": "node scripts/migrate-articles.js",
-    "download-images": "node scripts/download-pixabay-images.js"
+    "download-images": "node scripts/download-pixabay-images.js",
+    "generate-ai-images": "node scripts/generate-ai-images.js"
   },
   "dependencies": {
+    "@huggingface/inference": "^4.13.4",
+    "gray-matter": "^4.0.3",
     "next": "^14.2.0",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "gray-matter": "^4.0.3",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sharp": "^0.33.0"
