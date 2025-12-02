@@ -11,16 +11,25 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
-  // Exemplo de artigo - depois integrar com markdown
-  const article = {
-    title: "Como Polir Faróis em Casa - Guia Completo 2025",
-    date: "15 Jan 2025",
+import { getArticleBySlug } from "@/lib/articles";
+import { notFound } from "next/navigation";
+
+export default async function ArticlePage({ params }: { params: { slug: string } }) {
+  const article = await getArticleBySlug(params.slug, 'pt');
+  
+  if (!article) {
+    notFound();
+  }
+  
+  const mockArticle = {
+    title: article.title,
+    date: article.date,
     author: "Detailing Prime",
-    category: "Guias",
-    readTime: "8 min",
-    image: "/arquivos para o site/Banner/detailing-1-car-washing--worker--man--car-.jpg",
-    content: `
+    category: article.category,
+    readTime: article.readTime || "10 min",
+    image: article.image,
+    content: article.content,
+    oldContent: `
       <h2>Por Que os Faróis Ficam Amarelados?</h2>
       <p>Os faróis dos carros são feitos de policarbonato, um material plástico resistente mas que sofre com a exposição ao sol, chuva e poluição. Com o tempo, a camada protetora UV se desgasta, deixando os faróis opacos e amarelados.</p>
       
@@ -129,7 +138,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             prose-ul:text-text-secondary prose-ul:my-6
             prose-li:mb-2
             prose-strong:text-text-primary"
-          dangerouslySetInnerHTML={{ __html: article.content }}
+          dangerouslySetInnerHTML={{ __html: mockArticle.content }}
         />
 
         {/* CTA Final */}
