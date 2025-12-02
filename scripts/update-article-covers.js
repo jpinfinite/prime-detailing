@@ -50,6 +50,9 @@ const coverMapping = {
   'limpeza-teto-automotivo': '/images/covers/limpeza-teto-automotivo.jpg',
   'protecao-painel-sol': '/images/covers/protecao-painel-sol.jpg',
   'detailing-suvs-picapes': '/images/covers/detailing-suvs-picapes.jpg',
+  'como-limpar-motor-carro': '/images/covers/como-limpar-motor-carro.jpg',
+  'primeiros-produtos-detailing': '/images/covers/primeiros-produtos-detailing.jpg',
+  'detailing-pos-enchente': '/images/covers/detailing-pos-enchente.jpg',
 };
 
 function updateArticleCover(filePath) {
