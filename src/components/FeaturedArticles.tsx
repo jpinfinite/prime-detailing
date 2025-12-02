@@ -27,7 +27,7 @@ export default function FeaturedArticles({ locale }: { locale: string }) {
     {
       title: "Kit Básico de Detailing para Iniciantes",
       excerpt: "Monte seu kit completo de R$ 300 a R$ 2.500. Guia com produtos essenciais, tabelas comparativas e onde comprar.",
-      image: "/arquivos para o site/Destaques/detailing-3-automobile--to-wash--clean--to.jpg",
+      image: "/images/pexels/pexels-tima-miroshnichenko-6873205.jpg",
       slug: "kit-basico-detailing-iniciantes",
       category: "Guias",
       readTime: "12",
@@ -36,7 +36,7 @@ export default function FeaturedArticles({ locale }: { locale: string }) {
     {
       title: "Mercado de Detailing: Crescimento 5.9% ao Ano",
       excerpt: "Análise completa do mercado brasileiro. Oportunidades, investimento necessário e como lucrar com detailing.",
-      image: "/arquivos para o site/Destaques/detailing-2-automobile--car-wallpapers--na.jpg",
+      image: "/images/pexels/pexels-tima-miroshnichenko-6873076.jpg",
       slug: "mercado-detailing-crescimento-2025",
       category: "Notícias",
       readTime: "15",
@@ -45,7 +45,7 @@ export default function FeaturedArticles({ locale }: { locale: string }) {
     {
       title: "Polimento Manual vs Máquina: Guia Completo",
       excerpt: "Compare custos, resultados e segurança. Tabelas comparativas, recomendações por perfil e guia de compra.",
-      image: "/arquivos para o site/Destaques/detailing-1-car-washing--worker--man--car-.jpg",
+      image: "/images/pexels/pexels-tima-miroshnichenko-6872648.jpg",
       slug: "polimento-manual-vs-maquina",
       category: "Guias",
       readTime: "16",
