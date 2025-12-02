@@ -40,6 +40,8 @@ const coverMapping = {
   'protecao-rodas-freios-detailing': '/images/covers/protecao-rodas-freios-detailing.jpg',
   'wraps-personalizacao-automotiva': '/images/covers/wraps-personalizacao-automotiva.jpg',
   'detailing-motos-completo': '/images/covers/detailing-motos-completo.jpg',
+  'produtos-waterless-sem-agua': '/images/covers/produtos-waterless-sem-agua.jpg',
+  'tendencias-detailing-2025': '/images/covers/tendencias-detailing-2025.jpg',
 };
 
 function updateArticleCover(filePath) {

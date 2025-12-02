@@ -55,8 +55,8 @@ const coverPrompts = {
   'higienizacao-ozonio-automotivo.jpg': 'Ozone generator machine inside car, yellow accent lighting, professional sanitization, automotive hygiene',
   'protecao-rodas-freios-detailing.jpg': 'Cleaning black alloy wheel with yellow brush, brake caliper, professional wheel detailing, foam cleaner',
   'wraps-personalizacao-automotiva.jpg': 'Car wrap installation, yellow vinyl film, black car, professional customization, automotive personalization',
-  'detailing-motos-completo.jpg': 'Motorcycle detailing, yellow cleaning products, black sport bike, chrome parts, professional bike care',
-  'produtos-waterless-sem-agua.jpg': 'Waterless wash spray bottle, yellow microfiber cloth, black car surface, eco-friendly cleaning, no water',
+  'detailing-motos-completo.jpg': 'Professional cleaning black sport motorcycle with yellow microfiber cloth, chrome exhaust pipes, detailed bike care, no text on products',
+  'produtos-waterless-sem-agua.jpg': 'Cleaning black car with yellow microfiber towel, spray bottle nearby, waterless wash technique, eco-friendly detailing, no text visible',
   'tendencias-detailing-2025.jpg': 'Futuristic car detailing technology, yellow and black theme, modern automotive care, innovation concept, professional studio',
 };
 
