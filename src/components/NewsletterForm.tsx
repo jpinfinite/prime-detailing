@@ -2,7 +2,15 @@
 
 import { useState } from 'react';
 
-export default function NewsletterForm() {
+interface NewsletterFormProps {
+  ctaText?: string;
+  placeholder?: string;
+}
+
+export default function NewsletterForm({ 
+  ctaText = 'Assinar Grátis',
+  placeholder = 'Seu melhor email'
+}: NewsletterFormProps) {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
@@ -45,7 +53,7 @@ export default function NewsletterForm() {
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="Seu melhor email"
+        placeholder={placeholder}
         required
         disabled={status === 'loading'}
         className="flex-1 px-4 py-3 bg-prime-gray-dark border border-prime-gray-light rounded-lg text-text-primary placeholder-text-muted focus:outline-none focus:border-prime-yellow transition-colors disabled:opacity-50"
@@ -55,7 +63,7 @@ export default function NewsletterForm() {
         disabled={status === 'loading'}
         className="px-6 py-3 bg-prime-yellow hover:bg-prime-yellow-light text-prime-black font-semibold rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {status === 'loading' ? 'Enviando...' : 'Assinar Grátis'}
+        {status === 'loading' ? 'Enviando...' : ctaText}
       </button>
       
       {message && (
