@@ -127,7 +127,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             <span className="text-text-secondary text-sm">{article.readTime} de leitura</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-4 leading-tight">
             {article.title}
           </h1>
           
@@ -139,7 +139,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         </div>
 
         {/* Imagem Destaque */}
-        <div className="relative h-96 mb-8 rounded-lg overflow-hidden">
+        <div className="relative h-64 md:h-96 lg:h-[500px] mb-12 rounded-lg overflow-hidden shadow-2xl">
           <Image
             src={article.image}
             alt={article.title}
@@ -170,14 +170,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
         {/* Conteúdo */}
         <div 
-          className="prose prose-lg prose-invert max-w-none
-            prose-headings:text-text-primary prose-headings:font-bold
-            prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:text-prime-yellow
-            prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
-            prose-p:text-text-secondary prose-p:leading-relaxed prose-p:mb-6
-            prose-ul:text-text-secondary prose-ul:my-6
-            prose-li:mb-2
-            prose-strong:text-text-primary"
+          className="article-content prose prose-lg prose-invert max-w-none"
           dangerouslySetInnerHTML={{ __html: mockArticle.content }}
         />
 
