@@ -31,6 +31,15 @@ const coverMapping = {
   'precificacao-servicos-detailing': '/images/covers/precificacao-servicos-detailing.jpg',
   'mercado-detailing-crescimento-2025': '/images/covers/mercado-detailing-crescimento-2025.jpg',
   'cuidados-pintura-preta': '/images/covers/cuidados-pintura-preta.jpg',
+  'ppf-paint-protection-film-guia': '/images/covers/ppf-paint-protection-film-guia.jpg',
+  'vitrificacao-ceramica-completo': '/images/covers/vitrificacao-ceramica-completo.jpg',
+  'detailing-ecologico-sustentavel': '/images/covers/detailing-ecologico-sustentavel.jpg',
+  'detailing-carros-eletricos': '/images/covers/detailing-carros-eletricos.jpg',
+  'correcao-pintura-profissional': '/images/covers/correcao-pintura-profissional.jpg',
+  'higienizacao-ozonio-automotivo': '/images/covers/higienizacao-ozonio-automotivo.jpg',
+  'protecao-rodas-freios-detailing': '/images/covers/protecao-rodas-freios-detailing.jpg',
+  'wraps-personalizacao-automotiva': '/images/covers/wraps-personalizacao-automotiva.jpg',
+  'detailing-motos-completo': '/images/covers/detailing-motos-completo.jpg',
 };
 
 function updateArticleCover(filePath) {

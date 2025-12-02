@@ -45,6 +45,19 @@ const coverPrompts = {
   
   // Técnicas Específicas
   'cuidados-pintura-preta.jpg': 'Glossy black car paint close-up, yellow reflection, perfect mirror finish, professional detailing result',
+  
+  // Novos Artigos 2025
+  'ppf-paint-protection-film-guia.jpg': 'PPF installation on black car hood, yellow tools, professional paint protection film application, automotive detailing',
+  'vitrificacao-ceramica-completo.jpg': 'Applying ceramic coating on black car, yellow applicator pad, liquid coating bottle, professional detailing process',
+  'detailing-ecologico-sustentavel.jpg': 'Eco-friendly car wash products, yellow and black bottles, green leaves, sustainable automotive care, waterless wash',
+  'detailing-carros-eletricos.jpg': 'Modern electric car charging, yellow charging cable, black EV, professional detailing, clean technology',
+  'correcao-pintura-profissional.jpg': 'Car paint correction with yellow orbital polisher, black car surface, professional polishing process, detailing work',
+  'higienizacao-ozonio-automotivo.jpg': 'Ozone generator machine inside car, yellow accent lighting, professional sanitization, automotive hygiene',
+  'protecao-rodas-freios-detailing.jpg': 'Cleaning black alloy wheel with yellow brush, brake caliper, professional wheel detailing, foam cleaner',
+  'wraps-personalizacao-automotiva.jpg': 'Car wrap installation, yellow vinyl film, black car, professional customization, automotive personalization',
+  'detailing-motos-completo.jpg': 'Motorcycle detailing, yellow cleaning products, black sport bike, chrome parts, professional bike care',
+  'produtos-waterless-sem-agua.jpg': 'Waterless wash spray bottle, yellow microfiber cloth, black car surface, eco-friendly cleaning, no water',
+  'tendencias-detailing-2025.jpg': 'Futuristic car detailing technology, yellow and black theme, modern automotive care, innovation concept, professional studio',
 };
 
 async function generateCoverImage(prompt, filename) {
