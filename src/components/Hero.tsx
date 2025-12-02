@@ -38,7 +38,7 @@ export default function Hero({ locale }: { locale: string }) {
       {/* Background com Hero Banner Premium */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-banner.jpg"
+          src="/images/hero-banner-v2.jpg"
           alt="Detailing Prime - Estética Automotiva Profissional Premium"
           fill
           className="object-cover"

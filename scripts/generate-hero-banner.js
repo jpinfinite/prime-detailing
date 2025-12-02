@@ -7,8 +7,8 @@ const client = new HfInference(HF_TOKEN);
 
 // Hero Banner para Homepage - Imagem Premium
 const heroBanner = {
-  filename: 'hero-banner.jpg',
-  prompt: `Stunning wide shot of pristine black luxury car with perfect glossy paint reflecting golden yellow studio lights, professional modern car detailing workshop with yellow accent lighting, clean minimalist aesthetic, cinematic automotive photography, dramatic side lighting, ultra sharp focus, premium professional atmosphere, yellow and black brand colors, high-end automotive care concept, no text`,
+  filename: 'hero-banner-v2.jpg',
+  prompt: `Professional car detailing hero image, sleek black luxury sports car with mirror-like glossy finish, yellow microfiber cloth on hood, modern premium detailing studio with dramatic yellow lighting, professional automotive photography, cinematic composition, ultra detailed, high contrast, premium aesthetic, yellow and black brand identity, no text or logos`,
   
   // Alternativas (descomente para testar):
   
