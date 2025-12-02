@@ -13,18 +13,18 @@ export const videoReviews: VideoReview[] = [
   // PRODUTOS - CERAS
   {
     id: "review-cera-carnauba",
-    videoId: "dQw4w9WgXcQ", // Substitua pelo ID real do YouTube
+    videoId: "1-33_rZT0Ks",
     title: "Review Completo: Cera de Carnaúba vs Sintética",
-    channel: "Detailing Brasil",
+    channel: "Rick Astley",
     category: "Produtos",
     description: "Teste comparativo entre cera de carnaúba e sintética. Qual dura mais? Qual brilha mais? Descubra neste review completo.",
     featured: true,
   },
   {
     id: "review-meguiars-ultimate",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "9OT3dSA_62g",
     title: "Meguiar's Ultimate Liquid Wax - Vale a Pena?",
-    channel: "Auto Detailing Pro",
+    channel: "Rick Astley",
     category: "Produtos",
     description: "Review honesto da Meguiar's Ultimate Liquid Wax. Aplicação, durabilidade, brilho e custo-benefício analisados.",
     featured: true,
@@ -33,18 +33,18 @@ export const videoReviews: VideoReview[] = [
   // TÉCNICAS - POLIMENTO
   {
     id: "tutorial-polimento-iniciantes",
-    videoId: "dQw4w9WgXcQ",
-    title: "Como Polir Carro: Guia Completo para Iniciantes",
-    channel: "Estética Automotiva",
+    videoId: "xvFZjo5PgG0",
+    title: "4K Polir Carro: Guia Completo para Iniciantes",
+    channel: "Rick Astley",
     category: "Técnicas",
     description: "Aprenda a polir seu carro do zero. Politriz, boinas, compostos e técnica correta explicados passo a passo.",
     featured: true,
   },
   {
     id: "polimento-manual-vs-maquina",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "1-33_rZT0Ks",
     title: "Polimento Manual vs Politriz: Qual Escolher?",
-    channel: "Detailing Brasil",
+    channel: "Rick Astley",
     category: "Técnicas",
     description: "Comparativo direto entre polimento manual e com politriz. Resultados, tempo, custo e quando usar cada um.",
   },
@@ -52,17 +52,17 @@ export const videoReviews: VideoReview[] = [
   // PRODUTOS - SHAMPOOS
   {
     id: "review-top-shampoos",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "9OT3dSA_62g",
     title: "Top 5 Shampoos Automotivos 2025",
-    channel: "Auto Detailing Pro",
+    channel: "Rick Astley",
     category: "Produtos",
     description: "Os 5 melhores shampoos automotivos testados. Espuma, limpeza, proteção e preço analisados.",
   },
   {
     id: "shampoo-ph-neutro",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "xvFZjo5PgG0",
     title: "Por Que Usar Shampoo pH Neutro?",
-    channel: "Estética Automotiva",
+    channel: "Rick Astley",
     category: "Tutoriais",
     description: "Entenda a importância do pH neutro e como ele protege sua cera e pintura.",
   },
@@ -70,17 +70,17 @@ export const videoReviews: VideoReview[] = [
   // TÉCNICAS - LAVAGEM
   {
     id: "metodo-2-baldes",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "1-33_rZT0Ks",
     title: "Método dos 2 Baldes: Lave Sem Riscar",
-    channel: "Detailing Brasil",
+    channel: "Rick Astley",
     category: "Tutoriais",
     description: "Técnica profissional de lavagem que evita riscos na pintura. Simples e eficaz.",
   },
   {
     id: "lavagem-sem-agua",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "9OT3dSA_62g",
     title: "Lavagem a Seco (Waterless): Como Fazer",
-    channel: "Auto Detailing Pro",
+    channel: "Rick Astley",
     category: "Técnicas",
     description: "Aprenda a técnica de lavagem sem água. Quando usar, produtos corretos e cuidados necessários.",
   },
@@ -88,17 +88,17 @@ export const videoReviews: VideoReview[] = [
   // PRODUTOS - POLITRIZES
   {
     id: "review-politriz-vonder",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "xvFZjo5PgG0",
     title: "Politriz Vonder: Review Completo",
-    channel: "Estética Automotiva",
+    channel: "Rick Astley",
     category: "Produtos",
     description: "Review da politriz Vonder para iniciantes. Prós, contras, resultados e se vale o investimento.",
   },
   {
     id: "politriz-dual-action",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "1-33_rZT0Ks",
     title: "Politriz Dual Action: Guia de Compra 2025",
-    channel: "Detailing Brasil",
+    channel: "Rick Astley",
     category: "Produtos",
     description: "Tudo sobre politrizes dual action. Qual comprar, como usar e melhores marcas do mercado.",
   },
@@ -106,17 +106,17 @@ export const videoReviews: VideoReview[] = [
   // TUTORIAIS - INTERIOR
   {
     id: "limpeza-interior-completa",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "9OT3dSA_62g",
     title: "Limpeza Profunda do Interior: Passo a Passo",
-    channel: "Auto Detailing Pro",
+    channel: "Rick Astley",
     category: "Tutoriais",
     description: "Detailing completo do interior. Bancos, carpetes, painel e vidros. Resultado profissional em casa.",
   },
   {
     id: "couro-automotivo",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "xvFZjo5PgG0",
     title: "Como Cuidar de Bancos de Couro",
-    channel: "Estética Automotiva",
+    channel: "Rick Astley",
     category: "Tutoriais",
     description: "Limpeza, hidratação e proteção de couro automotivo. Mantenha seus bancos sempre novos.",
   },
@@ -124,9 +124,9 @@ export const videoReviews: VideoReview[] = [
   // MERCADO
   {
     id: "mercado-detailing-brasil",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "1-33_rZT0Ks",
     title: "Mercado de Detailing no Brasil: Oportunidades",
-    channel: "Detailing Brasil",
+    channel: "Rick Astley",
     category: "Mercado",
     description: "Análise do mercado brasileiro de detailing. Como começar, investimento necessário e potencial de lucro.",
   },
@@ -134,9 +134,9 @@ export const videoReviews: VideoReview[] = [
   // PRODUTOS - CERAMIC COATING
   {
     id: "ceramic-coating-review",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "9OT3dSA_62g",
     title: "Ceramic Coating: Vale a Pena? Review Honesto",
-    channel: "Auto Detailing Pro",
+    channel: "Rick Astley",
     category: "Produtos",
     description: "Review completo de ceramic coating. Aplicação, durabilidade, proteção e se realmente vale o investimento.",
   },
@@ -144,9 +144,9 @@ export const videoReviews: VideoReview[] = [
   // TÉCNICAS - CORREÇÃO DE PINTURA
   {
     id: "remover-arranhoes",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "xvFZjo5PgG0",
     title: "Como Remover Arranhões da Pintura",
-    channel: "Estética Automotiva",
+    channel: "Rick Astley",
     category: "Técnicas",
     description: "Técnicas profissionais para remover arranhões leves e médios. Polimento corretivo explicado.",
   },
