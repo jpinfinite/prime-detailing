@@ -1,0 +1,15 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg6)"/>
+  <circle cx="200" cy="150" r="70" fill="#FFD700" opacity="0.2"/>
+  <circle cx="200" cy="150" r="60" fill="#FFD700" opacity="0.3"/>
+  <text x="200" y="170" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FFD700" text-anchor="middle">PA</text>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Patrícia Almeida</text>
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="16" fill="#FFD700" text-anchor="middle">Especialista em Manutenção</text>
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="14" fill="#999999" text-anchor="middle">14 anos de experiência</text>
+</svg>
