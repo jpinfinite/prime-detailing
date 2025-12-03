@@ -6,7 +6,7 @@ date: "2025-12-03"
 author: "juliana-costa"
 category: "Guias"
 tags: ["vitrificação", "ceramic coating", "proteção", "pintura", "nanotecnologia"]
-image: "/images/pexels/car-polishing-6873129.jpg"
+image: "/images/articles/vitrificacao-automotiva-completo.svg"
 ---
 
 Vitrificação automotiva (ceramic coating) é a proteção mais avançada em nanotecnologia para pintura. Este guia completo explica tudo sobre o processo que revolucionou o detailing.

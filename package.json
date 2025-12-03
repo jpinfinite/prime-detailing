@@ -13,7 +13,13 @@
     "migrate": "node scripts/migrate-articles.js",
     "download-images": "node scripts/download-pixabay-images.js",
     "generate-ai-images": "node scripts/generate-ai-images.js",
-    "generate-authors": "node scripts/generate-author-images.js"
+    "generate-authors": "node scripts/generate-author-images.js",
+    "images:hero": "node scripts/generate-images-hf.js hero",
+    "images:test": "node scripts/generate-images-hf.js test",
+    "images:generate": "node scripts/batch-generate-hf.js missing",
+    "images:5": "node scripts/batch-generate-hf.js missing 5",
+    "images:10": "node scripts/batch-generate-hf.js missing 10",
+    "images:6": "node scripts/generate-6-images.js"
   },
   "dependencies": {
     "@huggingface/inference": "^4.13.4",

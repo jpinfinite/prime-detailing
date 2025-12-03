@@ -1,0 +1,46 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0A0A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1F1F1F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg7)"/>
+  
+  <!-- Building/Business icon -->
+  <rect x="450" y="250" width="300" height="200" fill="#2A2A2A"/>
+  <rect x="480" y="280" width="60" height="60" fill="#FFC107" opacity="0.3"/>
+  <rect x="570" y="280" width="60" height="60" fill="#FFC107" opacity="0.3"/>
+  <rect x="660" y="280" width="60" height="60" fill="#FFC107" opacity="0.3"/>
+  <rect x="480" y="370" width="60" height="60" fill="#FFC107" opacity="0.3"/>
+  <rect x="570" y="370" width="60" height="60" fill="#FFC107" opacity="0.3"/>
+  <rect x="660" y="370" width="60" height="60" fill="#FFC107" opacity="0.3"/>
+  
+  <!-- Door -->
+  <rect x="560" y="380" width="80" height="70" fill="#FFC107"/>
+  
+  <!-- Steps -->
+  <rect x="350" y="320" width="80" height="40" rx="5" fill="#2A2A2A" stroke="#FFC107" stroke-width="2"/>
+  <text x="390" y="345" font-family="Arial, sans-serif" font-size="20" fill="#FFC107" text-anchor="middle">1</text>
+  
+  <rect x="350" y="380" width="80" height="40" rx="5" fill="#2A2A2A" stroke="#FFC107" stroke-width="2"/>
+  <text x="390" y="405" font-family="Arial, sans-serif" font-size="20" fill="#FFC107" text-anchor="middle">2</text>
+  
+  <rect x="770" y="320" width="80" height="40" rx="5" fill="#2A2A2A" stroke="#FFC107" stroke-width="2"/>
+  <text x="810" y="345" font-family="Arial, sans-serif" font-size="20" fill="#FFC107" text-anchor="middle">3</text>
+  
+  <rect x="770" y="380" width="80" height="40" rx="5" fill="#2A2A2A" stroke="#FFC107" stroke-width="2"/>
+  <text x="810" y="405" font-family="Arial, sans-serif" font-size="20" fill="#FFC107" text-anchor="middle">4</text>
+  
+  <!-- Title -->
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#FFC107" text-anchor="middle">COMO MONTAR SEU</text>
+  <text x="600" y="170" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF" text-anchor="middle">NEGÓCIO DE DETAILING</text>
+  
+  <text x="600" y="540" font-family="Arial, sans-serif" font-size="32" fill="#B0B0B0" text-anchor="middle">Guia Completo do Zero • 2025</text>
+  
+  <rect x="50" y="50" width="180" height="50" rx="25" fill="#FFC107"/>
+  <text x="140" y="83" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0A0A0A" text-anchor="middle">GUIAS</text>
+  
+  <text x="1100" y="590" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFC107" text-anchor="end">DETAILING PRIME</text>
+</svg>
