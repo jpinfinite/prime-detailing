@@ -49,7 +49,7 @@ export default function Comments({ slug, title }: CommentsProps) {
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
     script.setAttribute('data-input-position', 'top');
-    script.setAttribute('data-theme', 'dark');
+    script.setAttribute('data-theme', 'noborder_dark');
     script.setAttribute('data-lang', 'pt');
     script.setAttribute('data-loading', 'lazy');
     script.crossOrigin = 'anonymous';
