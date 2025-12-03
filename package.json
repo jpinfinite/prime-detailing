@@ -19,7 +19,9 @@
     "images:generate": "node scripts/batch-generate-hf.js missing",
     "images:5": "node scripts/batch-generate-hf.js missing 5",
     "images:10": "node scripts/batch-generate-hf.js missing 10",
-    "images:6": "node scripts/generate-6-images.js"
+    "images:6": "node scripts/generate-6-images.js",
+    "images:flux": "node scripts/generate-images-flux.js 6",
+    "images:flux-test": "node scripts/generate-images-flux.js test"
   },
   "dependencies": {
     "@huggingface/inference": "^4.13.4",

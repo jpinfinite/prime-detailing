@@ -1,0 +1,14 @@
+import Script from 'next/script';
+
+export default function GoogleAdSense() {
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || 'ca-pub-1151448515464841';
+
+  return (
+    <Script
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
+      crossOrigin="anonymous"
+      strategy="afterInteractive"
+    />
+  );
+}

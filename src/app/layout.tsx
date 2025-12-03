@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GoogleTagManager, { GoogleTagManagerNoScript } from "@/components/GoogleTagManager";
+import GoogleAdSense from "@/components/GoogleAdSense";
 import BackToTop from "@/components/BackToTop";
 import NewsletterPopup from "@/components/NewsletterPopup";
 
@@ -72,6 +73,7 @@ export default function RootLayout({
       <head>
         <GoogleAnalytics />
         <GoogleTagManager />
+        <GoogleAdSense />
         {/* Google Search Console Verification */}
         <meta name="google-site-verification" content={process.env.NEXT_PUBLIC_GSC_VERIFICATION || ""} />
       </head>
