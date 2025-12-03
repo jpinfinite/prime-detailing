@@ -6,7 +6,7 @@ date: "2025-12-03"
 author: "fernando-oliveira"
 category: "Mercado"
 tags: ["mercado", "negócios", "tendências", "oportunidades", "crescimento"]
-image: "/images/pexels/car-detailing-6873185.jpg"
+image: "/images/pexels/car-polishing-6872150.jpg"
 ---
 
 O mercado de detailing automotivo está em franca expansão global e o Brasil acompanha essa tendência. Com dados recentes mostrando crescimento consistente, este é o momento ideal para entender as oportunidades deste setor.
