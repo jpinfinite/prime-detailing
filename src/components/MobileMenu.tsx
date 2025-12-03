@@ -49,7 +49,7 @@ export default function MobileMenu({ locale, translations }: MobileMenuProps) {
       {/* Botão Hamburger Melhorado */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden relative z-50 w-12 h-12 flex flex-col items-center justify-center rounded-lg hover:bg-prime-gray-medium transition-all active:scale-95"
+        className="md:hidden fixed right-4 top-4 z-[60] w-12 h-12 flex flex-col items-center justify-center rounded-lg hover:bg-prime-gray-medium transition-all active:scale-95"
         aria-label="Menu"
         aria-expanded={isOpen}
       >
@@ -72,15 +72,18 @@ export default function MobileMenu({ locale, translations }: MobileMenuProps) {
 
       {/* Overlay */}
       <div
-        className={`fixed inset-0 bg-black/80 backdrop-blur-sm z-40 transition-opacity duration-300 md:hidden ${
+        className={`fixed inset-0 bg-black/80 backdrop-blur-sm z-[45] transition-opacity duration-300 md:hidden ${
           isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         onClick={() => setIsOpen(false)}
+        role="button"
+        tabIndex={-1}
+        onKeyDown={(e) => e.key === 'Escape' && setIsOpen(false)}
       />
 
       {/* Menu Drawer Melhorado */}
       <div
-        className={`fixed top-0 right-0 h-full w-full max-w-sm bg-prime-black border-l border-prime-gray-light shadow-2xl z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 right-0 h-full w-[85vw] max-w-sm bg-prime-black border-l border-prime-gray-light shadow-2xl z-[50] transform transition-transform duration-300 ease-in-out md:hidden overflow-hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
