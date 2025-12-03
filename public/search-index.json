@@ -45,6 +45,21 @@
     "image": "/images/covers/como-limpar-motor-carro.jpg"
   },
   {
+    "slug": "como-montar-negocio-detailing-2025",
+    "title": "Como Montar um Negócio de Detailing em 2025: Guia Completo do Zero",
+    "description": "Guia completo para abrir seu negócio de detailing: investimento inicial, equipamentos, precificação, marketing e como lucrar no mercado que cresce 5.9% ao ano.",
+    "category": "Guias",
+    "tags": [
+      "negócios",
+      "empreendedorismo",
+      "detailing",
+      "guia",
+      "investimento"
+    ],
+    "readTime": "5 min",
+    "image": "/images/pexels/car-polishing-6872150.jpg"
+  },
+  {
     "slug": "como-montar-negocio-detailing",
     "title": "Como Montar um Negócio de Detailing do Zero em 2025",
     "description": "Guia completo para abrir seu estúdio de estética automotiva. Investimento inicial, equipamentos, localização e como lucrar no mercado de detailing.",
@@ -240,6 +255,21 @@
     "image": "/images/covers/guia-enceramento-automotivo.jpg"
   },
   {
+    "slug": "higienizacao-interna-profissional",
+    "title": "Higienização Interna Profissional: Guia Completo 2025 - Limpeza Técnica",
+    "description": "Guia completo de higienização interna automotiva: técnicas, produtos, equipamentos e passo a passo para limpeza profissional de estofados, carpetes e painéis.",
+    "category": "Tutoriais",
+    "tags": [
+      "higienização",
+      "limpeza interna",
+      "estofados",
+      "carpetes",
+      "detailing interno"
+    ],
+    "readTime": "5 min",
+    "image": "/images/pexels/car-interior-cleaning-6872601.jpg"
+  },
+  {
     "slug": "higienizacao-ozonio-automotivo",
     "title": "Higienização com Ozônio Automotivo: Guia Completo 2025",
     "description": "Descubra como a higienização com ozônio elimina odores, bactérias e vírus do carro. Processo, benefícios, custos e cuidados essenciais.",
@@ -409,6 +439,21 @@
     "image": "/images/covers/melhores-microfibras-detailing.jpg"
   },
   {
+    "slug": "mercado-detailing-brasil-2025",
+    "title": "Mercado de Detailing no Brasil 2025: Crescimento de 5.9% ao Ano e Oportunidades",
+    "description": "Mercado global de detailing deve atingir US$ 58 bilhões até 2030. Descubra as oportunidades no Brasil, tendências e como lucrar com crescimento de 5.9% ao ano.",
+    "category": "Mercado",
+    "tags": [
+      "mercado",
+      "negócios",
+      "tendências",
+      "oportunidades",
+      "crescimento"
+    ],
+    "readTime": "5 min",
+    "image": "/images/pexels/car-polishing-6872150.jpg"
+  },
+  {
     "slug": "mercado-detailing-crescimento-2025",
     "title": "Mercado de Detailing Cresce 5.9% ao Ano: Oportunidades e Tendências 2025",
     "description": "Mercado global de detailing deve atingir $58 bilhões até 2030. Descubra oportunidades, tendências e como lucrar com o crescimento de 5.9% ao ano no setor.",
@@ -456,6 +501,36 @@
     ],
     "readTime": "5 min",
     "image": "/images/covers/polimento-manual-vs-maquina.jpg"
+  },
+  {
+    "slug": "polimento-tecnico-profissional-guia",
+    "title": "Polimento Técnico Profissional: Guia Completo 2025 - Correção de Pintura",
+    "description": "Guia definitivo de polimento técnico: etapas, produtos, técnicas, equipamentos e como corrigir pintura automotiva profissionalmente. Passo a passo completo.",
+    "category": "Tutoriais",
+    "tags": [
+      "polimento",
+      "correção",
+      "pintura",
+      "técnicas",
+      "profissional"
+    ],
+    "readTime": "5 min",
+    "image": "/images/pexels/car-polishing-6873118.jpg"
+  },
+  {
+    "slug": "ppf-paint-protection-film-guia-completo",
+    "title": "PPF (Paint Protection Film): Guia Completo 2025 - Vale a Pena?",
+    "description": "Tudo sobre PPF: o que é, quanto custa, durabilidade, vantagens e desvantagens. Guia completo para proteger a pintura do seu carro com película transparente.",
+    "category": "Guias",
+    "tags": [
+      "ppf",
+      "proteção",
+      "película",
+      "pintura",
+      "investimento"
+    ],
+    "readTime": "5 min",
+    "image": "/images/pexels/car-detailing-6873185.jpg"
   },
   {
     "slug": "ppf-paint-protection-film-guia",
@@ -593,6 +668,15 @@
     "image": "/images/covers/remover-manchas-agua.jpg"
   },
   {
+    "slug": "restauracao-farois-amarelados",
+    "title": "",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "readTime": "5 min",
+    "image": "/images/default.jpg"
+  },
+  {
     "slug": "review-3m-perfect-it",
     "title": "Review: 3M Perfect-It - Melhor Composto de Polimento?",
     "description": "Review completo da linha 3M Perfect-It. Testamos Fast Cut, Extra Fine e Ultrafine. Vale o preço premium?",
@@ -726,6 +810,21 @@
     ],
     "readTime": "5 min",
     "image": "/images/covers/top-10-shampoos-2025.jpg"
+  },
+  {
+    "slug": "vitrificacao-automotiva-completo",
+    "title": "Vitrificação Automotiva: Guia Completo 2025 - Tudo Sobre Ceramic Coating",
+    "description": "Guia definitivo sobre vitrificação automotiva: o que é, quanto custa, durabilidade, aplicação e manutenção. Ceramic coating explicado por especialistas.",
+    "category": "Guias",
+    "tags": [
+      "vitrificação",
+      "ceramic coating",
+      "proteção",
+      "pintura",
+      "nanotecnologia"
+    ],
+    "readTime": "5 min",
+    "image": "/images/pexels/car-polishing-6873129.jpg"
   },
   {
     "slug": "vitrificacao-ceramica-completo",
