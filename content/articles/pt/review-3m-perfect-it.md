@@ -1,13 +1,21 @@
 ---
-title: "Review: 3M Perfect-It - Melhor Composto de Polimento?"
-description: "Review completo da linha 3M Perfect-It. Testamos Fast Cut, Extra Fine e Ultrafine. Vale o preço premium?"
-date: "2025-01-23"
-author: "Detailing Prime"
-category: "Reviews"
-tags: ["3m", "polimento", "compound", "review", "profissional"]
-image: "/images/covers/review-3m-perfect-it.jpg"
-readTime: "11 min"
+title: 'Review: 3M Perfect-It - Melhor Composto de Polimento?'
+description: >-
+  Review completo da linha 3M Perfect-It. Testamos Fast Cut, Extra Fine e
+  Ultrafine. Vale o preço premium?
+date: '2025-01-23'
+author: Detailing Prime
+category: Reviews
+tags:
+  - 3m
+  - polimento
+  - compound
+  - review
+  - profissional
+image: /images/covers/review-3m-perfect-it.jpg
+readTime: 11 min
 featured: false
+slug: review-3m-perfect-it
 ---
 
 # Review: 3M Perfect-It - Melhor Composto de Polimento?

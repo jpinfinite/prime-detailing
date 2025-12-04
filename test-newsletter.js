@@ -1,5 +1,6 @@
 // Script de teste da newsletter
-const fetch = require('node-fetch');
+// Script de teste da newsletter
+// const fetch = require('node-fetch'); // Node 18+ tem fetch nativo
 
 async function testNewsletter() {
   console.log('🧪 Testando Newsletter API...\n');
@@ -8,7 +9,7 @@ async function testNewsletter() {
 
   try {
     console.log(`📧 Enviando email de teste para: ${testEmail}`);
-    
+
     const response = await fetch('http://localhost:3000/api/newsletter', {
       method: 'POST',
       headers: {

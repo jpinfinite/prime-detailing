@@ -1,13 +1,22 @@
 ---
-title: "Review: Meguiar's Ultimate Liquid Wax - Vale a Pena em 2025?"
-description: "Review completo da Meguiar's Ultimate Liquid Wax. Testamos aplicação, durabilidade, brilho e custo-benefício. Veja se vale a pena investir nesta cera sintética."
-date: "2025-01-29"
-author: "Detailing Prime"
-category: "Reviews"
-tags: ["meguiars", "cera", "review", "produtos", "detailing"]
-image: "/images/covers/review-meguiars-ultimate-wax.jpg"
-readTime: "10 min"
+title: 'Review: Meguiar''s Ultimate Liquid Wax - Vale a Pena em 2025?'
+description: >-
+  Review completo da Meguiar's Ultimate Liquid Wax. Testamos aplicação,
+  durabilidade, brilho e custo-benefício. Veja se vale a pena investir nesta
+  cera sintética.
+date: '2025-01-29'
+author: Detailing Prime
+category: Reviews
+tags:
+  - meguiars
+  - cera
+  - review
+  - produtos
+  - detailing
+image: /images/covers/review-meguiars-ultimate-wax.jpg
+readTime: 10 min
 featured: true
+slug: review-meguiars-ultimate-wax
 ---
 
 # Review: Meguiar's Ultimate Liquid Wax - Vale a Pena em 2025?

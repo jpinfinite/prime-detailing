@@ -1,13 +1,22 @@
 ---
-title: "Precificação de Serviços de Detailing: Guia Completo 2025"
-description: "Aprenda a precificar seus serviços de detailing corretamente. Tabelas de preços, cálculo de custos, margem de lucro e estratégias para cobrar o valor justo."
-date: "2025-01-14"
-author: "Detailing Prime"
-category: "Mercado"
-tags: ["precificação", "preços", "lucro", "gestão", "negócio"]
-image: "/images/covers/precificacao-servicos-detailing.jpg"
-readTime: "10 min"
+title: 'Precificação de Serviços de Detailing: Guia Completo 2025'
+description: >-
+  Aprenda a precificar seus serviços de detailing corretamente. Tabelas de
+  preços, cálculo de custos, margem de lucro e estratégias para cobrar o valor
+  justo.
+date: '2025-01-14'
+author: Detailing Prime
+category: Mercado
+tags:
+  - precificação
+  - preços
+  - lucro
+  - gestão
+  - negócio
+image: /images/covers/precificacao-servicos-detailing.jpg
+readTime: 10 min
 featured: true
+slug: precificacao-servicos-detailing
 ---
 
 # Precificação de Serviços de Detailing: Guia Completo 2025

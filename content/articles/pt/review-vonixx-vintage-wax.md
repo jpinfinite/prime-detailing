@@ -1,13 +1,21 @@
 ---
-title: "Review: Vonixx Vintage Wax - Melhor Cera Nacional 2025?"
-description: "Review completo da Vonixx Vintage Wax. Testamos brilho, durabilidade e custo-benefício da cera carnaúba brasileira. Vale a pena?"
-date: "2025-01-26"
-author: "Detailing Prime"
-category: "Reviews"
-tags: ["vonixx", "cera", "carnaúba", "review", "nacional"]
-image: "/images/covers/review-vonixx-vintage-wax.jpg"
-readTime: "9 min"
+title: 'Review: Vonixx Vintage Wax - Melhor Cera Nacional 2025?'
+description: >-
+  Review completo da Vonixx Vintage Wax. Testamos brilho, durabilidade e
+  custo-benefício da cera carnaúba brasileira. Vale a pena?
+date: '2025-01-26'
+author: Detailing Prime
+category: Reviews
+tags:
+  - vonixx
+  - cera
+  - carnaúba
+  - review
+  - nacional
+image: /images/covers/review-vonixx-vintage-wax.jpg
+readTime: 9 min
 featured: false
+slug: review-vonixx-vintage-wax
 ---
 
 # Review: Vonixx Vintage Wax - Melhor Cera Nacional 2025?

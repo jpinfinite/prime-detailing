@@ -1,12 +1,21 @@
 ---
-title: "Marketing Digital para Detailing: Estratégias que Funcionam em 2025"
-description: "Guia completo de marketing digital para estética automotiva. Instagram, Google, TikTok, anúncios pagos e estratégias para atrair clientes e crescer seu negócio."
-date: "2025-01-12"
-author: "Detailing Prime"
-category: "Mercado"
-tags: ["marketing", "instagram", "redes sociais", "clientes", "vendas"]
-image: "/images/covers/marketing-digital-detailing.jpg"
-readTime: "14 min"
+title: 'Marketing Digital para Detailing: Estratégias que Funcionam em 2025'
+description: >-
+  Guia completo de marketing digital para estética automotiva. Instagram,
+  Google, TikTok, anúncios pagos e estratégias para atrair clientes e crescer
+  seu negócio.
+date: '2025-01-12'
+author: Detailing Prime
+category: Mercado
+tags:
+  - marketing
+  - instagram
+  - redes sociais
+  - clientes
+  - vendas
+image: /images/covers/marketing-digital-detailing.jpg
+readTime: 14 min
+slug: marketing-digital-detailing
 ---
 
 # Marketing Digital para Detailing: Estratégias que Funcionam em 2025

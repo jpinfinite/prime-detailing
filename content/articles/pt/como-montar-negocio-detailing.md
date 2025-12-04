@@ -1,13 +1,21 @@
 ---
-title: "Como Montar um Negócio de Detailing do Zero em 2025"
-description: "Guia completo para abrir seu estúdio de estética automotiva. Investimento inicial, equipamentos, localização e como lucrar no mercado de detailing."
-date: "2025-01-15"
-author: "Detailing Prime"
-category: "Mercado"
-tags: ["negócio", "empreendedorismo", "detailing", "investimento", "lucro"]
-image: "/images/covers/como-montar-negocio-detailing.jpg"
-readTime: "12 min"
+title: Como Montar um Negócio de Detailing do Zero em 2025
+description: >-
+  Guia completo para abrir seu estúdio de estética automotiva. Investimento
+  inicial, equipamentos, localização e como lucrar no mercado de detailing.
+date: '2025-01-15'
+author: Detailing Prime
+category: Mercado
+tags:
+  - negócio
+  - empreendedorismo
+  - detailing
+  - investimento
+  - lucro
+image: /images/covers/como-montar-negocio-detailing.jpg
+readTime: 12 min
 featured: true
+slug: como-montar-negocio-detailing
 ---
 
 # Como Montar um Negócio de Detailing do Zero em 2025

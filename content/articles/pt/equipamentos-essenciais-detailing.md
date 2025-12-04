@@ -1,13 +1,22 @@
 ---
-title: "Equipamentos Essenciais para Detailing: Lista Completa 2025"
-description: "Guia definitivo de equipamentos para estética automotiva. O que comprar primeiro, marcas recomendadas, faixa de preço e como montar seu kit profissional."
-date: "2025-01-13"
-author: "Detailing Prime"
-category: "Mercado"
-tags: ["equipamentos", "ferramentas", "investimento", "compras", "profissional"]
-image: "/images/covers/equipamentos-essenciais-detailing.jpg"
-readTime: "15 min"
+title: 'Equipamentos Essenciais para Detailing: Lista Completa 2025'
+description: >-
+  Guia definitivo de equipamentos para estética automotiva. O que comprar
+  primeiro, marcas recomendadas, faixa de preço e como montar seu kit
+  profissional.
+date: '2025-01-13'
+author: Detailing Prime
+category: Mercado
+tags:
+  - equipamentos
+  - ferramentas
+  - investimento
+  - compras
+  - profissional
+image: /images/covers/equipamentos-essenciais-detailing.jpg
+readTime: 15 min
 featured: true
+slug: equipamentos-essenciais-detailing
 ---
 
 # Equipamentos Essenciais para Detailing: Lista Completa 2025

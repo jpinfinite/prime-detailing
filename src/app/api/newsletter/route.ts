@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
 
     // Exemplo com armazenamento local (temporário)
     // Em produção, use um serviço de email marketing
-    
+
     const RESEND_API_KEY = process.env.RESEND_API_KEY;
     const NEWSLETTER_LIST = process.env.NEWSLETTER_LIST_EMAIL || 'detailingprime@proton.me';
 
@@ -74,24 +74,27 @@ export async function POST(request: NextRequest) {
       });
 
       if (!response.ok) {
-        throw new Error('Erro ao enviar email');
+        const errorData = await response.json();
+        console.error('Resend API Error:', errorData);
+        throw new Error('Erro ao enviar email via Resend');
       }
 
-      // Salvar também em uma lista (opcional)
-      // Você pode salvar em um arquivo JSON ou banco de dados
-      await saveToNewsletterList(email);
-    } else {
-      // Fallback: apenas salvar localmente
-      await saveToNewsletterList(email);
-    }
+      return NextResponse.json(
+        {
+          success: true,
+          message: 'Inscrição realizada com sucesso!'
+        },
+        { status: 200 }
+      );
 
-    return NextResponse.json(
-      { 
-        success: true, 
-        message: 'Inscrição realizada com sucesso!' 
-      },
-      { status: 200 }
-    );
+    } else {
+      console.warn('RESEND_API_KEY não configurada');
+      // Em produção, isso deve falhar se não tivermos como salvar o email
+      return NextResponse.json(
+        { error: 'Serviço de newsletter temporariamente indisponível (Configuração pendente)' },
+        { status: 503 }
+      );
+    }
 
   } catch (error) {
     console.error('Newsletter error:', error);
@@ -99,39 +102,5 @@ export async function POST(request: NextRequest) {
       { error: 'Erro ao processar inscrição' },
       { status: 500 }
     );
-  }
-}
-
-// Função auxiliar para salvar emails
-async function saveToNewsletterList(email: string) {
-  const fs = require('fs').promises;
-  const path = require('path');
-  
-  try {
-    const filePath = path.join(process.cwd(), 'data', 'newsletter.json');
-    
-    // Criar diretório se não existir
-    await fs.mkdir(path.dirname(filePath), { recursive: true });
-    
-    let subscribers = [];
-    try {
-      const data = await fs.readFile(filePath, 'utf-8');
-      subscribers = JSON.parse(data);
-    } catch {
-      // Arquivo não existe ainda
-    }
-    
-    // Verificar se email já existe
-    if (!subscribers.find((s: any) => s.email === email)) {
-      subscribers.push({
-        email,
-        subscribedAt: new Date().toISOString(),
-        status: 'active'
-      });
-      
-      await fs.writeFile(filePath, JSON.stringify(subscribers, null, 2));
-    }
-  } catch (error) {
-    console.error('Error saving to newsletter list:', error);
   }
 }

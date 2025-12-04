@@ -1,13 +1,21 @@
 ---
-title: "Review: Politriz Vonder PEV1200 - Melhor Custo-Benefício 2025?"
-description: "Review completo da Politriz Vonder PEV1200. Testamos potência, vibração, resultados e durabilidade. Vale a pena para iniciantes? Descubra aqui."
-date: "2025-01-28"
-author: "Detailing Prime"
-category: "Reviews"
-tags: ["politriz", "vonder", "equipamentos", "review", "polimento"]
-image: "/images/covers/review-politriz-vonder-pev1200.jpg"
-readTime: "12 min"
+title: 'Review: Politriz Vonder PEV1200 - Melhor Custo-Benefício 2025?'
+description: >-
+  Review completo da Politriz Vonder PEV1200. Testamos potência, vibração,
+  resultados e durabilidade. Vale a pena para iniciantes? Descubra aqui.
+date: '2025-01-28'
+author: Detailing Prime
+category: Reviews
+tags:
+  - politriz
+  - vonder
+  - equipamentos
+  - review
+  - polimento
+image: /images/covers/review-politriz-vonder-pev1200.jpg
+readTime: 12 min
 featured: true
+slug: review-politriz-vonder-pev1200
 ---
 
 # Review: Politriz Vonder PEV1200 - Melhor Custo-Benefício 2025?

@@ -24,6 +24,7 @@
     "images:flux-test": "node scripts/generate-images-flux.js test"
   },
   "dependencies": {
+    "@cloudflare/ai": "^1.2.2",
     "@huggingface/inference": "^4.13.4",
     "dotenv": "^17.2.3",
     "gray-matter": "^4.0.3",

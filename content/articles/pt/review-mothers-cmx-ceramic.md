@@ -1,13 +1,21 @@
 ---
-title: "Review: Mothers CMX Ceramic Spray - Ceramic Coating Fácil?"
-description: "Review completo do Mothers CMX Ceramic Spray. Testamos durabilidade, brilho e facilidade. Ceramic coating em spray funciona?"
-date: "2025-01-24"
-author: "Detailing Prime"
-category: "Reviews"
-tags: ["mothers", "ceramic", "proteção", "review", "spray"]
-image: "/images/covers/review-mothers-cmx-ceramic.jpg"
-readTime: "9 min"
+title: 'Review: Mothers CMX Ceramic Spray - Ceramic Coating Fácil?'
+description: >-
+  Review completo do Mothers CMX Ceramic Spray. Testamos durabilidade, brilho e
+  facilidade. Ceramic coating em spray funciona?
+date: '2025-01-24'
+author: Detailing Prime
+category: Reviews
+tags:
+  - mothers
+  - ceramic
+  - proteção
+  - review
+  - spray
+image: /images/covers/review-mothers-cmx-ceramic.jpg
+readTime: 9 min
 featured: false
+slug: review-mothers-cmx-ceramic
 ---
 
 # Review: Mothers CMX Ceramic Spray - Ceramic Coating Fácil?

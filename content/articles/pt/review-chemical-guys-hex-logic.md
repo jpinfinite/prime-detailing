@@ -1,13 +1,21 @@
 ---
-title: "Review: Chemical Guys Hex-Logic - Melhores Boinas 2025?"
-description: "Review completo das boinas Chemical Guys Hex-Logic. Testamos corte, refino e lustro. Vale a pena o preço premium?"
-date: "2025-01-25"
-author: "Detailing Prime"
-category: "Reviews"
-tags: ["boinas", "chemical guys", "polimento", "review", "equipamentos"]
-image: "/images/covers/review-chemical-guys-hex-logic.jpg"
-readTime: "10 min"
+title: 'Review: Chemical Guys Hex-Logic - Melhores Boinas 2025?'
+description: >-
+  Review completo das boinas Chemical Guys Hex-Logic. Testamos corte, refino e
+  lustro. Vale a pena o preço premium?
+date: '2025-01-25'
+author: Detailing Prime
+category: Reviews
+tags:
+  - boinas
+  - chemical guys
+  - polimento
+  - review
+  - equipamentos
+image: /images/covers/review-chemical-guys-hex-logic.jpg
+readTime: 10 min
 featured: false
+slug: review-chemical-guys-hex-logic
 ---
 
 # Review: Chemical Guys Hex-Logic - Melhores Boinas 2025?

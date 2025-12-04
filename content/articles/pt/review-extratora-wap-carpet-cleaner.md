@@ -1,13 +1,21 @@
 ---
-title: "Review: Extratora Wap Carpet Cleaner - Vale o Investimento?"
-description: "Review completo da Extratora Wap Carpet Cleaner. Testamos sucção, limpeza, durabilidade e custo-benefício. Melhor extratora para iniciantes?"
-date: "2025-01-27"
-author: "Detailing Prime"
-category: "Reviews"
-tags: ["extratora", "wap", "limpeza", "interior", "review"]
-image: "/images/covers/review-extratora-wap-carpet-cleaner.jpg"
-readTime: "11 min"
+title: 'Review: Extratora Wap Carpet Cleaner - Vale o Investimento?'
+description: >-
+  Review completo da Extratora Wap Carpet Cleaner. Testamos sucção, limpeza,
+  durabilidade e custo-benefício. Melhor extratora para iniciantes?
+date: '2025-01-27'
+author: Detailing Prime
+category: Reviews
+tags:
+  - extratora
+  - wap
+  - limpeza
+  - interior
+  - review
+image: /images/covers/review-extratora-wap-carpet-cleaner.jpg
+readTime: 11 min
 featured: false
+slug: review-extratora-wap-carpet-cleaner
 ---
 
 # Review: Extratora Wap Carpet Cleaner - Vale o Investimento?

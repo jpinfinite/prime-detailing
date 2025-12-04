@@ -13,11 +13,11 @@ export default function Comments({ slug, title }: CommentsProps) {
   useEffect(() => {
     if (!commentsRef.current) return;
 
-    // Verificar se as variáveis de ambiente estão configuradas
-    const repo = process.env.NEXT_PUBLIC_GISCUS_REPO;
-    const repoId = process.env.NEXT_PUBLIC_GISCUS_REPO_ID;
+    // Verificar se as variáveis de ambiente estão configuradas (com fallback)
+    const repo = process.env.NEXT_PUBLIC_GISCUS_REPO || 'jpinfinite/prime-detailing';
+    const repoId = process.env.NEXT_PUBLIC_GISCUS_REPO_ID || 'R_kgDOQgU-4g';
     const category = process.env.NEXT_PUBLIC_GISCUS_CATEGORY || 'Announcements';
-    const categoryId = process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID;
+    const categoryId = process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || 'DIC_kwDOQgU-4s4CzUo5';
 
     if (!repo || !repoId || !categoryId) {
       console.warn('Giscus não configurado. Configure as variáveis de ambiente.');

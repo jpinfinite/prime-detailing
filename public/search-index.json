@@ -30,6 +30,30 @@
     "image": "/images/covers/como-aplicar-cera-liquida.jpg"
   },
   {
+    "slug": "como-cuidar-da-pintura-fosca",
+    "title": "Como cuidar da pintura fosca: Dicas para manter seu carro em seu melhor estado",
+    "description": "Guia completo sobre Como cuidar da pintura fosca.",
+    "category": "Técnicas",
+    "tags": [
+      "detailing",
+      "dicas"
+    ],
+    "readTime": "5 min",
+    "image": "/images/ai-generated/como-cuidar-da-pintura-fosca.png"
+  },
+  {
+    "slug": "como-lavar-o-carro-a-seco-em-casa",
+    "title": "Como lavar o carro a seco em casa: uma técnica profissional para um brilho incrível",
+    "description": "Tudo sobre Como lavar o carro a seco em casa.",
+    "category": "Tutoriais",
+    "tags": [
+      "detailing",
+      "auto"
+    ],
+    "readTime": "7 min",
+    "image": "/images/ai-generated/como-lavar-o-carro-a-seco-em-casa.png"
+  },
+  {
     "slug": "como-limpar-motor-carro",
     "title": "Como Limpar Motor do Carro: Guia Seguro 2025 - Sem Danificar",
     "description": "Aprenda a limpar o motor do carro com segurança: passo a passo, produtos corretos, o que proteger e como evitar danos elétricos.",
@@ -223,6 +247,18 @@
     ],
     "readTime": "10 min",
     "image": "/images/covers/detailing-suvs-picapes.jpg"
+  },
+  {
+    "slug": "diferenca-entre-polimento-e-cristalizacao",
+    "title": "A Diferença entre Polimento e Cristalização: Desbloqueie o Segredo da Luminosidade do seu Veículo",
+    "description": "Tudo sobre Diferença entre Polimento e Cristalização.",
+    "category": "Tutoriais",
+    "tags": [
+      "detailing",
+      "auto"
+    ],
+    "readTime": "7 min",
+    "image": "/images/ai-generated/diferenca-entre-polimento-e-cristalizacao.png"
   },
   {
     "slug": "equipamentos-essenciais-detailing",
@@ -437,6 +473,18 @@
     ],
     "readTime": "5 min",
     "image": "/images/covers/melhores-microfibras-detailing.jpg"
+  },
+  {
+    "slug": "melhores-produtos-para-limpar-couro-automotivo",
+    "title": "Melhores produtos para limpar couro automotivo",
+    "description": "Tudo sobre Melhores produtos para limpar couro automotivo.",
+    "category": "Tutoriais",
+    "tags": [
+      "detailing",
+      "auto"
+    ],
+    "readTime": "7 min",
+    "image": "/images/ai-generated/melhores-produtos-para-limpar-couro-automotivo.png"
   },
   {
     "slug": "mercado-detailing-brasil-2025",
