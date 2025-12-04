@@ -33,24 +33,85 @@ async function generateArticle(topic) {
     console.log(`📝 Gerando artigo sobre: "${topic}"...`);
 
     const prompt = `
-    Você é um especialista em Estética Automotiva (Detailing).
-    Escreva um artigo completo, em Português do Brasil, sobre o tema: "${topic}".
+    Você é um especialista renomado em Estética Automotiva (Detailing) com 15 anos de experiência.
+    Escreva um artigo COMPLETO e DETALHADO, em Português do Brasil, sobre o tema: "${topic}".
     
-    Estrutura do artigo:
-    1. Título atraente (H1)
-    2. Introdução (explicando o problema e a solução)
-    3. Passo a passo ou detalhes técnicos (use H2 e H3)
-    4. Lista de materiais necessários (se aplicável)
-    5. Dicas profissionais (Dica de Ouro)
-    6. Conclusão
+    IMPORTANTE: O artigo deve ter NO MÍNIMO 1500 palavras (aproximadamente 7 minutos de leitura).
     
-    Formato: Markdown.
-    Tom de voz: Profissional, educativo e encorajador.
+    Estrutura OBRIGATÓRIA do artigo:
+    
+    # [Título Atraente e Otimizado para SEO]
+    
+    ## Introdução (200-300 palavras)
+    - Apresente o problema que o leitor enfrenta
+    - Explique por que este tema é importante
+    - Dê uma prévia da solução que será apresentada
+    
+    ## Por que [tema] é importante? (150-200 palavras)
+    - Contextualize o tema
+    - Apresente dados ou estatísticas relevantes
+    - Explique os benefícios
+    
+    ## Materiais/Produtos Necessários (se aplicável)
+    - Liste TODOS os materiais necessários
+    - Inclua alternativas (básico, intermediário, profissional)
+    - Adicione faixas de preço quando relevante
+    
+    ## Passo a Passo Detalhado (600-800 palavras)
+    ### Passo 1: [Nome do Passo]
+    - Explicação detalhada
+    - Dicas específicas
+    - Erros comuns a evitar
+    
+    ### Passo 2: [Nome do Passo]
+    - Explicação detalhada
+    - Dicas específicas
+    - Erros comuns a evitar
+    
+    (Continue com todos os passos necessários - mínimo 5 passos)
+    
+    ## Dicas Profissionais (200-300 palavras)
+    ### 💡 Dica de Ouro
+    - Compartilhe um segredo profissional
+    
+    ### ⚠️ Erros Comuns a Evitar
+    - Liste 5-7 erros que iniciantes cometem
+    
+    ### 🎯 Dicas Extras
+    - Truques para otimizar o resultado
+    - Como economizar tempo/dinheiro
+    
+    ## Perguntas Frequentes (150-200 palavras)
+    **Pergunta 1?**
+    Resposta detalhada.
+    
+    **Pergunta 2?**
+    Resposta detalhada.
+    
+    (Mínimo 3 perguntas)
+    
+    ## Conclusão (150-200 palavras)
+    - Recapitule os pontos principais
+    - Encoraje o leitor a colocar em prática
+    - Convide para comentar ou compartilhar
+    
+    ---
+    
+    REGRAS IMPORTANTES:
+    - Use linguagem clara e acessível
+    - Seja específico e prático
+    - Inclua exemplos reais
+    - Use listas e subtítulos para facilitar a leitura
+    - Mantenha tom profissional mas amigável
+    - NÃO corte o artigo no meio - complete TODAS as seções
+    - Garanta que o artigo tenha NO MÍNIMO 1500 palavras
+    
+    Formato: Markdown puro (sem frontmatter, apenas o conteúdo).
     `;
 
     const result = await runAI(MODELS.text, {
         messages: [
-            { role: "system", content: "Você é um redator expert em detalhamento automotivo." },
+            { role: "system", content: "Você é um redator expert em detalhamento automotivo. Seus artigos são sempre completos, detalhados e práticos, com no mínimo 1500 palavras." },
             { role: "user", content: prompt }
         ]
     });
@@ -118,6 +179,11 @@ Uso:
 
             const date = new Date().toISOString().split('T')[0];
 
+            // Calcular tempo de leitura (200 palavras por minuto)
+            const wordCount = articleContent.split(/\s+/).length;
+            const readTimeMinutes = Math.ceil(wordCount / 200);
+            const readTime = `${readTimeMinutes} min`;
+
             const finalContent = `---
 title: "${title}"
 description: "Guia completo sobre ${arg}."
@@ -127,7 +193,7 @@ category: "Técnicas"
 tags: ["detailing", "dicas"]
 featured: false
 image: "/images/ai-generated/${slug}.png"
-readTime: "5 min"
+readTime: "${readTime}"
 ---
 
 ${articleContent.replace(/^#\s+.+$/m, '')}
@@ -169,6 +235,11 @@ ${articleContent.replace(/^#\s+.+$/m, '')}
 
                     const date = new Date().toISOString().split('T')[0];
 
+                    // Calcular tempo de leitura (200 palavras por minuto)
+                    const wordCount = articleContent.split(/\s+/).length;
+                    const readTimeMinutes = Math.ceil(wordCount / 200);
+                    const readTime = `${readTimeMinutes} min`;
+
                     const finalContent = `---
 title: "${title}"
 description: "Tudo sobre ${topic}."
@@ -178,7 +249,7 @@ category: "Tutoriais"
 tags: ["detailing", "auto"]
 featured: false
 image: "/images/ai-generated/${slug}.png"
-readTime: "7 min"
+readTime: "${readTime}"
 ---
 
 ${articleContent.replace(/^#\s+.+$/m, '')}
