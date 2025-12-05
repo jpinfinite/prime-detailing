@@ -6,7 +6,7 @@ date: "2025-01-28"
 category: "Técnicas"
 tags: ["pintura fosca", "matte", "cuidados", "detailing", "manutenção"]
 featured: true
-image: "/images/covers/pintura-fosca-cuidados.jpg"
+image: "/images/covers/cuidados-pintura-preta.jpg"
 readTime: "7 min"
 ---
 

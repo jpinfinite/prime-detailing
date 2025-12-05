@@ -7,7 +7,7 @@ category: "Tutoriais"
 tags: ["faróis", "restauração", "polimento", "amarelamento", "manutenção"]
 keywords: ["restaurar faróis amarelados", "farol opaco", "polimento farol", "farol amarelado", "como limpar farol"]
 featured: true
-image: "/images/covers/restauracao-farois-amarelados.jpg"
+image: "/images/covers/como-polir-farois-2025.jpg"
 readTime: "7 min"
 ---
 

@@ -6,7 +6,7 @@ date: "2025-01-28"
 category: "Técnicas"
 tags: ["polimento", "cristalização", "correção", "pintura", "técnicas"]
 featured: true
-image: "/images/covers/polimento-vs-cristalizacao.jpg"
+image: "/images/covers/correcao-pintura-profissional.jpg"
 readTime: "7 min"
 ---
 

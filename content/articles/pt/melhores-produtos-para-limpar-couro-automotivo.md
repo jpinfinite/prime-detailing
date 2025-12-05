@@ -6,7 +6,7 @@ date: "2025-01-28"
 category: "Produtos"
 tags: ["couro automotivo", "limpeza", "produtos", "detailing", "manutenção"]
 featured: true
-image: "/images/covers/produtos-couro-automotivo.jpg"
+image: "/images/covers/limpeza-banco-couro-completo.jpg"
 readTime: "7 min"
 ---
 
