@@ -31,26 +31,29 @@
   },
   {
     "slug": "como-cuidar-da-pintura-fosca",
-    "title": "Como cuidar da pintura fosca: Dicas para manter seu carro em seu melhor estado",
-    "description": "Guia completo sobre Como cuidar da pintura fosca.",
+    "title": "Como Cuidar da Pintura Fosca: Guia Completo [2025]",
+    "description": "Aprenda como cuidar corretamente da pintura fosca do seu carro. Guia completo com produtos, técnicas e erros a evitar para manter o acabamento matte perfeito.",
     "category": "Técnicas",
     "tags": [
+      "pintura fosca",
+      "matte",
+      "cuidados",
       "detailing",
-      "dicas"
+      "manutenção"
     ],
-    "readTime": "5 min",
-    "image": "/images/ai-generated/como-cuidar-da-pintura-fosca.png"
+    "readTime": "7 min",
+    "image": "/images/covers/pintura-fosca-cuidados.jpg"
   },
   {
     "slug": "como-lavar-o-carro-a-seco-em-casa",
-    "title": "Como lavar o carro a seco em casa: uma técnica profissional para um brilho incrível",
-    "description": "Tudo sobre Como lavar o carro a seco em casa.",
+    "title": "Como lavar o carro a seco em casa",
+    "description": "Guia completo sobre Como lavar o carro a seco em casa.",
     "category": "Tutoriais",
     "tags": [
       "detailing",
       "auto"
     ],
-    "readTime": "7 min",
+    "readTime": "6 min",
     "image": "/images/ai-generated/como-lavar-o-carro-a-seco-em-casa.png"
   },
   {
@@ -250,15 +253,18 @@
   },
   {
     "slug": "diferenca-entre-polimento-e-cristalizacao",
-    "title": "A Diferença entre Polimento e Cristalização: Desbloqueie o Segredo da Luminosidade do seu Veículo",
-    "description": "Tudo sobre Diferença entre Polimento e Cristalização.",
-    "category": "Tutoriais",
+    "title": "Polimento vs Cristalização: Diferenças, Técnicas e Quando Usar [2025]",
+    "description": "Entenda as diferenças entre polimento e cristalização automotiva: técnicas, produtos, custos e quando usar cada processo para obter o melhor resultado na pintura.",
+    "category": "Técnicas",
     "tags": [
-      "detailing",
-      "auto"
+      "polimento",
+      "cristalização",
+      "correção",
+      "pintura",
+      "técnicas"
     ],
     "readTime": "7 min",
-    "image": "/images/ai-generated/diferenca-entre-polimento-e-cristalizacao.png"
+    "image": "/images/covers/polimento-vs-cristalizacao.jpg"
   },
   {
     "slug": "equipamentos-essenciais-detailing",
@@ -302,7 +308,7 @@
       "carpetes",
       "detailing interno"
     ],
-    "readTime": "5 min",
+    "readTime": "7 min",
     "image": "/images/articles/higienizacao-interna-profissional.svg"
   },
   {
@@ -476,15 +482,18 @@
   },
   {
     "slug": "melhores-produtos-para-limpar-couro-automotivo",
-    "title": "Melhores produtos para limpar couro automotivo",
-    "description": "Tudo sobre Melhores produtos para limpar couro automotivo.",
-    "category": "Tutoriais",
+    "title": "Melhores Produtos para Limpar Couro Automotivo [2025]",
+    "description": "Descubra os 10 melhores produtos para limpar couro automotivo. Comparativo completo com preços, técnicas de aplicação e dicas profissionais para manter o couro perfeito.",
+    "category": "Produtos",
     "tags": [
+      "couro automotivo",
+      "limpeza",
+      "produtos",
       "detailing",
-      "auto"
+      "manutenção"
     ],
     "readTime": "7 min",
-    "image": "/images/ai-generated/melhores-produtos-para-limpar-couro-automotivo.png"
+    "image": "/images/covers/produtos-couro-automotivo.jpg"
   },
   {
     "slug": "mercado-detailing-brasil-2025",
@@ -717,12 +726,18 @@
   },
   {
     "slug": "restauracao-farois-amarelados",
-    "title": "",
-    "description": "",
-    "category": "",
-    "tags": [],
-    "readTime": "5 min",
-    "image": "/images/default.jpg"
+    "title": "Restauração de Faróis Amarelados: Guia Completo 2025 [Passo a Passo]",
+    "description": "Aprenda a restaurar faróis amarelados e opacos: técnicas profissionais, produtos recomendados, passo a passo detalhado e como evitar o amarelamento.",
+    "category": "Tutoriais",
+    "tags": [
+      "faróis",
+      "restauração",
+      "polimento",
+      "amarelamento",
+      "manutenção"
+    ],
+    "readTime": "7 min",
+    "image": "/images/covers/restauracao-farois-amarelados.jpg"
   },
   {
     "slug": "review-3m-perfect-it",

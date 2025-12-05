@@ -7,6 +7,7 @@ author: "patricia-almeida"
 category: "Tutoriais"
 tags: ["higienização", "limpeza interna", "estofados", "carpetes", "detailing interno"]
 image: "/images/articles/higienizacao-interna-profissional.svg"
+readTime: "7 min"
 ---
 
 Higienização interna profissional vai muito além da aspiração básica. Este guia completo ensina técnicas e produtos para limpeza técnica de interiores automotivos.
