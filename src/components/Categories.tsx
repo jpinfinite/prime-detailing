@@ -9,7 +9,7 @@ const translations = {
         name: "Tutoriais", 
         icon: "🔧",
         description: "Passo a passo detalhado",
-        count: "6 artigos",
+        count: "13 artigos",
         color: "from-blue-500/20 to-blue-600/20",
         href: "/artigos?categoria=Tutoriais"
       },
@@ -17,7 +17,7 @@ const translations = {
         name: "Reviews", 
         icon: "⭐",
         description: "Análises honestas de produtos",
-        count: "3 artigos",
+        count: "8 artigos",
         color: "from-green-500/20 to-green-600/20",
         href: "/artigos?categoria=Reviews"
       },
@@ -25,7 +25,7 @@ const translations = {
         name: "Produtos", 
         icon: "🧴",
         description: "Comparativos e recomendações",
-        count: "3 artigos",
+        count: "7 artigos",
         color: "from-purple-500/20 to-purple-600/20",
         href: "/artigos?categoria=Produtos"
       },
@@ -33,7 +33,7 @@ const translations = {
         name: "Técnicas", 
         icon: "🛠️",
         description: "Métodos profissionais",
-        count: "3 artigos",
+        count: "16 artigos",
         color: "from-yellow-500/20 to-yellow-600/20",
         href: "/artigos?categoria=Técnicas"
       },
@@ -41,7 +41,7 @@ const translations = {
         name: "Mercado", 
         icon: "📈",
         description: "Tendências e novidades",
-        count: "1 artigo",
+        count: "8 artigos",
         color: "from-orange-500/20 to-orange-600/20",
         href: "/artigos?categoria=Mercado"
       },
@@ -49,7 +49,7 @@ const translations = {
         name: "Manutenção", 
         icon: "🔩",
         description: "Cuidados e conservação",
-        count: "4 artigos",
+        count: "6 artigos",
         color: "from-red-500/20 to-red-600/20",
         href: "/artigos?categoria=Manutenção"
       },
@@ -63,7 +63,7 @@ const translations = {
         name: "Tutorials", 
         icon: "🔧",
         description: "Detailed step-by-step",
-        count: "6 articles",
+        count: "13 articles",
         color: "from-blue-500/20 to-blue-600/20",
         href: "/artigos?categoria=Tutoriais"
       },
@@ -71,7 +71,7 @@ const translations = {
         name: "Reviews", 
         icon: "⭐",
         description: "Honest product analysis",
-        count: "3 articles",
+        count: "8 articles",
         color: "from-green-500/20 to-green-600/20",
         href: "/artigos?categoria=Reviews"
       },
@@ -79,7 +79,7 @@ const translations = {
         name: "Products", 
         icon: "🧴",
         description: "Comparisons and recommendations",
-        count: "3 articles",
+        count: "7 articles",
         color: "from-purple-500/20 to-purple-600/20",
         href: "/artigos?categoria=Produtos"
       },
@@ -87,7 +87,7 @@ const translations = {
         name: "Techniques", 
         icon: "🛠️",
         description: "Professional methods",
-        count: "3 articles",
+        count: "16 articles",
         color: "from-yellow-500/20 to-yellow-600/20",
         href: "/artigos?categoria=Técnicas"
       },
@@ -95,7 +95,7 @@ const translations = {
         name: "Market", 
         icon: "📈",
         description: "Trends and news",
-        count: "1 article",
+        count: "8 articles",
         color: "from-orange-500/20 to-orange-600/20",
         href: "/artigos?categoria=Mercado"
       },
@@ -103,7 +103,7 @@ const translations = {
         name: "Maintenance", 
         icon: "🔩",
         description: "Care and conservation",
-        count: "4 articles",
+        count: "6 articles",
         color: "from-red-500/20 to-red-600/20",
         href: "/artigos?categoria=Manutenção"
       },

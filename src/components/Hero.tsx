@@ -10,8 +10,8 @@ const translations = {
     cta1: "Guias Essenciais",
     cta2: "Ver Reviews",
     stats: {
-      articles: "17+ Artigos",
-      words: "40k+ Palavras",
+      articles: "61+ Artigos",
+      words: "79k+ Palavras",
       updated: "Atualizado 2025"
     }
   },
@@ -23,8 +23,8 @@ const translations = {
     cta1: "Essential Guides",
     cta2: "See Reviews",
     stats: {
-      articles: "17+ Articles",
-      words: "40k+ Words",
+      articles: "61+ Articles",
+      words: "79k+ Words",
       updated: "Updated 2025"
     }
   },
