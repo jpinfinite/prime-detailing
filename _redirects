@@ -1,0 +1,21 @@
+# Redirects para Cloudflare Pages
+
+# Redirect para HTTPS
+http://detailingprime.com.br/* https://detailingprime.com.br/:splat 301!
+http://www.detailingprime.com.br/* https://detailingprime.com.br/:splat 301!
+
+# Redirect www para non-www
+https://www.detailingprime.com.br/* https://detailingprime.com.br/:splat 301!
+
+# Trailing slash redirects
+/artigos /artigos/ 301
+/sobre /sobre/ 301
+/contato /contato/ 301
+/reviews /reviews/ 301
+/educacao /educacao/ 301
+
+# API routes (não aplicável para static export, mas mantido para referência)
+/api/* /api/:splat 200
+
+# 404 fallback
+/* /404.html 404
