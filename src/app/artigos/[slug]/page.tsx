@@ -27,6 +27,22 @@ export async function generateStaticParams() {
   }));
 }
 
+function splitContentForAd(html: string) {
+  if (!html) return { part1: '', part2: '' };
+  const pCloseTags = [...html.matchAll(/<\/p>/g)];
+
+  // Se tiver menos de 4 parágrafos, não divide
+  if (pCloseTags.length < 4) return { part1: html, part2: '' };
+
+  const rawMiddleIndex = Math.floor(pCloseTags.length / 2);
+  const splitIndex = pCloseTags[rawMiddleIndex].index! + 4;
+
+  return {
+    part1: html.substring(0, splitIndex),
+    part2: html.substring(splitIndex)
+  };
+}
+
 import { getArticleBySlug, getRelatedArticles } from "@/lib/articles";
 import { notFound } from "next/navigation";
 
@@ -131,6 +147,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     `,
   };
 
+  const { part1, part2 } = splitContentForAd(mockArticle.content);
+
   return (
     <div className="min-h-screen bg-prime-black">
       {/* Reading Progress Bar */}
@@ -226,13 +244,15 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             </div>
 
             {/* Conteúdo */}
-            <div
-              className="article-content prose prose-lg prose-invert max-w-none"
-              dangerouslySetInnerHTML={{ __html: mockArticle.content }}
-            />
+            {/* Conteúdo */}
+            <div className="article-content prose prose-lg prose-invert max-w-none">
+              <div dangerouslySetInnerHTML={{ __html: part1 }} />
 
-            {/* Anúncio In-Article */}
-            <InArticleAd />
+              {/* Anúncio In-Article */}
+              <InArticleAd />
+
+              {part2 && <div dangerouslySetInnerHTML={{ __html: part2 }} />}
+            </div>
 
             {/* CTA Final - Newsletter */}
             <NewsletterInline />
