@@ -8,6 +8,8 @@ import SearchBar from "@/components/SearchBar";
 import AdvancedSearch from "@/components/AdvancedSearch";
 import Pagination from "@/components/Pagination";
 import ArticleBadges from "@/components/ArticleBadges";
+import FeedAd from "@/components/ads/FeedAd";
+import React from "react";
 
 interface ArticlesClientProps {
   articles: Article[];
@@ -55,7 +57,7 @@ export default function ArticlesClient({ articles }: ArticlesClientProps) {
           <p className="text-xl text-text-secondary text-center mb-8">
             Explore nosso conteúdo sobre estética automotiva
           </p>
-          
+
           {/* Busca */}
           <div className="flex flex-col items-center gap-4">
             <SearchBar />
@@ -65,31 +67,29 @@ export default function ArticlesClient({ articles }: ArticlesClientProps) {
 
         {/* Filtros */}
         <div className="flex flex-wrap gap-4 mb-8 justify-center">
-          <button 
+          <button
             onClick={() => setSelectedCategory(null)}
-            className={`px-4 py-2 rounded-lg font-semibold transition ${
-              !selectedCategory 
-                ? 'bg-prime-yellow text-prime-black' 
+            className={`px-4 py-2 rounded-lg font-semibold transition ${!selectedCategory
+                ? 'bg-prime-yellow text-prime-black'
                 : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
-            }`}
+              }`}
           >
             Todos
           </button>
           {categories.map(cat => (
-            <button 
+            <button
               key={cat.name}
               onClick={() => setSelectedCategory(cat.name)}
-              className={`px-4 py-2 rounded-lg font-semibold transition ${
-                selectedCategory === cat.name 
-                  ? 'bg-prime-yellow text-prime-black' 
+              className={`px-4 py-2 rounded-lg font-semibold transition ${selectedCategory === cat.name
+                  ? 'bg-prime-yellow text-prime-black'
                   : 'bg-prime-gray-medium text-text-primary hover:bg-prime-gray-light'
-              }`}
+                }`}
             >
               {cat.icon} {cat.name}
             </button>
           ))}
         </div>
-        
+
         {/* Contador de resultados */}
         <div className="mb-6 text-text-muted">
           Mostrando {startIndex + 1}-{Math.min(endIndex, filteredArticles.length)} de {filteredArticles.length} artigos
@@ -102,7 +102,7 @@ export default function ArticlesClient({ articles }: ArticlesClientProps) {
             <p className="text-xl text-text-secondary mb-4">
               Nenhum artigo encontrado nesta categoria ainda.
             </p>
-            <button 
+            <button
               onClick={() => setSelectedCategory(null)}
               className="text-prime-yellow hover:text-prime-yellow-light font-semibold"
             >
@@ -112,48 +112,56 @@ export default function ArticlesClient({ articles }: ArticlesClientProps) {
         ) : (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {currentArticles.map((article) => (
-              <article 
-                key={article.slug} 
-                className="bg-prime-gray-medium rounded-lg border border-prime-gray-light overflow-hidden hover:border-prime-yellow transition-all group"
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <Image
-                    src={article.image}
-                    alt={`${article.title} - ${article.category}`}
-                    fill
-                    loading="lazy"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <ArticleBadges 
-                    date={article.date} 
-                    featured={article.featured}
-                    readTime={article.readTime}
-                  />
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="text-sm text-prime-yellow font-semibold">
-                      {article.category}
-                    </span>
-                    <span className="text-sm text-text-muted">{article.date}</span>
-                  </div>
-                  <h2 className="font-bold text-xl mb-2 text-text-primary group-hover:text-prime-yellow transition-colors">
-                    {article.title}
-                  </h2>
-                  <p className="text-text-secondary mb-4 line-clamp-2">
-                    {article.excerpt}
-                  </p>
-                  <Link
-                    href={`/artigos/${article.slug}`}
-                    className="text-prime-yellow hover:text-prime-yellow-light font-semibold inline-flex items-center gap-2"
+              {currentArticles.map((article, index) => (
+                <React.Fragment key={article.slug}>
+                  <article
+                    className="bg-prime-gray-medium rounded-lg border border-prime-gray-light overflow-hidden hover:border-prime-yellow transition-all group"
                   >
-                    Ler mais →
-                  </Link>
-                </div>
-              </article>
-            ))}
+                    <div className="relative h-48 overflow-hidden">
+                      <Image
+                        src={article.image}
+                        alt={`${article.title} - ${article.category}`}
+                        fill
+                        loading="lazy"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <ArticleBadges
+                        date={article.date}
+                        featured={article.featured}
+                        readTime={article.readTime}
+                      />
+                      <div className="flex items-center justify-between mb-3">
+                        <span className="text-sm text-prime-yellow font-semibold">
+                          {article.category}
+                        </span>
+                        <span className="text-sm text-text-muted">{article.date}</span>
+                      </div>
+                      <h2 className="font-bold text-xl mb-2 text-text-primary group-hover:text-prime-yellow transition-colors">
+                        {article.title}
+                      </h2>
+                      <p className="text-text-secondary mb-4 line-clamp-2">
+                        {article.excerpt}
+                      </p>
+                      <Link
+                        href={`/artigos/${article.slug}`}
+                        className="text-prime-yellow hover:text-prime-yellow-light font-semibold inline-flex items-center gap-2"
+                      >
+                        Ler mais →
+                      </Link>
+                    </div>
+                  </article>
+
+                  {/* Inserir Anúncio no meio da lista (após o 5º item) */}
+                  {index === 4 && (
+                    <div className="col-span-1 md:col-span-2 lg:col-span-3 py-4">
+                      <FeedAd />
+                    </div>
+                  )}
+                </React.Fragment>
+              ))}
             </div>
 
             {/* Paginação */}
