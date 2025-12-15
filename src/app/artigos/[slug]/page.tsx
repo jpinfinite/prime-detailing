@@ -12,12 +12,15 @@ import Comments from "@/components/Comments";
 import ArticleAnalytics from "@/components/ArticleAnalytics";
 import NewsletterInline from "@/components/NewsletterInline";
 import ArticleRating from "@/components/ArticleRating";
+
 import ReadingProgress from "@/components/ReadingProgress";
+import SidebarAd from "@/components/ads/SidebarAd";
+import InArticleAd from "@/components/ads/InArticleAd";
 
 // Gera todas as rotas estáticas em build time
 export async function generateStaticParams() {
   const articles = await getAllArticles();
-  
+
   return articles.map((article) => ({
     slug: article.slug,
   }));
@@ -29,7 +32,7 @@ import { notFound } from "next/navigation";
 // Gerar metadata dinâmica
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const article = await getArticleBySlug(params.slug, 'pt');
-  
+
   if (!article) {
     return {
       title: 'Artigo não encontrado',
@@ -78,14 +81,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
   const article = await getArticleBySlug(params.slug, 'pt');
-  
+
   if (!article) {
     notFound();
   }
 
   // Buscar artigos relacionados
   const relatedArticles = getRelatedArticles(article.slug, article.category, 'pt', 3);
-  
+
   const mockArticle = {
     title: article.title,
     date: article.date,
@@ -131,7 +134,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     <div className="min-h-screen bg-prime-black">
       {/* Reading Progress Bar */}
       <ReadingProgress />
-      
+
       {/* Structured Data */}
       <ArticleSchema
         title={article.title}
@@ -169,73 +172,79 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           {/* Sidebar - Índice */}
           <aside className="hidden lg:block lg:col-span-3">
             <TableOfContents />
+            <div className="mt-8">
+              <SidebarAd />
+            </div>
           </aside>
 
           {/* Conteúdo Principal */}
           <article className="lg:col-span-9 max-w-4xl">
-        {/* Analytics Tracking */}
-        <ArticleAnalytics slug={article.slug} title={article.title} category={article.category} />
-        
-        {/* Header */}
-        <div className="mb-8">
-          <ArticleBadges 
-            date={article.date} 
-            featured={article.featured}
-            readTime={article.readTime}
-          />
-          
-          <div className="flex items-center gap-4 mb-4">
-            <span className="px-3 py-1 bg-prime-yellow text-prime-black text-sm font-semibold rounded">
-              {article.category}
-            </span>
-          </div>
-          
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-4 leading-tight">
-            {article.title}
-          </h1>
-          
-          <div className="flex items-center text-text-secondary space-x-4">
-            <span>{article.date}</span>
-            <span>•</span>
-            <span>Por Detailing Prime</span>
-          </div>
-        </div>
+            {/* Analytics Tracking */}
+            <ArticleAnalytics slug={article.slug} title={article.title} category={article.category} />
 
-        {/* Imagem Destaque */}
-        <div className="relative h-64 md:h-96 lg:h-[500px] mb-12 rounded-lg overflow-hidden shadow-2xl">
-          <Image
-            src={article.image}
-            alt={`${article.title} - Guia completo de detailing automotivo`}
-            fill
-            priority
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-            className="object-cover"
-          />
-        </div>
+            {/* Header */}
+            <div className="mb-8">
+              <ArticleBadges
+                date={article.date}
+                featured={article.featured}
+                readTime={article.readTime}
+              />
 
-        {/* Compartilhar */}
-        <div className="mb-8">
-          <SocialShare title={article.title} url={`/artigos/${article.slug}`} />
-        </div>
+              <div className="flex items-center gap-4 mb-4">
+                <span className="px-3 py-1 bg-prime-yellow text-prime-black text-sm font-semibold rounded">
+                  {article.category}
+                </span>
+              </div>
 
-        {/* Conteúdo */}
-        <div 
-          className="article-content prose prose-lg prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: mockArticle.content }}
-        />
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-4 leading-tight">
+                {article.title}
+              </h1>
 
-        {/* CTA Final - Newsletter */}
-        <NewsletterInline />
+              <div className="flex items-center text-text-secondary space-x-4">
+                <span>{article.date}</span>
+                <span>•</span>
+                <span>Por Detailing Prime</span>
+              </div>
+            </div>
 
-        {/* Avaliação do Artigo */}
-        <ArticleRating slug={article.slug} />
+            {/* Imagem Destaque */}
+            <div className="relative h-64 md:h-96 lg:h-[500px] mb-12 rounded-lg overflow-hidden shadow-2xl">
+              <Image
+                src={article.image}
+                alt={`${article.title} - Guia completo de detailing automotivo`}
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                className="object-cover"
+              />
+            </div>
 
-        {/* Artigos Relacionados */}
-        <RelatedArticles articles={relatedArticles} currentSlug={article.slug} />
+            {/* Compartilhar */}
+            <div className="mb-8">
+              <SocialShare title={article.title} url={`/artigos/${article.slug}`} />
+            </div>
 
-        {/* Comentários */}
-        <Comments slug={article.slug} title={article.title} />
-      </article>
+            {/* Conteúdo */}
+            <div
+              className="article-content prose prose-lg prose-invert max-w-none"
+              dangerouslySetInnerHTML={{ __html: mockArticle.content }}
+            />
+
+            {/* Anúncio In-Article */}
+            <InArticleAd />
+
+            {/* CTA Final - Newsletter */}
+            <NewsletterInline />
+
+            {/* Avaliação do Artigo */}
+            <ArticleRating slug={article.slug} />
+
+            {/* Artigos Relacionados */}
+            <RelatedArticles articles={relatedArticles} currentSlug={article.slug} />
+
+            {/* Comentários */}
+            <Comments slug={article.slug} title={article.title} />
+          </article>
         </div>
       </div>
 
