@@ -7,8 +7,8 @@ export default function InArticleAd() {
     <div className="my-8 flex justify-center">
       <div className="w-full max-w-3xl">
         <p className="text-xs text-gray-500 text-center mb-2">Publicidade</p>
-        <AdUnit 
-          slot="1234567890" 
+        <AdUnit
+          slot="7125135295"
           format="fluid"
           className="min-h-[250px]"
         />

@@ -4,14 +4,16 @@ import { useEffect } from 'react';
 
 interface AdUnitProps {
   slot: string;
-  format?: 'auto' | 'fluid' | 'rectangle' | 'vertical' | 'horizontal';
+  format?: 'auto' | 'fluid' | 'rectangle' | 'vertical' | 'horizontal' | 'autorelaxed';
+  layoutKey?: string;
   responsive?: boolean;
   className?: string;
 }
 
-export default function AdUnit({ 
-  slot, 
-  format = 'auto', 
+export default function AdUnit({
+  slot,
+  format = 'auto',
+  layoutKey,
   responsive = true,
   className = ''
 }: AdUnitProps) {
@@ -32,6 +34,7 @@ export default function AdUnit({
         data-ad-client="ca-pub-1151448515464841"
         data-ad-slot={slot}
         data-ad-format={format}
+        data-ad-layout-key={layoutKey}
         data-full-width-responsive={responsive.toString()}
       />
     </div>

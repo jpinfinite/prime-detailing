@@ -16,6 +16,7 @@ import ArticleRating from "@/components/ArticleRating";
 import ReadingProgress from "@/components/ReadingProgress";
 import SidebarAd from "@/components/ads/SidebarAd";
 import InArticleAd from "@/components/ads/InArticleAd";
+import MultiplexAd from "@/components/ads/MultiplexAd";
 
 // Gera todas as rotas estáticas em build time
 export async function generateStaticParams() {
@@ -238,6 +239,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
             {/* Avaliação do Artigo */}
             <ArticleRating slug={article.slug} />
+
+            {/* Anúncio Multiplex (Recomendados) */}
+            <MultiplexAd />
 
             {/* Artigos Relacionados */}
             <RelatedArticles articles={relatedArticles} currentSlug={article.slug} />
