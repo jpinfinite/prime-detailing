@@ -17,6 +17,7 @@ import ReadingProgress from "@/components/ReadingProgress";
 import SidebarAd from "@/components/ads/SidebarAd";
 import InArticleAd from "@/components/ads/InArticleAd";
 import MultiplexAd from "@/components/ads/MultiplexAd";
+import GoogleSubscribeWithGoogle from "@/components/GoogleSubscribeWithGoogle";
 
 // Gera todas as rotas estáticas em build time
 export async function generateStaticParams() {
@@ -36,15 +37,15 @@ function splitContentForAd(html: string) {
 
   // Contar palavras aproximadamente
   const wordCount = html.split(/\s+/).length;
-  
+
   // Artigos longos (6000+ palavras ou 15+ parágrafos) = 2 anúncios
   if (wordCount >= 6000 || pCloseTags.length >= 15) {
     const firstSplitIndex = Math.floor(pCloseTags.length / 3);
     const secondSplitIndex = Math.floor((pCloseTags.length * 2) / 3);
-    
+
     const firstSplit = pCloseTags[firstSplitIndex].index! + 4;
     const secondSplit = pCloseTags[secondSplitIndex].index! + 4;
-    
+
     return {
       part1: html.substring(0, firstSplit),
       part2: html.substring(firstSplit, secondSplit),
@@ -171,6 +172,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
   return (
     <div className="min-h-screen bg-prime-black">
+      {/* Google Subscribe with Google */}
+      <GoogleSubscribeWithGoogle />
+
       {/* Reading Progress Bar */}
       <ReadingProgress />
 
@@ -272,7 +276,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
               <InArticleAd />
 
               {part2 && <div dangerouslySetInnerHTML={{ __html: part2 }} />}
-              
+
               {/* Segundo Anúncio In-Article (apenas em artigos longos) */}
               {part3 && (
                 <>
