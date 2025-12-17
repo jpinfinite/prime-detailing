@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 interface TrendingNowProps {
     locale: string;
@@ -53,15 +52,21 @@ export default function TrendingNow({ locale }: TrendingNowProps) {
                             className="group block bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-prime-yellow hover:shadow-xl transition-all"
                         >
                             <div className="flex flex-col md:flex-row">
-                                {/* Image - High Contrast */}
+                                {/* Visual - Premium Gradient (Temporary) */}
                                 <div className="relative w-full md:w-2/5 h-64 md:h-auto overflow-hidden">
-                                    <Image
-                                        src={item.image}
-                                        alt={item.title}
-                                        fill
-                                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                                        sizes="(max-width: 768px) 100vw, 40vw"
-                                    />
+                                    {/* Gradient Background - Themed by index */}
+                                    <div className={`absolute inset-0 ${index === 0 ? 'bg-gradient-to-br from-red-600 via-red-700 to-gray-900' :
+                                        index === 1 ? 'bg-gradient-to-br from-blue-600 via-blue-700 to-gray-900' :
+                                            'bg-gradient-to-br from-green-600 via-green-700 to-gray-900'
+                                        }`} />
+
+                                    {/* Icon Overlay */}
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                        <div className="text-white/20 text-9xl">
+                                            {index === 0 ? '⚠️' : index === 1 ? '🧪' : '✨'}
+                                        </div>
+                                    </div>
+
                                     {/* Category Badge */}
                                     <div className="absolute top-4 left-4 px-3 py-1 bg-prime-yellow text-prime-black text-sm font-bold rounded">
                                         {item.category}
