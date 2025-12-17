@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface HeroProps {
   locale: string;
@@ -9,20 +10,18 @@ interface HeroProps {
 export default function Hero({ locale }: HeroProps) {
   return (
     <section className="relative h-[85vh] min-h-[650px] flex items-center justify-center overflow-hidden">
-      {/* Background - Premium Gradient (Temporary until images are ready) */}
+      {/* Background Image - Editorial Style */}
       <div className="absolute inset-0 z-0">
-        {/* Gradient Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black" />
-
-        {/* Texture Overlay */}
-        <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(255, 215, 0, 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(255, 215, 0, 0.2) 0%, transparent 50%)'
-        }} />
-
-        {/* Subtle Pattern */}
-        <div className="absolute inset-0 opacity-5" style={{
-          backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.05) 10px, rgba(255,255,255,.05) 20px)'
-        }} />
+        <Image
+          src="/images/hero-detailing-transformation.jpg"
+          alt="Transformação de detailing automotivo - antes e depois"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        {/* Medium Overlay - Discover Style */}
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       {/* Content - Minimal & Direct */}
