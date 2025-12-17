@@ -28,18 +28,38 @@ export async function generateStaticParams() {
 }
 
 function splitContentForAd(html: string) {
-  if (!html) return { part1: '', part2: '' };
+  if (!html) return { part1: '', part2: '', part3: '' };
   const pCloseTags = [...html.matchAll(/<\/p>/g)];
 
   // Se tiver menos de 4 parágrafos, não divide
-  if (pCloseTags.length < 4) return { part1: html, part2: '' };
+  if (pCloseTags.length < 4) return { part1: html, part2: '', part3: '' };
 
+  // Contar palavras aproximadamente
+  const wordCount = html.split(/\s+/).length;
+  
+  // Artigos longos (6000+ palavras ou 15+ parágrafos) = 2 anúncios
+  if (wordCount >= 6000 || pCloseTags.length >= 15) {
+    const firstSplitIndex = Math.floor(pCloseTags.length / 3);
+    const secondSplitIndex = Math.floor((pCloseTags.length * 2) / 3);
+    
+    const firstSplit = pCloseTags[firstSplitIndex].index! + 4;
+    const secondSplit = pCloseTags[secondSplitIndex].index! + 4;
+    
+    return {
+      part1: html.substring(0, firstSplit),
+      part2: html.substring(firstSplit, secondSplit),
+      part3: html.substring(secondSplit)
+    };
+  }
+
+  // Artigos normais = 1 anúncio no meio
   const rawMiddleIndex = Math.floor(pCloseTags.length / 2);
   const splitIndex = pCloseTags[rawMiddleIndex].index! + 4;
 
   return {
     part1: html.substring(0, splitIndex),
-    part2: html.substring(splitIndex)
+    part2: html.substring(splitIndex),
+    part3: ''
   };
 }
 
@@ -147,7 +167,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     `,
   };
 
-  const { part1, part2 } = splitContentForAd(mockArticle.content);
+  const { part1, part2, part3 } = splitContentForAd(mockArticle.content);
 
   return (
     <div className="min-h-screen bg-prime-black">
@@ -248,10 +268,18 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             <div className="article-content prose prose-lg prose-invert max-w-none">
               <div dangerouslySetInnerHTML={{ __html: part1 }} />
 
-              {/* Anúncio In-Article */}
+              {/* Primeiro Anúncio In-Article */}
               <InArticleAd />
 
               {part2 && <div dangerouslySetInnerHTML={{ __html: part2 }} />}
+              
+              {/* Segundo Anúncio In-Article (apenas em artigos longos) */}
+              {part3 && (
+                <>
+                  <InArticleAd />
+                  <div dangerouslySetInnerHTML={{ __html: part3 }} />
+                </>
+              )}
             </div>
 
             {/* CTA Final - Newsletter */}
