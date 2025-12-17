@@ -442,22 +442,44 @@ Para estúdios estabelecidos e alta demanda
 □ Organizei manutenção
 □ Pratiquei uso
 
-## FAQ - Perguntas Frequentes
+## Perguntas Frequentes (FAQ)
 
-**Posso começar com equipamentos usados?**
-Sim, mas verifique estado e garantia. Politriz e lavadora ok, extratora evite.
-
-**Vale a pena importar?**
-Depende. Equipamentos pequenos sim, grandes não (frete + impostos).
-
-**Preciso de politriz rotativa?**
-Não no início. Orbital resolve 90% dos casos.
-
-**Quanto gastar em microfibras?**
-Mínimo R$ 300. Qualidade é essencial.
-
-**Extratora é essencial?**
-Para higienização profissional, sim. Mas pode terceirizar no início.
+<FAQSchema 
+  faqs={[
+    {
+      question: "Posso começar com equipamentos usados?",
+      answer: "Sim, mas com cautela. Politrizes e lavadoras de alta pressão podem ser compradas usadas se tiverem menos de 2 anos de uso e você puder testar antes. Verifique o estado geral, funcionamento e se há garantia restante. Evite extratoras usadas, pois problemas internos (bomba, vedações) são difíceis de detectar e o conserto pode custar mais que uma nova. Compre de profissionais conhecidos, nunca de desconhecidos sem histórico."
+    },
+    {
+      question: "Vale a pena importar equipamentos?",
+      answer: "Depende do tamanho e valor. Equipamentos pequenos (boinas, aplicadores, lanternas) vale a pena importar do AliExpress ou Amazon US, pois o frete é baixo. Equipamentos grandes (politrizes, lavadoras, extratoras) geralmente não compensam devido ao frete alto (R$ 500-1.500) e impostos de importação (60-100% do valor). É melhor comprar de importadores nacionais que já pagaram os impostos e oferecem garantia local."
+    },
+    {
+      question: "Preciso de politriz rotativa logo no início?",
+      answer: "Não. Uma politriz orbital (roto-orbital ou dual action) resolve 90% dos casos e é muito mais segura para iniciantes. A rotativa é necessária apenas para correções pesadas em pinturas muito duras ou danificadas. Compre a rotativa somente após ter experiência com 50-100 carros usando orbital. Muitos profissionais trabalham anos apenas com orbital e entregam resultados excelentes."
+    },
+    {
+      question: "Quanto devo gastar em microfibras e toalhas?",
+      answer: "Invista no mínimo R$ 300-500 em microfibras de qualidade. Você precisa de: 10-15 toalhas de secagem (GSM 300+), 10-15 toalhas de polimento (GSM 400+), 5-10 toalhas de aplicação, 5-10 toalhas de limpeza interna. Qualidade é essencial - microfibras ruins causam riscos e manchas. Marcas recomendadas: Vonixx, Meguiar's, Chemical Guys. Nunca use toalhas com costura nas bordas."
+    },
+    {
+      question: "Extratora é realmente essencial?",
+      answer: "Para higienização profissional, sim. Mas no início você pode terceirizar este serviço ou usar aspirador potente + produtos de limpeza a seco. Compre uma extratora quando: (1) estiver fazendo 3+ higienizações por semana, (2) tiver capital para investir R$ 1.500-2.500, (3) souber usar corretamente. O ROI de uma extratora é de 3-4 semanas se você cobrar R$ 500-700 por higienização completa."
+    },
+    {
+      question: "Qual o primeiro equipamento que devo comprar?",
+      answer: "Priorize nesta ordem: (1) Politriz orbital básica (R$ 800-1.200) - essencial para polimentos, (2) Lavadora de alta pressão (R$ 600-1.200) - base de qualquer serviço, (3) Aspirador potente (R$ 400-800) - limpeza interna, (4) Kit de boinas e compostos (R$ 500-800) - complementa a politriz, (5) Microfibras de qualidade (R$ 300-500) - evita riscos. Com R$ 3.000-4.000 você monta um kit funcional."
+    },
+    {
+      question: "Medidor de espessura é obrigatório?",
+      answer: "Sim, a partir do momento que você começar a fazer polimentos pagos. Sem medidor, você corre risco de perfurar a pintura e ter que pagar repintura de R$ 3.000-8.000. Invista no mínimo R$ 800-1.200 em um medidor básico digital. Modelos profissionais (Defelsko PosiTest, R$ 2.500-3.500) são recomendados quando você estiver fazendo 10+ polimentos por mês. Nunca faça polimento sem medir a espessura antes."
+    },
+    {
+      question: "Como calcular o ROI de um equipamento?",
+      answer: "Use a fórmula: ROI (semanas) = Custo do Equipamento / (Serviços por Semana × Preço do Serviço). Exemplo: Politriz de R$ 2.000, fazendo 4 polimentos/semana a R$ 800 cada = R$ 2.000 / (4 × R$ 800) = 0,6 semanas (menos de 1 semana!). Equipamentos essenciais têm ROI de 1-4 semanas. Se o ROI for maior que 8 semanas, reavalie se realmente precisa do equipamento agora."
+    }
+  ]}
+/>
 
 ## Conclusão
 

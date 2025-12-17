@@ -15,6 +15,21 @@
     "image": "/images/covers/cera-vs-selante-vs-coating.jpg"
   },
   {
+    "slug": "ceramic-coating-vs-ppf-qual-protege-mais",
+    "title": "Ceramic Coating vs PPF: Qual Protege Mais e Economiza R$ 15 Mil em 5 Anos",
+    "description": "Comparativo definitivo entre Ceramic Coating e PPF (Paint Protection Film). Descubra qual proteção oferece melhor custo-benefício, durabilidade e proteção real para seu veículo em 2025.",
+    "category": "Proteção de Pintura",
+    "tags": [
+      "ceramic coating",
+      "ppf",
+      "proteção de pintura",
+      "comparativo",
+      "investimento"
+    ],
+    "readTime": "5 min",
+    "image": "/images/articles/ceramic-coating-vs-ppf-2025.jpg"
+  },
+  {
     "slug": "como-aplicar-cera-liquida",
     "title": "Como Aplicar Cera Líquida: Passo a Passo Completo",
     "description": "Guia definitivo para aplicar cera líquida automotiva. Aprenda a técnica correta, tempo de cura ideal e como obter brilho profissional.",
@@ -265,6 +280,21 @@
     ],
     "readTime": "7 min",
     "image": "/images/covers/correcao-pintura-profissional.jpg"
+  },
+  {
+    "slug": "equipamentos-detailing-profissional-completo",
+    "title": "Equipamentos de Detailing Profissional: Guia Completo de Compra 2025",
+    "description": "Guia definitivo de equipamentos para detailing: politrizes, extratoras, lavadoras e acessórios. Compare marcas, preços e descubra o que realmente vale a pena.",
+    "category": "Equipamentos",
+    "tags": [
+      "equipamentos",
+      "ferramentas",
+      "politriz",
+      "extratora",
+      "profissional"
+    ],
+    "readTime": "20 min",
+    "image": "/images/covers/equipamentos-detailing-completo.jpg"
   },
   {
     "slug": "equipamentos-essenciais-detailing",
@@ -543,6 +573,20 @@
     "image": "/images/covers/mercado-detailing-crescimento-2025.jpg"
   },
   {
+    "slug": "polimento-carro-quanto-custa-vale-pena",
+    "title": "Polimento de Carro: Quanto Custa e Vale a Pena em 2025?",
+    "description": "Descubra quanto custa polimento profissional, DIY e os diferentes tipos. Análise completa de preços, durabilidade e ROI para tomar a decisão certa.",
+    "category": "Guias",
+    "tags": [
+      "polimento",
+      "preços",
+      "custo-benefício",
+      "investimento"
+    ],
+    "readTime": "12 min",
+    "image": "/images/covers/polimento-carro-quanto-custa.jpg"
+  },
+  {
     "slug": "polimento-caseiro-diy",
     "title": "Polimento Caseiro: Guia DIY Completo 2025 - Passo a Passo",
     "description": "Aprenda a polir seu carro em casa: equipamentos necessários, técnicas profissionais, produtos recomendados e como evitar erros comuns no polimento DIY.",
@@ -588,6 +632,21 @@
     ],
     "readTime": "5 min",
     "image": "/images/pexels/car-polishing-6873118.jpg"
+  },
+  {
+    "slug": "politriz-como-escolher-sem-gastar-demais",
+    "title": "Politriz: Como Escolher Sem Gastar R$ 5 Mil a Mais em 2025",
+    "description": "Guia definitivo para escolher a politriz ideal sem desperdiçar dinheiro. Comparativo completo entre roto-orbital, rotativa e dual action com recomendações por nível profissional.",
+    "category": "Equipamentos",
+    "tags": [
+      "politriz",
+      "equipamentos",
+      "polimento",
+      "ferramentas profissionais",
+      "investimento"
+    ],
+    "readTime": "5 min",
+    "image": "/images/articles/politriz-guia-escolha-2025.jpg"
   },
   {
     "slug": "ppf-paint-protection-film-guia-completo",
@@ -724,6 +783,21 @@
     ],
     "readTime": "11 min",
     "image": "/images/covers/protecao-rodas-freios-detailing.jpg"
+  },
+  {
+    "slug": "quanto-custa-montar-detailing-completo-2025",
+    "title": "Quanto Custa Montar um Detailing Completo em 2025: Investimento Real de R$ 15 Mil a R$ 80 Mil",
+    "description": "Descubra o investimento real para montar um negócio de detailing profissional em 2025. Análise completa de equipamentos, produtos e estrutura com 3 níveis de investimento.",
+    "category": "Negócios",
+    "tags": [
+      "investimento",
+      "negócio",
+      "equipamentos",
+      "detailing profissional",
+      "empreendedorismo"
+    ],
+    "readTime": "5 min",
+    "image": "/images/articles/investimento-detailing-2025.jpg"
   },
   {
     "slug": "remover-cheiro-cigarro-carro",

@@ -348,27 +348,50 @@ Use apps ou planilhas com:
 💡 **Revise custos mensalmente**
 💡 **Teste preços gradualmente**
 💡 **Não tenha medo de cobrar justo**
+```
 💡 **Valor ≠ Preço mais baixo**
 💡 **Documente tudo**
 💡 **Analise margem por serviço**
 💡 **Ajuste conforme resultado**
 
-## FAQ - Perguntas Frequentes
+## Perguntas Frequentes (FAQ)
 
-**Como cobrar de amigos/família?**
-Dê desconto moderado (20-30%), mas cobre. Trabalho tem valor.
-
-**E se o cliente achar caro?**
-Explique o valor entregue. Se não aceitar, não é seu público.
-
-**Posso cobrar mais caro que a concorrência?**
-Sim, se entregar mais valor e qualidade superior.
-
-**Como lidar com "fulano cobra mais barato"?**
-"Cada profissional tem seus custos e qualidade. Aqui você paga por resultado."
-
-**Devo mostrar a planilha de custos?**
-Não. Mostre o valor do resultado, não justifique o preço.
+<FAQSchema 
+  faqs={[
+    {
+      question: "Como calcular o preço ideal para meus serviços de detailing?",
+      answer: "Use a fórmula: PREÇO = (Produtos + Mão de Obra + Custos Indiretos) × (1 + Margem). Calcule seus custos diretos (produtos), indiretos (aluguel, energia, etc.), valorize seu tempo (mínimo R$ 40-50/hora) e adicione margem de lucro de 40-70% dependendo do serviço. Por exemplo: polimento com R$ 80 em produtos + 6h × R$ 50/h + R$ 50 indiretos = R$ 430. Com 50% de margem = R$ 645 (arredonde para R$ 650-700)."
+    },
+    {
+      question: "Qual a margem de lucro ideal para serviços de detailing?",
+      answer: "A margem ideal varia por serviço: Lavagem (40-60%), Polimento (50-70%), Higienização (50-65%), Ceramic Coating (60-80%). Nunca trabalhe com margem inferior a 40%, pois isso compromete a sustentabilidade do negócio. Serviços especializados e que exigem mais expertise podem ter margens maiores."
+    },
+    {
+      question: "Como cobrar de amigos e família sem perder dinheiro?",
+      answer: "Dê desconto moderado de 20-30%, mas sempre cobre. Trabalho tem valor, independente de quem seja o cliente. Explique que você tem custos reais (produtos, equipamentos, tempo) e que precisa manter o negócio sustentável. Ofereça um desconto justo, mas nunca trabalhe de graça ou abaixo do custo."
+    },
+    {
+      question: "O que fazer quando o cliente diz que está caro?",
+      answer: "Explique o valor entregue: qualidade dos produtos, tempo investido, expertise, garantia do resultado. Mostre fotos de trabalhos anteriores e depoimentos. Se mesmo assim o cliente não aceitar, ele não é seu público-alvo. Não baixe o preço drasticamente - isso desvaloriza seu trabalho e atrai clientes que só querem preço baixo, não qualidade."
+    },
+    {
+      question: "Posso cobrar mais caro que a concorrência?",
+      answer: "Sim, desde que entregue mais valor e qualidade superior. Diferencie-se com: produtos premium, atendimento personalizado, garantia estendida, fotos profissionais do resultado, agendamento flexível, ou especializações (carros de luxo, preparação para venda). Clientes que valorizam qualidade pagam mais - foque neles."
+    },
+    {
+      question: "Como lidar com 'fulano cobra mais barato'?",
+      answer: "Responda: 'Cada profissional tem seus custos, qualidade e experiência. Aqui você paga por resultado garantido, produtos de qualidade e expertise comprovada.' Não entre em guerra de preços - você perde. Foque em mostrar seu diferencial e valor agregado. Clientes que só olham preço nunca serão fiéis."
+    },
+    {
+      question: "Devo mostrar minha planilha de custos para o cliente?",
+      answer: "Não. O cliente paga pelo resultado e valor entregue, não pelos seus custos. Mostrar a planilha cria discussão sobre cada item e desvia o foco do valor. Em vez disso, mostre: fotos do resultado, depoimentos, garantia, diferenciais. Venda o benefício, não justifique o preço."
+    },
+    {
+      question: "Com que frequência devo reajustar meus preços?",
+      answer: "Reajuste anualmente seguindo a inflação (mínimo) ou sempre que houver aumento significativo de custos (produtos, aluguel, energia). Avise clientes com 30 dias de antecedência, explique os motivos, e mantenha preços antigos para quem já agendou. Também reajuste quando melhorar qualidade, comprar equipamentos novos ou adicionar diferenciais."
+    }
+  ]}
+/>
 
 ## Conclusão
 
