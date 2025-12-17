@@ -10,8 +10,6 @@ featured: true
 image: "/images/covers/cuidados-pintura-preta.jpg"
 ---
 
-# Cuidados com Pintura Preta: Guia Definitivo
-
 Carros pretos são espetaculares quando bem cuidados - aquele brilho profundo e reflexo perfeito é incomparável. Mas também são os mais desafiadores de manter impecáveis. Cada arranhão, holograma, mancha de água e poeira são amplificados na pintura preta.
 
 Neste guia completo, você vai aprender técnicas específicas para cuidar de pintura preta e mantê-la sempre impecável.

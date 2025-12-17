@@ -19,8 +19,6 @@ featured: true
 slug: equipamentos-essenciais-detailing
 ---
 
-# Equipamentos Essenciais para Detailing: Lista Completa 2025
-
 Montar um kit de equipamentos para detailing pode ser confuso. São dezenas de opções, marcas e preços. Neste guia completo, você vai descobrir exatamente o que precisa para começar e crescer no mercado.
 
 ## Níveis de Investimento

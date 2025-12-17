@@ -11,8 +11,6 @@ image: "/images/covers/cera-vs-selante-vs-coating.jpg"
 readTime: "11 min"
 ---
 
-# Cera vs Selante vs Coating: Qual Escolher em 2025?
-
 A dúvida mais comum no detailing: cera, selante ou coating? Cada um tem vantagens e desvantagens. Neste comparativo completo, você vai descobrir qual é o melhor para seu carro, orçamento e necessidades!
 
 ## Comparação Rápida

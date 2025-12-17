@@ -11,8 +11,6 @@ image: "/images/covers/limpeza-banco-couro-completo.jpg"
 readTime: "10 min"
 ---
 
-# Limpeza de Banco de Couro: Guia Completo 2025
-
 Bancos de couro exigem cuidados especiais. Limpeza e hidratação inadequadas causam ressecamento, rachaduras e perda de cor. Neste guia completo, você vai aprender técnicas profissionais para manter seu couro impecável por anos!
 
 ## Tipos de Couro Automotivo

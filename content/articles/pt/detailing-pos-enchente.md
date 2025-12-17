@@ -11,8 +11,6 @@ image: "/images/covers/detailing-pos-enchente.jpg"
 readTime: "12 min"
 ---
 
-# Detailing Pós-Enchente: Guia Completo de Recuperação 2025
-
 Carro alagado é pesadelo de qualquer dono. Mas nem tudo está perdido! Com ação rápida e técnicas corretas, é possível recuperar o veículo. Descubra o passo a passo completo neste guia essencial.
 
 ## Avaliação Inicial

@@ -10,8 +10,6 @@ featured: true
 image: "/images/covers/preparacao-carro-venda.jpg"
 ---
 
-# Preparação de Carro para Venda: Guia Completo
-
 Você sabia que investir algumas horas e poucos reais na preparação do seu carro pode aumentar o valor de venda em 10-20%? A primeira impressão é crucial, e um carro bem apresentado vende mais rápido e por melhor preço.
 
 Neste guia, você vai aprender exatamente como preparar seu carro para venda como um profissional.

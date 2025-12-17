@@ -297,6 +297,21 @@
     "image": "/images/covers/guia-enceramento-automotivo.jpg"
   },
   {
+    "slug": "guia-polimento-profissional-completo",
+    "title": "Polimento Profissional: Guia Completo de Correção de Pintura 2025",
+    "description": "Guia definitivo de polimento profissional: técnicas, equipamentos, produtos e passo a passo completo para correção de pintura automotiva.",
+    "category": "Técnicas",
+    "tags": [
+      "polimento",
+      "correção de pintura",
+      "paint correction",
+      "detailing profissional",
+      "polimento técnico"
+    ],
+    "readTime": "15 min",
+    "image": "/images/covers/polimento-profissional-completo.jpg"
+  },
+  {
     "slug": "higienizacao-interna-profissional",
     "title": "Higienização Interna Profissional: Guia Completo 2025 - Limpeza Técnica",
     "description": "Guia completo de higienização interna automotiva: técnicas, produtos, equipamentos e passo a passo para limpeza profissional de estofados, carpetes e painéis.",
@@ -497,7 +512,7 @@
   },
   {
     "slug": "mercado-detailing-brasil-2025",
-    "title": "Mercado de Detailing no Brasil 2025: Crescimento de 5.9% ao Ano e Oportunidades",
+    "title": "Por Que Profissionais de Detailing Estão Faturando R$ 50 Mil/Mês em 2025",
     "description": "Mercado global de detailing deve atingir US$ 58 bilhões até 2030. Descubra as oportunidades no Brasil, tendências e como lucrar com crescimento de 5.9% ao ano.",
     "category": "Mercado",
     "tags": [
@@ -576,7 +591,7 @@
   },
   {
     "slug": "ppf-paint-protection-film-guia-completo",
-    "title": "PPF (Paint Protection Film): Guia Completo 2025 - Vale a Pena?",
+    "title": "PPF: Por Que Investir R$ 20 Mil Pode Economizar R$ 50 Mil em 5 Anos",
     "description": "Tudo sobre PPF: o que é, quanto custa, durabilidade, vantagens e desvantagens. Guia completo para proteger a pintura do seu carro com película transparente.",
     "category": "Guias",
     "tags": [
@@ -678,6 +693,22 @@
     ],
     "readTime": "8 min",
     "image": "/images/covers/protecao-painel-sol.jpg"
+  },
+  {
+    "slug": "protecao-pintura-automotiva-completo",
+    "title": "Proteção de Pintura Automotiva: Guia Completo 2025 - Cera, Selante, Coating e PPF",
+    "description": "Guia definitivo de proteção de pintura: compare cera, selante, vitrificação e PPF. Descubra qual proteção é ideal para seu carro e orçamento.",
+    "category": "Guias",
+    "tags": [
+      "proteção",
+      "pintura",
+      "cera",
+      "selante",
+      "coating",
+      "ppf"
+    ],
+    "readTime": "18 min",
+    "image": "/images/covers/protecao-pintura-completo.jpg"
   },
   {
     "slug": "protecao-rodas-freios-detailing",
@@ -876,7 +907,7 @@
   },
   {
     "slug": "vitrificacao-automotiva-completo",
-    "title": "Vitrificação Automotiva: Guia Completo 2025 - Tudo Sobre Ceramic Coating",
+    "title": "Vitrificação Automotiva: Por Que R$ 2 Mil Hoje Economiza R$ 10 Mil em 5 Anos",
     "description": "Guia definitivo sobre vitrificação automotiva: o que é, quanto custa, durabilidade, aplicação e manutenção. Ceramic coating explicado por especialistas.",
     "category": "Guias",
     "tags": [

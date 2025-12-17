@@ -10,8 +10,6 @@ featured: false
 image: "/images/covers/detailing-parachoques-plasticos.jpg"
 ---
 
-# Detailing de Para-choques Plásticos: Restauração Completa
-
 Para-choques e plásticos externos desbotados são um dos problemas mais comuns em carros. Aquele cinza esbranquiçado que aparece com o tempo tira toda a beleza do veículo. Mas a boa notícia é que na maioria dos casos, é possível restaurar!
 
 Neste guia completo, você vai aprender técnicas profissionais para devolver a cor preta original aos plásticos do seu carro.

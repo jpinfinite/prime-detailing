@@ -11,8 +11,6 @@ image: "/images/covers/tendencias-detailing-2025.jpg"
 readTime: "14 min"
 ---
 
-# Tendências de Detailing 2025: O Futuro da Estética Automotiva
-
 O mercado de detailing está em constante evolução. Novas tecnologias, produtos inovadores e mudanças no comportamento do consumidor estão moldando o futuro da estética automotiva. Descubra as principais tendências que dominarão 2025!
 
 ## 1. Coatings de Grafeno

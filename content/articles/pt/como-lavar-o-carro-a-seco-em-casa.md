@@ -110,8 +110,6 @@ Lavar o carro em local sujeito a sol pode causar a formação de manchas e risco
 
 ## Perguntas Frequentes
 
-# Como lavar o carro a seco em casa
-
 **Pergunta?** Qual é a melhor maneira de preparar o carro para lavar a seco em casa?
 ============================================================
 

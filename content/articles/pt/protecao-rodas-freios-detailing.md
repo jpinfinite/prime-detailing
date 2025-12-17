@@ -11,8 +11,6 @@ image: "/images/covers/protecao-rodas-freios-detailing.jpg"
 readTime: "11 min"
 ---
 
-# Proteção de Rodas e Freios: Guia Completo de Detailing 2025
-
 Rodas e freios são as partes mais castigadas do carro. Pó de freio, sujeira da estrada e altas temperaturas exigem cuidados especiais. Descubra como proteger e manter suas rodas impecáveis!
 
 ## Por Que Proteger Rodas?

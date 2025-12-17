@@ -11,8 +11,6 @@ image: "/images/covers/primeiros-produtos-detailing.jpg"
 readTime: "11 min"
 ---
 
-# Primeiros Produtos de Detailing: Guia de Compra Completo 2025
-
 Começar no detailing pode ser confuso - tantos produtos! Neste guia, você vai descobrir exatamente o que comprar primeiro, quanto investir e quais marcas escolher para começar com o pé direito.
 
 ## Orçamentos

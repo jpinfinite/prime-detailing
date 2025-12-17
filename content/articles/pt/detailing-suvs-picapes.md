@@ -11,8 +11,6 @@ image: "/images/covers/detailing-suvs-picapes.jpg"
 readTime: "10 min"
 ---
 
-# Detailing de SUVs e Picapes: Guia Completo 2025
-
 SUVs e picapes exigem cuidados específicos. Maior área, caçamba, uso off-road e proteções plásticas requerem técnicas adaptadas. Descubra como fazer detailing profissional em veículos grandes!
 
 ## Desafios Específicos

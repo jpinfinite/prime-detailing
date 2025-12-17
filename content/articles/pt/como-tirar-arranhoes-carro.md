@@ -11,8 +11,6 @@ image: "/images/covers/como-tirar-arranhoes-carro.jpg"
 readTime: "12 min"
 ---
 
-# Como Tirar Arranhões do Carro: Guia Completo 2025
-
 Arranhões no carro são inevitáveis. Mas nem todo arranhão significa repintura cara! Neste guia completo, você vai aprender a identificar o tipo de arranhão e a melhor forma de removê-lo - desde soluções caseiras até técnicas profissionais.
 
 ## Tipos de Arranhões

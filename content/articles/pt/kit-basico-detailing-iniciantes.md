@@ -10,8 +10,6 @@ featured: true
 image: "/images/covers/kit-basico-detailing-iniciantes.jpg"
 ---
 
-# Kit Básico de Detailing para Iniciantes: Guia Completo 2025
-
 Começar no detailing automotivo não precisa custar uma fortuna. Com **R$ 300 a R$ 500** você monta um kit básico funcional que entrega resultados profissionais. Com **R$ 1.500 a R$ 2.500** você tem um setup intermediário completo.
 
 Este guia mostra exatamente o que comprar, quanto gastar, onde economizar e quais erros evitar. Tudo baseado em experiência real e testado em centenas de veículos.

@@ -2,11 +2,22 @@
 title: "Como Montar um Negócio de Detailing em 2025: Guia Completo do Zero"
 slug: "como-montar-negocio-detailing-2025"
 description: "Guia completo para abrir seu negócio de detailing: investimento inicial, equipamentos, precificação, marketing e como lucrar no mercado que cresce 5.9% ao ano."
-date: "2025-12-03"
+date: "2024-12-03"
 author: "fernando-oliveira"
 category: "Guias"
 tags: ["negócios", "empreendedorismo", "detailing", "guia", "investimento"]
 image: "/images/pexels/car-polishing-6872150.jpg"
+faqs:
+  - question: "Quanto custa montar um negócio de detailing?"
+    answer: "O investimento inicial varia de R$ 5.000 (móvel básico) a R$ 50.000+ (estrutura completa). Com R$ 10.000 você já consegue começar profissionalmente com equipamentos de qualidade."
+  - question: "Quanto tempo para ter lucro?"
+    answer: "Com boa execução, é possível ter lucro desde o primeiro mês. O ROI completo acontece em 6-12 meses. Profissionais estabelecidos faturam R$ 20.000-50.000/mês."
+  - question: "Preciso de experiência prévia em detailing?"
+    answer: "Não é obrigatório, mas treinamento é essencial. Invista em cursos (R$ 300-5.000) e pratique antes de atender clientes. YouTube gratuito também ajuda muito."
+  - question: "Posso começar em casa sem ponto comercial?"
+    answer: "Sim! Muitos profissionais começam com serviço móvel (indo até o cliente) e depois expandem para espaço físico. É a forma mais econômica de começar."
+  - question: "Qual o melhor nicho para começar?"
+    answer: "Carros populares e médios são ideais: maior volume, menor exigência técnica. Depois de estabelecido, especialize em carros de luxo para tickets maiores."
 ---
 
 Montar um negócio de detailing automotivo é uma oportunidade real em um mercado que cresce 5,9% ao ano globalmente. Este guia completo mostra o passo a passo para começar do zero.

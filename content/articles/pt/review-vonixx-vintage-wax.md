@@ -18,8 +18,6 @@ featured: false
 slug: review-vonixx-vintage-wax
 ---
 
-# Review: Vonixx Vintage Wax - Melhor Cera Nacional 2025?
-
 A Vonixx Vintage é a cera de carnaúba mais vendida do Brasil. Com preço acessível e promessa de brilho profundo, será que ela compete com importadas? Testamos por 3 meses!
 
 ## Ficha Técnica

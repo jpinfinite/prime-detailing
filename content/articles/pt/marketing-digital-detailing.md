@@ -18,8 +18,6 @@ readTime: 14 min
 slug: marketing-digital-detailing
 ---
 
-# Marketing Digital para Detailing: Estratégias que Funcionam em 2025
-
 Ter equipamentos e técnica não basta. Você precisa de clientes! Neste guia completo, você vai aprender as estratégias de marketing digital que realmente funcionam para negócios de detailing.
 
 ## Por Que Marketing Digital?

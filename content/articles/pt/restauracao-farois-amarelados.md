@@ -11,8 +11,6 @@ image: "/images/covers/como-polir-farois-2025.jpg"
 readTime: "7 min"
 ---
 
-# Restauração de Faróis Amarelados: Guia Completo 2025
-
 Faróis amarelados e opacos não são apenas um problema estético - comprometem seriamente a segurança noturna. A boa notícia é que na maioria dos casos você pode restaurá-los em casa com técnicas simples e produtos acessíveis. Este guia ensina tudo que você precisa saber.
 
 ## Por Que os Faróis Amarelam?

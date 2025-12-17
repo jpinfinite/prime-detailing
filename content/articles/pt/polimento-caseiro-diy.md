@@ -11,8 +11,6 @@ image: "/images/covers/polimento-caseiro-diy.jpg"
 readTime: "13 min"
 ---
 
-# Polimento Caseiro: Guia DIY Completo 2025
-
 Polir o carro em casa é totalmente possível! Com equipamento adequado e técnica correta, você consegue resultados profissionais economizando até 70%. Neste guia completo, você vai aprender tudo para fazer seu primeiro polimento DIY com segurança.
 
 ## Equipamentos Necessários

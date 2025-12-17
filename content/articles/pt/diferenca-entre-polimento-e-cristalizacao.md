@@ -10,8 +10,6 @@ image: "/images/covers/correcao-pintura-profissional.jpg"
 readTime: "7 min"
 ---
 
-# Polimento vs Cristalização: Diferenças, Técnicas e Quando Usar
-
 Polimento e cristalização são dois processos fundamentais no detailing automotivo, mas muitos confundem suas aplicações. Cada técnica tem objetivos específicos e momentos ideais de uso. Entender essas diferenças é crucial para obter os melhores resultados na sua pintura.
 
 ## O Que É Polimento?

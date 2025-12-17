@@ -18,8 +18,6 @@ featured: true
 slug: como-montar-negocio-detailing
 ---
 
-# Como Montar um Negócio de Detailing do Zero em 2025
-
 O mercado de estética automotiva está em plena expansão no Brasil. Com margem de lucro atrativa e demanda crescente, montar um negócio de detailing pode ser uma excelente oportunidade. Neste guia completo, você vai descobrir tudo o que precisa para começar.
 
 ## Por Que Investir em Detailing?

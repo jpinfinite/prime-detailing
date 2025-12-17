@@ -18,8 +18,6 @@ featured: false
 slug: review-extratora-wap-carpet-cleaner
 ---
 
-# Review: Extratora Wap Carpet Cleaner - Vale o Investimento?
-
 A Wap Carpet Cleaner é a extratora mais acessível do mercado brasileiro. Mas será que ela realmente limpa bem? Testamos em 20 carros durante 4 meses. Veja o resultado!
 
 ## Ficha Técnica

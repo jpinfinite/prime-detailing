@@ -18,8 +18,6 @@ featured: false
 slug: review-mothers-cmx-ceramic
 ---
 
-# Review: Mothers CMX Ceramic Spray - Ceramic Coating Fácil?
-
 O Mothers CMX promete proteção ceramic em spray, fácil de aplicar. Será que funciona mesmo? Testamos por 4 meses!
 
 ## Ficha Técnica

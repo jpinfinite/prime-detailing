@@ -11,8 +11,6 @@ image: "/images/covers/como-limpar-motor-carro.jpg"
 readTime: "9 min"
 ---
 
-# Como Limpar Motor do Carro: Guia Seguro 2025
-
 Limpar o motor assusta muita gente - e com razão! Água e eletricidade não combinam. Mas com técnica correta e cuidados adequados, você pode limpar seu motor com segurança. Descubra como neste guia completo!
 
 ## Por Que Limpar o Motor?

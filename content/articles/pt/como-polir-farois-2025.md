@@ -2,7 +2,7 @@
 title: "Como Polir Faróis em Casa: Guia Completo 2025"
 description: "Aprenda o método profissional de polimento de faróis. Passo a passo simples, materiais acessíveis e resultado garantido. Veja como restaurar seus faróis!"
 slug: "como-polir-farois-2025"
-date: "2025-11-30"
+date: "2024-11-30"
 author: "Detailing Prime"
 category: "Técnicas"
 tags: ["polimento", "faróis", "diy", "manutenção", "detailing"]
@@ -10,9 +10,19 @@ keywords: ["polir faróis", "faróis amarelados", "restaurar faróis", "poliment
 image: "/images/covers/como-polir-farois-2025.jpg"
 readTime: "8 min"
 featured: true
+faqs:
+  - question: "Quanto custa polir faróis profissionalmente?"
+    answer: "O polimento profissional de faróis custa entre R$ 150 e R$ 400 o par. Fazendo em casa, você gasta apenas R$ 50-80 em materiais e consegue o mesmo resultado."
+  - question: "Quanto tempo dura o polimento de faróis?"
+    answer: "Com proteção UV adequada, o polimento dura de 12 a 24 meses. Sem proteção, os faróis voltam a amarelar em 3-6 meses."
+  - question: "Posso polir faróis com pasta de dente?"
+    answer: "Sim, pasta de dente funciona para casos leves, mas o resultado é temporário. Para restauração completa, use pasta de polimento específica para faróis."
+  - question: "Preciso de politriz para polir faróis?"
+    answer: "Não é obrigatório. O polimento manual funciona bem, mas leva mais tempo (30-40 minutos por farol). Com politriz, o processo é mais rápido (10-15 minutos)."
+  - question: "Como evitar que os faróis amarelem novamente?"
+    answer: "Aplique selante UV após o polimento e reaplique cera com proteção UV a cada 3 meses. Estacionar na sombra também ajuda muito."
 ---
 
-# Como Polir Faróis em Casa: Guia Completo 2025
 
 Sabe aquela sensação de dirigir à noite e perceber que seus faróis parecem mais fracos do que antes? Ou quando você olha seu carro de frente e vê aqueles faróis amarelados, opacos, que deixam o visual do carro com cara de velho? Pois é, isso acontece com todo mundo - e a boa notícia é que você não precisa gastar uma fortuna na oficina para resolver isso.
 

@@ -11,8 +11,6 @@ image: "/images/covers/detailing-carros-eletricos.jpg"
 readTime: "12 min"
 ---
 
-# Detailing em Carros Elétricos: Cuidados Especiais e Diferenças em 2025
-
 Carros elétricos estão dominando as ruas, mas fazer detailing neles requer cuidados especiais. Componentes eletrônicos sensíveis, baterias de alta voltagem e acabamentos diferenciados exigem técnicas adaptadas. Descubra tudo neste guia completo!
 
 ## Diferenças Fundamentais

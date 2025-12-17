@@ -10,8 +10,6 @@ featured: true
 image: "/images/covers/guia-enceramento-automotivo.jpg"
 ---
 
-# Guia Completo de Enceramento Automotivo: Tudo Que Você Precisa Saber
-
 O enceramento é uma das etapas mais importantes do detailing automotivo. Além de proporcionar aquele brilho espetacular, a cera protege a pintura contra sol, chuva, poluição e pequenos arranhões. Mas com tantos tipos e técnicas disponíveis, como saber qual é o melhor para seu carro?
 
 Neste guia completo, você vai aprender tudo sobre enceramento: desde escolher a cera certa até aplicá-la como um profissional.

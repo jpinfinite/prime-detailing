@@ -10,8 +10,6 @@ featured: true
 image: "/images/covers/top-10-shampoos-2025.jpg"
 ---
 
-# Top 10 Shampoos Automotivos 2025: Análise Completa
-
 O shampoo automotivo é a base de qualquer rotina de detailing. Mas com tantas opções no mercado, qual escolher? Testamos os principais shampoos disponíveis no Brasil em 2025 e trazemos nossa análise completa.
 
 ## Critérios de Avaliação

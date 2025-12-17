@@ -10,8 +10,6 @@ featured: true
 image: "/images/covers/como-aplicar-cera-liquida.jpg"
 ---
 
-# Como Aplicar Cera Líquida: Passo a Passo Completo
-
 A cera líquida é a escolha favorita de muitos entusiastas de detailing pela sua facilidade de aplicação e excelentes resultados. Mais prática que a cera em pasta e mais durável que spray wax, ela oferece o equilíbrio perfeito entre performance e conveniência.
 
 Mas existe uma técnica correta para aplicá-la. Neste guia, você vai aprender exatamente como fazer para obter aquele brilho profissional que dura meses.

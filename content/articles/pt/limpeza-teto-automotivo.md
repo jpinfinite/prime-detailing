@@ -11,8 +11,6 @@ image: "/images/covers/limpeza-teto-automotivo.jpg"
 readTime: "9 min"
 ---
 
-# Limpeza de Teto Automotivo: Guia Completo 2025
-
 O teto do carro é uma das áreas mais negligenciadas - e mais difíceis de limpar! Manchas, mofo e sujeira acumulada exigem técnica específica. Neste guia, você vai aprender a limpar o teto sem manchar ou danificar o forro.
 
 ## Por Que o Teto Suja?

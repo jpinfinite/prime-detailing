@@ -11,8 +11,6 @@ image: "/images/covers/higienizacao-ozonio-automotivo.jpg"
 readTime: "10 min"
 ---
 
-# Higienização com Ozônio Automotivo: Guia Completo 2025
-
 A higienização com ozônio revolucionou a limpeza automotiva. Capaz de eliminar 99,9% de bactérias, vírus e odores, essa tecnologia se tornou essencial pós-pandemia. Descubra tudo sobre esse processo poderoso!
 
 ## O Que É Ozônio (O3)?

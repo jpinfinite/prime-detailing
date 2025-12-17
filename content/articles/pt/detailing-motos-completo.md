@@ -11,8 +11,6 @@ image: "/images/covers/detailing-motos-completo.jpg"
 readTime: "12 min"
 ---
 
-# Detailing de Motocicletas: Guia Completo 2025
-
 Detailing de motos requer técnicas e cuidados específicos. Motor exposto, cromados delicados e componentes sensíveis exigem abordagem diferente de carros. Descubra como deixar sua moto impecável!
 
 ## Diferenças: Moto vs Carro

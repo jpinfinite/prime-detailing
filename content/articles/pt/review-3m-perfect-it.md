@@ -18,8 +18,6 @@ featured: false
 slug: review-3m-perfect-it
 ---
 
-# Review: 3M Perfect-It - Melhor Composto de Polimento?
-
 A linha 3M Perfect-It é referência mundial em polimento. Mas será que justifica o preço 2x maior que nacionais? Testamos os 3 principais!
 
 ## Ficha Técnica

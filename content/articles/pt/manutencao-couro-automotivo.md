@@ -10,8 +10,6 @@ featured: false
 image: "/images/covers/manutencao-couro-automotivo.jpg"
 ---
 
-# Manutenção de Couro Automotivo: Guia Completo
-
 Bancos de couro são sinônimo de luxo e conforto, mas exigem cuidados específicos. Couro mal cuidado resseca, racha e perde a beleza. Com manutenção adequada, dura décadas mantendo aparência de novo.
 
 Neste guia, você vai aprender tudo sobre cuidar de couro automotivo como um profissional.

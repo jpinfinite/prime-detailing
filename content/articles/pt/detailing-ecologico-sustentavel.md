@@ -11,8 +11,6 @@ image: "/images/covers/detailing-ecologico-sustentavel.jpg"
 readTime: "10 min"
 ---
 
-# Detailing Ecológico: Como Cuidar do Carro de Forma Sustentável em 2025
-
 O detailing automotivo está passando por uma revolução verde. Com a crescente preocupação ambiental, surgem cada vez mais produtos e técnicas que permitem cuidar do carro sem agredir o planeta. Descubra como fazer detailing sustentável sem comprometer a qualidade.
 
 ## Por Que Detailing Ecológico?

@@ -19,8 +19,6 @@ featured: true
 slug: precificacao-servicos-detailing
 ---
 
-# Precificação de Serviços de Detailing: Guia Completo 2025
-
 Precificar serviços de detailing é uma das maiores dificuldades de quem está começando. Cobrar muito barato prejudica o negócio, cobrar muito caro afasta clientes. Neste guia, você vai aprender a calcular preços justos e lucrativos.
 
 ## Por Que a Precificação é Crucial?
