@@ -327,6 +327,20 @@
     "image": "/images/covers/equipamentos-essenciais-detailing.jpg"
   },
   {
+    "slug": "erros-comuns-polimento",
+    "title": "Esse Erro Arruina o Polimento (90% Cometem)",
+    "description": "Profissionais revelam o erro mais comum que destrói a pintura durante o polimento. Aprenda a evitar e proteger seu investimento.",
+    "category": "Técnicas",
+    "tags": [
+      "polimento",
+      "erros",
+      "técnicas",
+      "dicas profissionais"
+    ],
+    "readTime": "7 min",
+    "image": "/images/trending/polimento-erro-comum.jpg"
+  },
+  {
     "slug": "guia-enceramento-automotivo",
     "title": "Guia Completo de Enceramento Automotivo: Tudo Que Você Precisa Saber",
     "description": "Aprenda tudo sobre enceramento automotivo: tipos de cera, técnicas de aplicação, frequência ideal e como obter resultados profissionais.",
@@ -980,6 +994,20 @@
     "image": "/images/covers/review-vonixx-vintage-wax.jpg"
   },
   {
+    "slug": "tecnica-brilho-intenso",
+    "title": "O Detalhe Que Muda o Brilho do Carro em Minutos",
+    "description": "Técnica simples que 80% dos profissionais usam mas ninguém te conta. Transforme o brilho do seu carro em menos de 10 minutos.",
+    "category": "Guias",
+    "tags": [
+      "técnicas",
+      "brilho",
+      "dicas",
+      "profissional"
+    ],
+    "readTime": "6 min",
+    "image": "/images/trending/tecnica-brilho-rapido.jpg"
+  },
+  {
     "slug": "tendencias-detailing-2025",
     "title": "Tendências de Detailing 2025: O Futuro da Estética Automotiva",
     "description": "Descubra as principais tendências do detailing em 2025: tecnologias emergentes, produtos inovadores, técnicas revolucionárias e o futuro do mercado.",
@@ -993,6 +1021,20 @@
     ],
     "readTime": "14 min",
     "image": "/images/covers/tendencias-detailing-2025.jpg"
+  },
+  {
+    "slug": "teste-ceras-automotivas",
+    "title": "Testamos 7 Ceras Populares — Só 2 Valem a Pena",
+    "description": "Resultado surpreendente após 3 meses de teste real. Descubra quais ceras realmente protegem e quais são puro marketing.",
+    "category": "Reviews",
+    "tags": [
+      "ceras",
+      "teste",
+      "review",
+      "produtos"
+    ],
+    "readTime": "8 min",
+    "image": "/images/trending/teste-ceras-2024.jpg"
   },
   {
     "slug": "top-10-shampoos-2025",
