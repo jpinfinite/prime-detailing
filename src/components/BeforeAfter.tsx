@@ -96,8 +96,20 @@ export default function BeforeAfter() {
                             style={{ left: `${sliderPosition}%` }}
                         >
                             {/* Handle */}
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-xl flex items-center justify-center text-gray-900 font-bold text-xl hover:scale-110 transition-transform">
-                                ↔
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-xl flex items-center justify-center hover:scale-110 transition-transform">
+                                <svg
+                                    className="w-6 h-6 text-gray-900"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2.5}
+                                        d="M8 7l-5 5m0 0l5 5m-5-5h18m0 0l-5-5m5 5l-5 5"
+                                    />
+                                </svg>
                             </div>
                         </div>
 
