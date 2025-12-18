@@ -133,14 +133,31 @@ export default function MobileMenu({ locale, translations }: MobileMenuProps) {
 
             <div className="flex gap-2">
               <button
+                onClick={() => {
+                  const newPath = pathname.replace(`/${locale}`, '/pt');
+                  window.location.href = newPath;
+                }}
                 className={`px-3 py-1 rounded text-sm font-bold ${locale === 'pt' ? 'bg-prime-yellow text-prime-black' : 'bg-prime-gray-medium text-text-secondary'}`}
               >
                 PT
               </button>
               <button
+                onClick={() => {
+                  const newPath = pathname.replace(`/${locale}`, '/en');
+                  window.location.href = newPath;
+                }}
                 className={`px-3 py-1 rounded text-sm font-bold ${locale === 'en' ? 'bg-prime-yellow text-prime-black' : 'bg-prime-gray-medium text-text-secondary'}`}
               >
                 EN
+              </button>
+              <button
+                onClick={() => {
+                  const newPath = pathname.replace(`/${locale}`, '/es');
+                  window.location.href = newPath;
+                }}
+                className={`px-3 py-1 rounded text-sm font-bold ${locale === 'es' ? 'bg-prime-yellow text-prime-black' : 'bg-prime-gray-medium text-text-secondary'}`}
+              >
+                ES
               </button>
             </div>
           </div>

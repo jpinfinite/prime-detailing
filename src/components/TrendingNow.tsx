@@ -11,25 +11,25 @@ export default function TrendingNow({ locale }: TrendingNowProps) {
     // Discover-style headlines: curtos, curiosos, específicos
     const trending = [
         {
-            title: 'Esse erro arruina o polimento (90% cometem)',
-            teaser: 'Profissionais revelam o erro mais comum que destrói a pintura',
+            title: locale === 'pt' ? 'Esse erro arruina o polimento (90% cometem)' : (locale === 'es' ? 'Este Error Arruina el Pulido (90% lo Cometen)' : 'This Mistake Ruins Polishing (90% Commit It)'),
+            teaser: locale === 'pt' ? 'Profissionais revelam o erro mais comum que destrói a pintura' : (locale === 'es' ? 'Profesionales revelan el error más común que destruye la pintura' : 'Professionals reveal the most common mistake that destroys paint'),
             image: '/images/trending/polimento-erro-comum.jpg',
-            href: '/artigos/erros-comuns-polimento',
-            category: 'Técnicas',
+            href: `/${locale}/artigos/erros-comuns-polimento`,
+            category: locale === 'pt' ? 'Técnicas' : (locale === 'es' ? 'Técnicas' : 'Techniques'),
         },
         {
-            title: 'Testamos 7 ceras populares — só 2 valem a pena',
-            teaser: 'Resultado surpreendente após 3 meses de teste real',
+            title: locale === 'pt' ? 'Testamos 7 ceras populares — só 2 valem a pena' : (locale === 'es' ? 'Probamos 7 Ceras Populares — Solo 2 Valen la Pena' : 'We Tested 7 Popular Waxes — Only 2 Are Worth It'),
+            teaser: locale === 'pt' ? 'Resultado surpreendente após 3 meses de teste real' : (locale === 'es' ? 'Resultado sorprendente después de 3 meses de prueba real' : 'Surprising result after 3 months of real testing'),
             image: '/images/trending/teste-ceras-2024.jpg',
-            href: '/artigos/teste-ceras-automotivas',
+            href: `/${locale}/artigos/teste-ceras-automotivas`,
             category: 'Reviews',
         },
         {
-            title: 'O detalhe que muda o brilho do carro em minutos',
-            teaser: 'Técnica simples que 80% dos profissionais usam',
+            title: locale === 'pt' ? 'O detalhe que muda o brilho do carro em minutos' : (locale === 'es' ? 'El Detalle Que Cambia el Brillo del Auto en Minutos' : 'The Detail That Changes Car Shine in Minutes'),
+            teaser: locale === 'pt' ? 'Técnica simples que 80% dos profissionais usam' : (locale === 'es' ? 'Técnica simple que el 80% de los profesionales usan' : 'Simple technique that 80% of professionals use'),
             image: '/images/trending/tecnica-brilho-rapido.jpg',
-            href: '/artigos/tecnica-brilho-intenso',
-            category: 'Guias',
+            href: `/${locale}/artigos/tecnica-brilho-intenso`,
+            category: locale === 'pt' ? 'Guias' : (locale === 'es' ? 'Guías' : 'Guides'),
         },
     ];
 
