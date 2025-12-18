@@ -73,9 +73,9 @@ async function validateAndPublish() {
         errors.push(`RPM Score insuficiente (${data.rpmScore}). Mínimo exigido: ${MIN_RPM_SCORE}. Publicação CANCELADA.`);
     }
 
-    // Validar Conteúdo
-    if (!data.content || data.content.length < 500) {
-        errors.push("Conteúdo muito curto ou inexistente (Risco de conteúdo raso).");
+    // Validar Conteúdo (Regra: 1800 palavras ou mais ~ 10.000 caracteres)
+    if (!data.content || data.content.length < 8000) {
+        errors.push(`Conteúdo muito curto (${data.content.length} caracteres). A regra é 1800+ palavras (~10k chars).`);
     }
 
     if (!data.title || data.type === 'undefined') {

@@ -36,7 +36,7 @@ Gere o conteúdo em formato JSON estrito seguindo o schema abaixo.
   "discoverScore": 85,
   "rpmScore": 90,
   "monetizationTier": "high",
-  "content": "HTML semântico do corpo do artigo (H2, H3, p, ul, strong)",
+  "content": "HTML semântico do corpo do artigo. OBRIGATÓRIO: Mínimo 1800 palavras (Conteúdo profundo e detalhado).",
   "internalLinks": {
     "related": ["slug-existente-1", "slug-existente-2"]
   },
