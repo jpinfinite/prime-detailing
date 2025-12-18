@@ -1,0 +1,42 @@
+name: Auto Publish High-RPM Content
+
+on:
+  schedule:
+    # Rodar a cada 8 horas (0:00, 8:00, 16:00 UTC)
+    - cron: '0 */8 * * *'
+  workflow_dispatch: # Permite rodar manualmente
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run Publisher Script
+      run: node scripts/publish-from-queue.js
+
+    - name: Check for changes
+      id: git-check
+      run: |
+        git config user.name 'Antigravity Bot'
+        git config user.email 'bot@detailingprime.com.br'
+        git add .
+        git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+
+    - name: Commit and Push
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git commit -m "chore: auto publish article from queue 🚀"
+        git push
