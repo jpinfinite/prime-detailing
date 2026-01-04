@@ -12,6 +12,7 @@ import Comments from "@/components/Comments";
 import ArticleAnalytics from "@/components/ArticleAnalytics";
 import NewsletterInline from "@/components/NewsletterInline";
 import ArticleRating from "@/components/ArticleRating";
+import ShopeeAffiliate from "@/components/ShopeeAffiliate";
 
 import ReadingProgress from "@/components/ReadingProgress";
 import SidebarAd from "@/components/ads/SidebarAd";
@@ -285,6 +286,9 @@ export default async function ArticlePage({ params }: { params: { slug: string }
                 </>
               )}
             </div>
+
+            {/* Shopee Affiliate Block */}
+            <ShopeeAffiliate />
 
             {/* CTA Final - Newsletter */}
             <NewsletterInline />

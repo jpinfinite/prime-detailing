@@ -1,27 +1,27 @@
 [
     {
-        "title": "Vitrificação de Pintura",
-        "caption": "Proteção máxima e brilho incomparável! 🛡️✨ A vitrificação de pintura garante durabilidade e hidrorrepelência por anos. Agende sua avaliação! #DetailingPrime #Vitrificação #CarCare",
-        "image_url": "https://detailingprime.com.br/img/social/ceramic_coating.webp"
+        "title": "Guia Clay Bar",
+        "caption": "Sente a pintura áspera? 🌵 Descubra como a Clay Bar deixa seu carro liso como vidro e pronto para o brilho máximo! Leia o guia completo no site. #DetailingPrime #ClayBar #EsteticaAutomotiva",
+        "image_url": "https://detailingprime.com.br/images/articles/guia-clay-bar-descontaminacao-pintura.png"
     },
     {
-        "title": "Higienização Interna",
-        "caption": "Seu carro novo de novo por dentro! 🧼 Interior higienizado, hidratado e livre de bactérias. O conforto que você merece. #DetailingPrime #Higienização #EstéticaAutomotiva",
-        "image_url": "https://detailingprime.com.br/img/social/interior_detail.webp"
+        "title": "APC: O Coringa da Limpeza",
+        "caption": "Um produto para limpar TUDO? 🧼 O APC é o segredo dos profissionais. Aprenda as diluições para interior, motor e rodas. #DetailingPrime #APC #LimpezaAutomotiva",
+        "image_url": "https://detailingprime.com.br/images/articles/apc-all-purpose-cleaner-guia-completo.png"
     },
     {
-        "title": "Polimento Técnico",
-        "caption": "Xô riscos e hologramas! 🌪️ O polimento técnico devolve a profundidade da cor e o reflexo de espelho do seu veículo. #DetailingPrime #Polimento #CorreçãoDePintura",
-        "image_url": "https://detailingprime.com.br/img/social/paint_correction.webp"
+        "title": "Cristalização de Vidros",
+        "caption": "Chuva não é mais problema! 🌧️ Veja a diferença entre repelentes comuns e a cristalização de vidros de verdade. Segurança total na estrada. #DetailingPrime #Cristalização #Segurança",
+        "image_url": "https://detailingprime.com.br/images/articles/cristalizacao-vidros-vs-repelentes.png"
     },
     {
-        "title": "Revitalização de Faróis",
-        "caption": "Visão clara e segurança renovada! 👀 Recuperamos a transparência dos seus faróis, melhorando a iluminação e a estética. #DetailingPrime #Faróis #Segurança",
-        "image_url": "https://detailingprime.com.br/img/social/refined_headlight.webp"
+        "title": "Pretinho: Gel vs Spray",
+        "caption": "Cansado de sujeira na lataria? 🛑 Saiba escolher o melhor pretinho para pneu: Gel, Spray ou Cera? Acabamento perfeito sem melar. #DetailingPrime #Pneus #CarCare",
+        "image_url": "https://detailingprime.com.br/images/articles/pretinho-pneu-gel-vs-spray.png"
     },
     {
-        "title": "Lavagem Detalhada",
-        "caption": "Banho de espuma para o cuidado que seu carro ama! 🛁 Lavagem detalhada com produtos premium para não agredir a pintura. #DetailingPrime #LavagemDetalhada #SnowFoam",
-        "image_url": "https://detailingprime.com.br/img/social/snow_foam_wash.webp"
+        "title": "Restaurando Cromados",
+        "caption": "Cromado enferrujado tem salvação! ✨ O guia definitivo para polir metais e trazer o brilho de espelho de volta. #DetailingPrime #Cromados #Polimento",
+        "image_url": "https://detailingprime.com.br/images/articles/polimento-cromados-metais-automotivos.png"
     }
 ]
